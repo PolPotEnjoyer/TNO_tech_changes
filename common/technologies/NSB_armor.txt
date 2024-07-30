@@ -121,7 +121,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1970
+		start_year = 1980
 		folder = {
 			name = nsb_armour_folder
 			position = { x = 0 y = 16 }
@@ -361,7 +361,7 @@ technologies = {
 ###########
 ### IFV ###
 ###########
-	
+
 	NSB_IFV_1945 = { #First IFV
 
 		enable_equipments = {
@@ -381,7 +381,7 @@ technologies = {
 			tank_riveted_armor
 			tank_cast_armor
 			tank_welded_armor
-			
+
 			IFV_one_man_tank_turret
 			IFV_two_man_tank_turret
 			IFV_three_man_tank_turret
@@ -391,8 +391,6 @@ technologies = {
 			additional_armour
 			additional_machine_guns
 			secondary_turret_hmg
-
-			tank_anti_air_machine_gun
 
 			#tank_crackhead_laser_aa # WHY THE FUCK WAS THIS IN HERE?!
 		}
@@ -609,7 +607,7 @@ technologies = {
 	NSB_IFV_1960_modules_1 = {
 
 		research_cost = 1
-		start_year = 1963
+		start_year = 1965
 
 		folder = {
 			name = nsb_armour_folder
@@ -633,7 +631,7 @@ technologies = {
 	NSB_IFV_1960_modules_2 = {
 
 		research_cost = 1
-		start_year = 1963
+		start_year = 1965
 
 		folder = {
 			name = nsb_armour_folder
@@ -968,7 +966,7 @@ technologies = {
 	NSB_MBT_1960_modules_1 = {
 
 		research_cost = 1
-		start_year = 1963
+		start_year = 1965
 
 		folder = {
 			name = nsb_armour_folder
@@ -992,7 +990,7 @@ technologies = {
 	NSB_MBT_1960_modules_2 = {
 
 		research_cost = 1
-		start_year = 1963
+		start_year = 1965
 
 		folder = {
 			name = nsb_armour_folder
@@ -1141,9 +1139,6 @@ technologies = {
 			MBT_cannon
 			heavy_cannon
 			superheavy_cannon
-			IFV_high_velocity_cannon
-
-			NEW_heavy_mortar
 		}
 	}
 
@@ -1191,11 +1186,7 @@ technologies = {
 			heavy_cannon_2
 			superheavy_cannon_2
 			IFV_light_artillery
-			MBT_heavy_artillery
 			APC_support_art
-			tank_rocket_launcher
-
-			NEW_heavy_mortar_2
 		}
 	}
 
@@ -1231,9 +1222,8 @@ technologies = {
 			superheavy_cannon_3
 			IFV_light_artillery_2
 			APC_support_art_2
-			IFV_high_velocity_cannon_2
-
-			NEW_heavy_mortar_3
+			MBT_heavy_artillery
+			IFV_high_velocity_cannon
 		}
 	}
 
@@ -1241,17 +1231,8 @@ technologies = {
 		artillery_brigade = {
 			soft_attack = 0.05
 		}
-		mot_artillery_brigade = {
-			soft_attack = 0.05
-		}
 		artillery = {
 			soft_attack = 0.03
-		}
-		light_sp_artillery_brigade  = {
-			soft_attack = 0.05
-		}
-		sp_artillery_brigade  = {
-			soft_attack = 0.05
 		}
 		path = {
 			leads_to_tech = NSB_artillery_1950_SA_2
@@ -1279,17 +1260,8 @@ technologies = {
 		artillery_brigade = {
 			soft_attack = 0.1
 		}
-		mot_artillery_brigade = {
-			soft_attack = 0.1
-		}
 		artillery = {
 			soft_attack = 0.06
-		}
-		light_sp_artillery_brigade = {
-			soft_attack = 0.1
-		}
-		sp_artillery_brigade = {
-			soft_attack = 0.1
 		}
 		path = {
 			leads_to_tech = NSB_artillery_1950_SA_3
@@ -1317,17 +1289,8 @@ technologies = {
 		artillery_brigade = {
 			soft_attack = 0.15
 		}
-		mot_artillery_brigade = {
-			soft_attack = 0.15
-		}
 		artillery = {
 			soft_attack = 0.09
-		}
-		light_sp_artillery_brigade = {
-			soft_attack = 0.15
-		}
-		sp_artillery_brigade = {
-			soft_attack = 0.15
 		}
 		research_cost = 1
 
@@ -1382,7 +1345,6 @@ technologies = {
 		enable_equipment_modules = {
 			AC_cannon_4
 			IFV_cannon_4
-			tank_auto_cannon_4
 			APC_infantry_AP_weapon_4
 			MBT_cannon_4
 			heavy_cannon_4
@@ -1390,10 +1352,7 @@ technologies = {
 			IFV_light_artillery_3
 			APC_support_art_3
 			MBT_heavy_artillery_2
-			IFV_high_velocity_cannon_3
-			tank_rocket_launcher_2
-
-			NEW_gun_mortar
+			IFV_high_velocity_cannon_2
 		}
 	}
 
@@ -1401,17 +1360,8 @@ technologies = {
 		artillery_brigade = {
 			soft_attack = 0.05
 		}
-		mot_artillery_brigade = {
-			soft_attack = 0.05
-		}
 		artillery = {
 			soft_attack = 0.03
-		}
-		light_sp_artillery_brigade = {
-			soft_attack = 0.05
-		}
-		sp_artillery_brigade = {
-			soft_attack = 0.05
 		}
 		path = {
 			leads_to_tech = NSB_artillery_1970_SA_2
@@ -1439,17 +1389,8 @@ technologies = {
 		artillery_brigade = {
 			soft_attack = 0.1
 		}
-		mot_artillery_brigade = {
-			soft_attack = 0.1
-		}
 		artillery = {
 			soft_attack = 0.06
-		}
-		light_sp_artillery_brigade = {
-			soft_attack = 0.1
-		}
-		sp_artillery_brigade = {
-			soft_attack = 0.1
 		}
 		path = {
 			leads_to_tech = NSB_artillery_1970_SA_3
@@ -1477,17 +1418,8 @@ technologies = {
 		artillery_brigade = {
 			soft_attack = 0.15
 		}
-		mot_artillery_brigade = {
-			soft_attack = 0.15
-		}
 		artillery = {
 			soft_attack = 0.09
-		}
-		light_sp_artillery_brigade = {
-			soft_attack = 0.15
-		}
-		sp_artillery_brigade = {
-			soft_attack = 0.15
 		}
 		research_cost = 1
 
@@ -1529,10 +1461,6 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
-
-		enable_equipment_modules = {
-			MBT_heavy_artillery_3
-		}
 	}
 
 ###########
@@ -1569,7 +1497,6 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			MBT_anti_air_cannon
 			IFV_anti_air_cannon
 			ship_anti_air_1
 		}
@@ -1613,11 +1540,9 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			MBT_anti_air_cannon_2
 			IFV_anti_air_cannon_2
 			APC_support_aa
 			APC_support_aa_hard
-			MBT_SAM
 			ship_anti_air_2
 		}
 	}
@@ -1647,11 +1572,10 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			MBT_anti_air_cannon_3
 			IFV_anti_air_cannon_3
 			APC_support_aa_2
 			APC_support_aa_hard_2
-			IFV_SAM
+			MBT_anti_air_cannon
 		}
 	}
 
@@ -1659,17 +1583,8 @@ technologies = {
 		anti_air_brigade = {
 			air_attack = 0.05
 		}
-		mot_anti_air_brigade = {
-			air_attack = 0.05
-		}
 		anti_air = {
 			air_attack = 0.03
-		}
-		light_sp_anti_air_brigade = {
-			air_attack = 0.05
-		}
-		sp_anti_air_brigade = {
-			air_attack = 0.05
 		}
 		path = {
 			leads_to_tech = NSB_antiair_1950_AA_2
@@ -1698,17 +1613,8 @@ technologies = {
 		anti_air_brigade = {
 			air_attack = 0.1
 		}
-		mot_anti_air_brigade = {
-			air_attack = 0.1
-		}
 		anti_air = {
 			air_attack = 0.06
-		}
-		light_sp_anti_air_brigade = {
-			air_attack = 0.1
-		}
-		sp_anti_air_brigade = {
-			air_attack = 0.1
 		}
 		path = {
 			leads_to_tech = NSB_antiair_1950_AA_3
@@ -1737,17 +1643,8 @@ technologies = {
 		anti_air_brigade = {
 			air_attack = 0.15
 		}
-		mot_anti_air_brigade = {
-			air_attack = 0.15
-		}
 		anti_air = {
 			air_attack = 0.09
-		}
-		light_sp_anti_air_brigade = {
-			air_attack = 0.15
-		}
-		sp_anti_air_brigade = {
-			air_attack = 0.15
 		}
 		research_cost = 1
 
@@ -1803,12 +1700,9 @@ technologies = {
 
 		enable_equipment_modules = {
 			IFV_anti_air_cannon_4
-			MBT_anti_air_cannon_4
 			APC_support_aa_3
 			APC_support_aa_hard_3
-			MBT_SAM_2
-			IFV_SAM_2
-			additional_aa_missiles
+			MBT_anti_air_cannon_2
 			ship_anti_air_3
 		}
 	}
@@ -1817,17 +1711,8 @@ technologies = {
 		anti_air_brigade = {
 			air_attack = 0.05
 		}
-		mot_anti_air_brigade = {
-			air_attack = 0.05
-		}
 		anti_air = {
 			air_attack = 0.03
-		}
-		light_sp_anti_air_brigade = {
-			air_attack = 0.05
-		}
-		sp_anti_air_brigade = {
-			air_attack = 0.05
 		}
 		path = {
 			leads_to_tech = NSB_antiair_1970_AA_2
@@ -1856,17 +1741,8 @@ technologies = {
 		anti_air_brigade = {
 			air_attack = 0.1
 		}
-		mot_anti_air_brigade = {
-			air_attack = 0.1
-		}
 		anti_air = {
 			air_attack = 0.06
-		}
-		light_sp_anti_air_brigade = {
-			air_attack = 0.1
-		}
-		sp_anti_air_brigade = {
-			air_attack = 0.1
 		}
 		path = {
 			leads_to_tech = NSB_antiair_1970_AA_3
@@ -1895,17 +1771,8 @@ technologies = {
 		anti_air_brigade = {
 			air_attack = 0.15
 		}
-		mot_anti_air_brigade = {
-			air_attack = 0.15
-		}
 		anti_air = {
 			air_attack = 0.09
-		}
-		light_sp_anti_air_brigade = {
-			air_attack = 0.15
-		}
-		sp_anti_air_brigade = {
-			air_attack = 0.15
 		}
 		research_cost = 1
 
@@ -1955,9 +1822,9 @@ technologies = {
 		}
 	}
 
-###########
-#  ARMOUR #
-###########
+############
+#  ARMOUR  #
+############
 
 	NSB_Armour_1 = {
 
@@ -2195,7 +2062,7 @@ technologies = {
 	}
 
 ##########
-# WHAT   #
+#  WHAT  #
 ##########
 
 	NSB_kugelpanzer = {
