@@ -2035,6 +2035,14 @@ equipments = {
 		parent = APC_chassis_0
 		priority = 2000
 		module_slots = inherit
+		module_slots = {
+			special_type_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+				}
+			}
+		}
 
 		visual_level = 1
 
@@ -2058,6 +2066,14 @@ equipments = {
 		parent = APC_chassis_1
 		priority = 2000
 		module_slots = inherit
+		module_slots = {
+			special_type_slot_6 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+				}
+			}
+		}
 
 		visual_level = 2
 
@@ -2085,6 +2101,20 @@ equipments = {
 		parent = APC_chassis_2
 		priority = 2000
 		module_slots = inherit
+		module_slots = {
+			special_type_slot_7 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+				}
+			}
+			special_type_slot_8 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+				}
+			}
+		}
 
 		visual_level = 3
 
@@ -2112,6 +2142,14 @@ equipments = {
 		parent = APC_chassis_3
 		priority = 2000
 		module_slots = inherit
+		module_slots = {
+			special_type_slot_9 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+				}
+			}
+		}
 
 		visual_level = 4
 
@@ -2139,6 +2177,14 @@ equipments = {
 		parent = APC_chassis_4
 		priority = 2000
 		module_slots = inherit
+		module_slots = {
+			special_type_slot_10 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+				}
+			}
+		}
 
 		visual_level = 5
 
