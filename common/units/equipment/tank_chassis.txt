@@ -301,15 +301,6 @@ equipments = {
 					tank_radio_module
 				}
 			}
-
-			special_type_slot_5 = {
-				required = no
-				allowed_module_categories = {
-					tank_special_module
-					tank_radio_module
-					tank_secondary_turret
-				}
-			}
 		}
 
 		module_count_limit = {
@@ -498,6 +489,14 @@ equipments = {
 		priority = 2000
 		module_slots = inherit
 
+		module_slots = {
+			special_type_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+				}
+			}
+		}
 
 		visual_level = 2
 
@@ -530,6 +529,15 @@ equipments = {
 			ac_nsb_armor_upgrade
 		}
 
+		module_slots = {
+			special_type_slot_6 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+				}
+			}
+		}
+
 		maximum_speed = 14
 		build_cost_ic = 2
 		defense = 5
@@ -545,6 +553,15 @@ equipments = {
 		parent = armored_car_chassis_3
 		priority = 2000
 		module_slots = inherit
+
+		module_slots = {
+			special_type_slot_7 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+				}
+			}
+		}
 
 
 		visual_level = 4
@@ -569,6 +586,14 @@ equipments = {
 		parent = armored_car_chassis_4
 		priority = 2000
 		module_slots = inherit
+		module_slots = {
+			special_type_slot_8 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+				}
+			}
+		}
 
 
 		visual_level = 5
@@ -1625,10 +1650,11 @@ equipments = {
 			category = tank_radio_module
 			count < 2
 		}
-		module_count_limit = {
-			category = tank_secondary_turret
-			count < 2
-		}
+		### Multiple turrets on superheavies! ###
+		# module_count_limit = {
+		# 	category = tank_secondary_turret
+		# 	count < 2
+		# }
 		module_count_limit = {
 			module = amphibious_drive
 			count < 2
