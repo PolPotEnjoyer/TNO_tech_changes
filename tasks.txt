@@ -1,0 +1,8 @@
+Allow simultaneous Naval/Air integration in Combined Arms #DONE
+3 Extra Modules on Armoured Vehicles, unlocked at 1950, 1960 and 1970 Chassis #DONE
+Superheavies can have multiple secondary turrets #DONE
+TODO: readd armour chassis caption #DONE
+Remove AA from basic infantry equipment so CAS don't get shredded in 2WRW #DONE
+Move radios to their own slot
+Perhaps categorize special modules e.g. maintenance, weapons, armour, misc
+Maybe some ship stuff as well?

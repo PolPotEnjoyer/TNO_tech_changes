@@ -813,15 +813,15 @@ guiTypes = {
 			format = right
 		}
 
-		# # chassi name
-		# instantTextboxType = {
-		# 	name = "blueprint_type_name"
-		# 	position = { x = 1 y = 200 }
-		# 	font = "aldrich_18_outline"
-		# 	maxWidth = 500
-		# 	maxHeight = 16
-		# 	format = center
-		# }
+		# chassi name
+		instantTextboxType = {
+			name = "blueprint_type_name"
+			position = { x = -120 y = 210 }
+			font = "aldrich_18_outline"
+			maxWidth = 500
+			maxHeight = 16
+			format = center
+		}
 
 		# drop down for tank roles
 		dropDownBoxType = {
