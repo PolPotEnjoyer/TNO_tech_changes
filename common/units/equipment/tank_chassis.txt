@@ -470,6 +470,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_radio_module
 				}
 			}
 		}
@@ -502,6 +503,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_radio_module
 				}
 			}
 		}
@@ -533,6 +535,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_radio_module
 				}
 			}
 		}
@@ -831,6 +834,8 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
 				}
 			}
 		}
@@ -857,6 +862,8 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
 				}
 			}
 		}
@@ -886,6 +893,8 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
 				}
 			}
 		}
@@ -1202,6 +1211,8 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
 				}
 			}
 		}
@@ -1226,6 +1237,8 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
 				}
 			}
 		}
@@ -1255,6 +1268,8 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
 				}
 			}
 		}
@@ -1546,6 +1561,8 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
 				}
 			}
 		}
@@ -1572,6 +1589,8 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
 				}
 			}
 		}
@@ -1598,6 +1617,8 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
 				}
 			}
 		}
@@ -1846,12 +1867,16 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
 				}
 			}
 			special_type_slot_6 = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
 				}
 			}
 		}
@@ -1878,6 +1903,8 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
 				}
 			}
 		}
@@ -2121,6 +2148,8 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
 				}
 			}
 		}
@@ -2152,6 +2181,8 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
 				}
 			}
 		}
@@ -2187,6 +2218,8 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
 				}
 			}
 		}
@@ -2358,6 +2391,8 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
 				}
 			}
 
@@ -2365,6 +2400,8 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
 				}
 			}
 
@@ -2372,6 +2409,8 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
 				}
 			}
 			
@@ -2632,6 +2671,8 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
 				}
 			}
 
@@ -2639,6 +2680,8 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
 				}
 			}
 
@@ -2646,6 +2689,8 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
 				}
 			}
 		}

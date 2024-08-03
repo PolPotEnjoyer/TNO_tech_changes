@@ -6,3 +6,4 @@ Remove AA from basic infantry equipment so CAS don't get shredded in 2WRW #DONE
 Move radios to their own slot
 Perhaps categorize special modules e.g. maintenance, weapons, armour, misc
 Maybe some ship stuff as well?
+Fewer aces #DONE
