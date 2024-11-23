@@ -5,8 +5,11 @@ TODO: readd armour chassis caption #DONE
 Remove AA from basic infantry equipment so CAS don't get shredded in 2WRW #DONE
 Move radios to their own slot
 Perhaps categorize special modules e.g. maintenance, weapons, armour, misc
-Rebalance modules? e.g. Buff spall liners
-Buff nuclear ship engines
+Rebalance modules? e.g. Buff spall liners and reduce later tank costs by a couple points
+Integrate Aircav restored?
+Buff nuclear ship engines #DONE
 Add nuclear range bonus?
 Other changes to ships?
+Naval helicopters carrier capable #DONE
+Maybe edit the stats of ASW heli vs CAS CV
 Fewer aces #DONE
