@@ -1,15 +1,25 @@
+### Doctrines ###
 Allow simultaneous Naval/Air integration in Combined Arms #DONE
+
+### Tanks ###
 3 Extra Modules on Armoured Vehicles, unlocked at 1950, 1960 and 1970 Chassis #DONE
 Superheavies can have multiple secondary turrets #DONE
-TODO: readd armour chassis caption #DONE
-Remove AA from basic infantry equipment so CAS don't get shredded in 2WRW #DONE
 Move radios to their own slot
 Perhaps categorize special modules e.g. maintenance, weapons, armour, misc
 Rebalance modules? e.g. Buff spall liners and reduce later tank costs by a couple points
-Integrate Aircav restored?
+Amphibious Drive
+
+### Ships ###
 Buff nuclear ship engines #DONE
-Add nuclear range bonus?
-Other changes to ships?
+Add nuclear fuel consumption bonus #DONE
+Missiles on submarines?
+Battkeship hull changes?
+
+### Aircraft ###
+Integrate Aircav restored? Balance Aircav weaker in forest/jungle vs elite inf
 Naval helicopters carrier capable #DONE
 Maybe edit the stats of ASW heli vs CAS CV
+
+### Misc ###
+Remove AA from basic infantry equipment so CAS don't get shredded in 2WRW #DONE
 Fewer aces #DONE
