@@ -14,6 +14,9 @@ Buff nuclear ship engines #DONE
 Add nuclear fuel consumption bonus #DONE
 Missiles on submarines?
 Battkeship hull changes?
+Limit AA missiles on ships, make a greater need for CIWS
+Fix screen display order
+Big Hangars for everybody (with the right tech) #DONE
 
 ### Aircraft ###
 Integrate Aircav restored? Balance Aircav weaker in forest/jungle vs elite inf
