@@ -5,9 +5,9 @@ Allow simultaneous Naval/Air integration in Combined Arms #DONE
 3 Extra Modules on Armoured Vehicles, unlocked at 1950, 1960 and 1970 Chassis #DONE
 Superheavies can have multiple secondary turrets #DONE
 Move radios to their own slot
-Perhaps categorize special modules e.g. maintenance, weapons, armour, misc
+Perhaps categorize special modules e.g. maintenance, weapons, armour, misc #In the design menu, already done it in the file itself
 Rebalance modules? e.g. Buff spall liners and reduce later tank costs by a couple points
-Amphibious Drive
+Amphibious Drive?
 
 ### Ships ###
 Buff nuclear ship engines #DONE
