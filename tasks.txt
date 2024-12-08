@@ -6,8 +6,8 @@ Allow simultaneous Naval/Air integration in Combined Arms #DONE
 Superheavies can have multiple secondary turrets #DONE
 Move radios to their own slot
 Perhaps categorize special modules e.g. maintenance, weapons, armour, misc #In the design menu, already done it in the file itself
-Rebalance modules? e.g. Buff spall liners and reduce later tank costs by a couple points
-Amphibious Drive?
+Rebalance modules? e.g. Buff spall liners and reduce later tank costs by a couple points #Partially done
+Amphibious Drive? #Shelved for now
 
 ### Ships ###
 Buff nuclear ship engines #DONE
@@ -19,7 +19,9 @@ Fix screen display order #DONE
 Big Hangars for everybody (with the right tech) #DONE
 
 ### Aircraft ###
-Integrate Aircav restored? Balance Aircav weaker in forest/jungle vs elite inf
+Integrate Aircav restored? #DONE
+Balance Aircav e.g. weaker in forest/jungle vs elite inf (and make them very fast everywhere)
+Modify historic division templates accordingly
 Naval helicopters carrier capable #DONE
 Maybe edit the stats of ASW heli vs CAS CV
 
