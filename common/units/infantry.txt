@@ -310,28 +310,56 @@ sub_units = {
 			transport_helicopter_equipment = 50
 		}
 
-		hills = {
-			attack = 0.2
+		#Fast everywhere no matter the terrain
+
+		plains = {
+			movement = 0.5
 		}
-		mountain = {
-			attack = 0.2
+		savanna = {
+			movement = 0.5
 		}
-		urban = {
+		steppe = {
+			movement = 0.5
+		}
+		forest = {
+			movement = 0.4
 			attack = 0.15
 		}
 		jungle = {
+			movement = 0.3
 			attack = 0.2
 		}
 		marsh = {
+			movement = 0.3
 			attack = 0.3
 		}
-		desert = {
-			attack = 0.1
+		hills = {
+			movement = 0.3
+			attack = 0.2
 		}
-		forest = {
+		desert_hills = {
+			movement = 0.3
+		}
+		desert_plateau = {
+			movement = 0.4
+		}
+		mountain = {
+			movement = 0.3
+			attack = 0.2
+		}
+		valleys = {
+			movement = 0.4
+		}
+		urban = {
+			movement = 0.3 
 			attack = 0.15
 		}
+		desert = {
+			movement = 0.4
+			attack = 0.1
+		}
 		river = {
+			movement = 0.5
 			attack = 0.2
 		}
 	}

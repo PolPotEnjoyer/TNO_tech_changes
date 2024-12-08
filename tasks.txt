@@ -20,7 +20,7 @@ Big Hangars for everybody (with the right tech) #DONE
 
 ### Aircraft ###
 Integrate Aircav restored? #DONE
-Balance Aircav e.g. weaker in forest/jungle vs elite inf (and make them very fast everywhere)
+Balance Aircav e.g. weaker in forest/jungle vs elite inf (and make them very fast everywhere) #Done movement, but needs rexamining
 Modify historic division templates accordingly
 Naval helicopters carrier capable #DONE
 Maybe edit the stats of ASW heli vs CAS CV
@@ -28,3 +28,4 @@ Maybe edit the stats of ASW heli vs CAS CV
 ### Misc ###
 Remove AA from basic infantry equipment so CAS don't get shredded in 2WRW #DONE
 Fewer aces #DONE
+Tone down combined infra/terrain movement maluses so that motorized is somewhat useful in Russia
