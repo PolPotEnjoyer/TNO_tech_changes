@@ -197,6 +197,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo_sub
 					ship_mine_layer_sub
+					ship_anti_ship_missile_battery
 				}
 			}
 			mid_1_custom_slot = {
@@ -243,6 +244,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo_sub
 					ship_mine_layer_sub
+					ship_anti_ship_missile_battery
 				}
 			}
 			mid_1_custom_slot = {
@@ -290,6 +292,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo_sub
 					ship_mine_layer_sub
+					ship_anti_ship_missile_battery
 				}
 			}
 			mid_1_custom_slot = {
@@ -337,6 +340,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo_sub
 					ship_mine_layer_sub
+					ship_anti_ship_missile_battery
 				}
 			}
 			mid_1_custom_slot = {

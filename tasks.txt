@@ -13,15 +13,18 @@ Amphibious Drive? #Shelved for now
 Buff nuclear ship engines #DONE
 Add nuclear fuel consumption bonus #DONE
 Missiles on submarines?
-Battkeship hull changes?
+Battleship hull changes?
 Limit AA missiles on ships, make a greater need for CIWS
 Fix screen display order #DONE
 Big Hangars for everybody (with the right tech) #DONE
+Actually tone down later carriers' deck sizes
+Look into more electronics on ships
+Change aerial mine warfare (aerial minesweeping before 1980?)
 
 ### Aircraft ###
 Integrate Aircav restored? #DONE
 Balance Aircav e.g. weaker in forest/jungle vs elite inf (and make them very fast everywhere) #Done movement, but needs rexamining
-Modify historic division templates accordingly
+Modify historic division templates accordingly #DONE (for playable scenarios, maybe look into doing it for all tags)
 Naval helicopters carrier capable #DONE
 Maybe edit the stats of ASW heli vs CAS CV
 
