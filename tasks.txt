@@ -15,11 +15,9 @@ Buff nuclear ship engines #DONE
 Add nuclear fuel consumption bonus #DONE
 Missiles on submarines? #Mostly done, need to add to early/special though
 Battleship hull changes?
-Limit AA missiles on ships, make a greater need for CIWS
 Fix screen display order #DONE
-Big Hangars for everybody (with the right tech) #DONE, but will replace with big hangars for nobody >:(
-BIG HANGARS FOR NOBODY!
-Actually tone down later carriers' deck sizes
+BIG HANGARS FOR NOBODY! #DONE
+Secondary armaments can instead be AA guns #DONE
 Look into more electronics on ships
 Change aerial mine warfare (aerial minesweeping before 1980?)
 

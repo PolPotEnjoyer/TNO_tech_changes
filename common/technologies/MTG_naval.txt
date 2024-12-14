@@ -2334,7 +2334,6 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			carrier_ship_engine_2
-			ship_deck_space_medium #Temporary till history amended
 		}
 		path = {
 			leads_to_tech = improved_ship_hull_carrier
@@ -2376,7 +2375,6 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			carrier_ship_engine_3
-			ship_deck_space_large #Temporary till history amended
 		}
 		path = {
 			leads_to_tech = advanced_ship_hull_carrier

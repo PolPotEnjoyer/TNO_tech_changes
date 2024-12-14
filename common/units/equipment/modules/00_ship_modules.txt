@@ -2891,7 +2891,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 700
 	}
-	ship_deck_space_medium = {
+	ship_deck_space_medium = { #Currently unused
 		category = ship_deck_space
 		gfx = ship_deck_space
 
@@ -2909,7 +2909,7 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 700
 	}
-	ship_deck_space_large = {
+	ship_deck_space_large = { #Currently unused
 		category = ship_deck_space
 		gfx = ship_deck_space
 
