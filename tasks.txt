@@ -8,15 +8,17 @@ Move radios to their own slot
 Perhaps categorize special modules e.g. maintenance, weapons, armour, misc #In the design menu, already done it in the file itself
 Rebalance modules? e.g. Buff spall liners and reduce later tank costs by a couple points #Partially done
 Amphibious Drive? #Shelved for now
+Investigate flamethrower companies not working properly?
 
 ### Ships ###
 Buff nuclear ship engines #DONE
 Add nuclear fuel consumption bonus #DONE
-Missiles on submarines?
+Missiles on submarines? #Mostly done, need to add to early/special though
 Battleship hull changes?
 Limit AA missiles on ships, make a greater need for CIWS
 Fix screen display order #DONE
-Big Hangars for everybody (with the right tech) #DONE
+Big Hangars for everybody (with the right tech) #DONE, but will replace with big hangars for nobody >:(
+BIG HANGARS FOR NOBODY!
 Actually tone down later carriers' deck sizes
 Look into more electronics on ships
 Change aerial mine warfare (aerial minesweeping before 1980?)
@@ -27,8 +29,11 @@ Balance Aircav e.g. weaker in forest/jungle vs elite inf (and make them very fas
 Modify historic division templates accordingly #DONE (for playable scenarios, maybe look into doing it for all tags)
 Naval helicopters carrier capable #DONE
 Maybe edit the stats of ASW heli vs CAS CV
+Change carrier air wing sizes
+Maybe edit land air wing sizes too?
 
 ### Misc ###
 Remove AA from basic infantry equipment so CAS don't get shredded in 2WRW #DONE
 Fewer aces #DONE
-Tone down combined infra/terrain movement maluses so that motorized is somewhat useful in Russia
+Restore infrastructure balance back to vanilla levels #DONE
+Rebalance terrain movement?
