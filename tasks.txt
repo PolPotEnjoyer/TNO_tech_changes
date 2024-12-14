@@ -8,7 +8,7 @@ Move radios to their own slot
 Perhaps categorize special modules e.g. maintenance, weapons, armour, misc #In the design menu, already done it in the file itself
 Rebalance modules? e.g. Buff spall liners and reduce later tank costs by a couple points #Partially done
 Amphibious Drive? #Shelved for now
-Investigate flamethrower companies not working properly?
+Investigate flamethrower companies not working properly? #DONE; uses generic MBT/AFV Icons for now
 
 ### Ships ###
 Buff nuclear ship engines #DONE
@@ -34,6 +34,7 @@ Maybe edit land air wing sizes too?
 
 ### Misc ###
 Remove AA from basic infantry equipment so CAS don't get shredded in 2WRW #DONE
+Nerf rifle piercing values #DONE
 Fewer aces #DONE
 Restore infrastructure balance back to vanilla levels #DONE
 Rebalance terrain movement?
