@@ -15,7 +15,7 @@ equipments = {
 		type = screen_ship
 		interface_category = interface_category_screen_ships
 		alias = corvette
-		priority = 2200
+		priority = 2260
 
 		upgrades = {
 			ship_torpedo_upgrade
@@ -115,7 +115,7 @@ equipments = {
 		year = 1945
 
 		archetype = ship_hull_very_light
-		priority = 2200
+		priority = 2250
 		#alias = corvette_1
 
 		module_slots = inherit
@@ -125,7 +125,7 @@ equipments = {
 		year = 1950
 
 		archetype = ship_hull_very_light
-		priority = 2200
+		priority = 2240
 		parent = ship_hull_very_light_1
 		#alias = corvette_2
 
@@ -170,7 +170,7 @@ equipments = {
 		year = 1960
 
 		archetype = ship_hull_very_light
-		priority = 2200
+		priority = 2230
 		parent = ship_hull_very_light_2
 		#alias = corvette_3
 
@@ -232,7 +232,7 @@ equipments = {
 		year = 1970
 
 		archetype = ship_hull_very_light
-		priority = 2200
+		priority = 2220
 		parent = ship_hull_very_light_3
 		#alias = corvette_4
 
@@ -291,7 +291,7 @@ equipments = {
 		year = 1980
 
 		archetype = ship_hull_very_light
-		priority = 2200
+		priority = 2210
 		parent = ship_hull_very_light_4
 		#alias = corvette_3
 
@@ -411,7 +411,7 @@ equipments = {
 		year = 1945
 
 		archetype = ship_hull_very_light
-		priority = 2200
+		priority = 2250
 		module_slots = inherit
 		default_modules = {
 			fixed_ship_battery_slot = ship_light_battery_1
@@ -459,7 +459,7 @@ equipments = {
 		year = 1950
 
 		archetype = ship_hull_very_light
-		priority = 2200
+		priority = 2240
 		parent = corvette_1
 		module_slots = inherit
 		default_modules = {
@@ -511,7 +511,7 @@ equipments = {
 		year = 1960
 
 		archetype = ship_hull_very_light
-		priority = 2200
+		priority = 2230
 		parent = corvette_2
 		module_slots = inherit
 		default_modules = {
@@ -562,7 +562,7 @@ equipments = {
 		year = 1970
 
 		archetype = ship_hull_very_light
-		priority = 2200
+		priority = 2220
 		parent = corvette_3
 		module_slots = inherit
 		default_modules = {
@@ -614,7 +614,7 @@ equipments = {
 		year = 1980
 
 		archetype = ship_hull_very_light
-		priority = 2200
+		priority = 2210
 		parent = corvette_4
 		module_slots = inherit
 		default_modules = {

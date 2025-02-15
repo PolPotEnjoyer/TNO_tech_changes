@@ -14,7 +14,7 @@ equipments = {
 		is_buildable = no
 		type = submarine
 		group_by = archetype
-		priority = 2500
+		priority = 2560
 
 		upgrades = {
 			ship_reliability_upgrade
@@ -90,7 +90,7 @@ equipments = {
 		year = 1945
 
 		archetype = ship_hull_submarine
-		priority = 2500
+		priority = 2550
 
 		module_slots = inherit
 	}
@@ -99,7 +99,7 @@ equipments = {
 		year = 1950
 
 		archetype = ship_hull_carrier
-		priority = 2500
+		priority = 2400
 		parent = ship_hull_submarine_1
 		module_slots = {
 			fixed_ship_torpedo_slot = inherit
@@ -148,7 +148,7 @@ equipments = {
 		year = 1950
 
 		archetype = ship_hull_submarine
-		priority = 2500
+		priority = 2540
 		parent = ship_hull_submarine_1
 		module_slots = {
 			fixed_ship_torpedo_slot = inherit
@@ -187,7 +187,7 @@ equipments = {
 		year = 1960
 
 		archetype = ship_hull_submarine
-		priority = 2500
+		priority = 2530
 		parent = ship_hull_submarine_2
 		module_slots = {
 			fixed_ship_torpedo_slot = inherit
@@ -234,7 +234,7 @@ equipments = {
 		year = 1970
 
 		archetype = ship_hull_submarine
-		priority = 2500
+		priority = 2520
 		parent = ship_hull_submarine_3
 		module_slots = {
 			fixed_ship_torpedo_slot = inherit
@@ -282,7 +282,7 @@ equipments = {
 		year = 1980
 
 		archetype = ship_hull_submarine
-		priority = 2500
+		priority = 2510
 		parent = ship_hull_submarine_4
 		module_slots = {
 			fixed_ship_torpedo_slot = inherit
@@ -378,7 +378,7 @@ equipments = {
 		year = 1950
 
 		archetype = ship_hull_submarine
-		priority = 2600
+		priority = 2640
 		module_slots = {
 			fixed_ship_engine_slot = inherit
 		}
@@ -405,7 +405,7 @@ equipments = {
 		year = 1960
 
 		archetype = ship_hull_submarine
-		priority = 2600
+		priority = 2630
 		parent = ship_hull_ballistic_submarine
 		module_slots = {
 			fixed_ship_engine_slot = inherit
@@ -433,7 +433,7 @@ equipments = {
 		year = 1970
 
 		archetype = ship_hull_submarine
-		priority = 2600
+		priority = 2620
 		parent = ship_hull_ballistic_submarine_2
 		module_slots = {
 			fixed_ship_engine_slot = inherit
@@ -461,7 +461,7 @@ equipments = {
 		year = 1980
 
 		archetype = ship_hull_submarine
-		priority = 2600
+		priority = 2610
 		parent = ship_hull_ballistic_submarine_3
 		module_slots = {
 			fixed_ship_engine_slot = inherit
@@ -517,7 +517,7 @@ equipments = {
 		year = 1945
 
 		archetype = ship_hull_submarine
-		priority = 2500
+		priority = 2550
 
 		module_slots = inherit
 
@@ -558,7 +558,7 @@ equipments = {
 		year = 1950
 
 		archetype = ship_hull_submarine
-		priority = 2500
+		priority = 2540
 		parent = submarine_1
 		module_slots = inherit
 
@@ -597,7 +597,7 @@ equipments = {
 		year = 1960
 
 		archetype = ship_hull_submarine
-		priority = 2500
+		priority = 2530
 		parent = submarine_2
 		module_slots = inherit
 
@@ -638,7 +638,7 @@ equipments = {
 		year = 1970
 
 		archetype = ship_hull_submarine
-		priority = 2500
+		priority = 2520
 		parent = submarine_3
 		module_slots = inherit
 
@@ -680,7 +680,7 @@ equipments = {
 		year = 1980
 
 		archetype = ship_hull_submarine
-		priority = 2500
+		priority = 2510
 		parent = submarine_4
 		module_slots = inherit
 

@@ -15,7 +15,7 @@ equipments = {
 		type = screen_ship
 		interface_category = interface_category_screen_ships
 		alias = destroyer
-		priority = 2000
+		priority = 2050
 
 		upgrades = {
 			ship_torpedo_upgrade
@@ -118,7 +118,7 @@ equipments = {
 		year = 1945
 
 		archetype = ship_hull_light
-		priority = 2000
+		priority = 2050
 		#alias = destroyer_1
 
 		module_slots = inherit
@@ -128,7 +128,7 @@ equipments = {
 		year = 1950
 
 		archetype = ship_hull_light
-		priority = 2000
+		priority = 2040
 		parent = ship_hull_light_1
 		#alias = destroyer_2
 
@@ -175,7 +175,7 @@ equipments = {
 		year = 1960
 
 		archetype = ship_hull_light
-		priority = 2000
+		priority = 2030
 		parent = ship_hull_light_2
 		#alias = destroyer_3
 
@@ -255,7 +255,7 @@ equipments = {
 		year = 1970
 
 		archetype = ship_hull_light
-		priority = 2000
+		priority = 2020
 		parent = ship_hull_light_3
 		#alias = destroyer_4
 
@@ -333,7 +333,7 @@ equipments = {
 		year = 1980
 
 		archetype = ship_hull_light
-		priority = 2000
+		priority = 2010
 		parent = ship_hull_light_4
 		#alias = destroyer_3
 
@@ -494,7 +494,7 @@ equipments = {
 		year = 1945
 
 		archetype = ship_hull_light
-		priority = 2000
+		priority = 2050
 		module_slots = inherit
 		default_modules = {
 			fixed_ship_battery_slot = ship_light_battery_1
@@ -541,7 +541,7 @@ equipments = {
 		year = 1950
 
 		archetype = ship_hull_light
-		priority = 2000
+		priority = 2040
 		parent = destroyer_1
 		module_slots = inherit
 		default_modules = {
@@ -592,7 +592,7 @@ equipments = {
 		year = 1960
 
 		archetype = ship_hull_light
-		priority = 2000
+		priority = 2030
 		parent = destroyer_2
 		module_slots = inherit
 		default_modules = {
@@ -642,7 +642,7 @@ equipments = {
 		year = 1970
 
 		archetype = ship_hull_light
-		priority = 2000
+		priority = 2020
 		parent = destroyer_3
 		module_slots = inherit
 		default_modules = {
@@ -693,7 +693,7 @@ equipments = {
 		year = 1980
 
 		archetype = ship_hull_light
-		priority = 2000
+		priority = 2010
 		parent = destroyer_4
 		module_slots = inherit
 		default_modules = {

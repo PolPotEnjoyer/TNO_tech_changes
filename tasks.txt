@@ -9,6 +9,7 @@ Perhaps categorize special modules e.g. maintenance, weapons, armour, misc #In t
 Rebalance modules? e.g. Buff spall liners and reduce later tank costs by a couple points #Partially done
 Amphibious Drive? #Shelved for now
 Investigate flamethrower companies not working properly? #DONE; uses generic MBT/AFV Icons for now
+Reexamine experimental tank chassis
 
 ### Ships ###
 Buff nuclear ship engines #DONE
@@ -19,7 +20,9 @@ Fix screen display order #DONE
 BIG HANGARS FOR NOBODY! #DONE
 Secondary armaments can instead be AA guns #DONE
 Look into more electronics on ships
+Finally fix all ship priorities
 Change aerial mine warfare (aerial minesweeping before 1980?)
+Fix Naval terrain penalties for small screens #DONE for now
 
 ### Aircraft ###
 Integrate Aircav restored? #DONE
@@ -35,4 +38,5 @@ Remove AA from basic infantry equipment so CAS don't get shredded in 2WRW #DONE
 Nerf rifle piercing values #DONE
 Fewer aces #DONE
 Restore infrastructure balance back to vanilla levels #DONE
+Japanese ship namelists
 Rebalance terrain movement?

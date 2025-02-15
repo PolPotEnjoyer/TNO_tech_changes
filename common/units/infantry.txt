@@ -310,57 +310,64 @@ sub_units = {
 			transport_helicopter_equipment = 50
 		}
 
-		#Fast everywhere no matter the terrain
+		#Fast everywhere no matter the terrain, though they have issues with combat in some rough terrain
 
 		plains = {
-			movement = 0.5
+			movement = 0.3
 		}
 		savanna = {
-			movement = 0.5
+			movement = 0.3
 		}
 		steppe = {
-			movement = 0.5
+			movement = 0.3
 		}
 		forest = {
-			movement = 0.4
-			attack = 0.15
+			movement = 0.3
+			attack = -0.2
+			defence = -0.2
 		}
 		jungle = {
 			movement = 0.3
-			attack = 0.2
+			attack = -0.2
+			defence = -0.2
 		}
 		marsh = {
 			movement = 0.3
-			attack = 0.3
 		}
 		hills = {
 			movement = 0.3
-			attack = 0.2
+			attack = -0.2
+			defence = -0.2
 		}
 		desert_hills = {
 			movement = 0.3
+			attack = -0.2
+			defence = -0.2
 		}
 		desert_plateau = {
-			movement = 0.4
+			movement = 0.3
 		}
 		mountain = {
 			movement = 0.3
-			attack = 0.2
+			attack = -0.2
+			defence = -0.2
 		}
 		valleys = {
-			movement = 0.4
+			movement = 0.3
+			attack = -0.2
+			defence = -0.2
 		}
 		urban = {
 			movement = 0.3 
-			attack = 0.15
 		}
 		desert = {
-			movement = 0.4
-			attack = 0.1
+			movement = 0.3
 		}
 		river = {
 			movement = 0.5
-			attack = 0.2
+		}
+		amphibious = {
+			movement = 0.5
 		}
 	}
 
