@@ -1,0 +1,21 @@
+### Tanks ###
+Move radios to their own slot
+Perhaps categorize special modules e.g. maintenance, weapons, armour, misc
+Amphibious Drive? #Shelved for now
+Reexamine experimental tank chassis
+Look at max speeds for heavy armour, also fuel consumption, apc stats and breakthrough
+
+### Ships ###
+Battleship hull changes?
+Look into more electronics on ships
+Finally fix all ship priorities
+Change aerial mine warfare (aerial minesweeping before 1980?)
+
+### Aircraft ###
+Maybe edit the stats of ASW heli vs CAS CV
+Maybe edit land air wing sizes too?
+
+### Misc ###
+Japanese ship namelists
+Rebalance terrain movement?
+Fix Japanese tank designer GFX

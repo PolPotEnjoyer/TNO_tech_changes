@@ -1,0 +1,35 @@
+### Overall objectives ###
+Strengthen armoured units from their underpowered state in base TNO
+Fix various annoying bugs and behaviours that break immersion/make combat less satisfying
+Make more obscure tech more rewarding e.g. flamethrower companies, heavy tanks and nuclear engines
+Overall provide a more balanced, flexible and immersive warfare experience for large-scale wars e.g. 2WRW, GAW and WW3
+
+### Doctrines ###
+Allow simultaneous Naval/Air integration in Combined Arms
+
+### Tanks ###
+3 Extra Modules on Armoured Vehicles, unlocked at 1950, 1960 and 1970 Chassis
+Superheavies can have multiple secondary turrets
+Rebalanced chassis and modules e.g. Buff spall liners and reduce chassis costs by a couple points to balance out increased module cost#Partially done
+
+### Ships ###
+Buff nuclear ship engines
+Secondary armaments can instead be AA guns #But not SAMs; I want to incentivize researching both systems
+Removed the large carrier deck space modules for a fairer carrier game
+Ballistic missiles can now be put on submarines
+
+### Aircraft ###
+Make Aircav a line battalion again
+Balance Aircav e.g. weaker in forest/jungle vs elite inf (and make them very fast everywhere) #Done movement, but needs rexamining
+Modify historic division templates accordingly #Done for playable scenarios, maybe look into doing it for all tags
+Naval helicopters carrier capable
+Change carrier air wing sizes from 10 to 20
+
+### Misc ###
+Fix Naval terrain penalties for small screens #Might want to change display order though
+Restore infrastructure balance back to vanilla levels
+Fixed blank GFX for flame tank companies #Currently just a generic AFV/MBT sprite but it's better than no GFX at all
+Nerf rifle piercing values #That's what rocket launchers are for!
+Nerf infantry AA to shred CAS a bit less #That's what MANPADs and towed AA are for!
+Fix Muto's GFX
+Reduced frequency of ace generation
