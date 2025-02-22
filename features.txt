@@ -9,8 +9,9 @@ Allow simultaneous Naval/Air integration in Combined Arms
 
 ### Tanks ###
 3 Extra Modules on Armoured Vehicles, unlocked at 1950, 1960 and 1970 Chassis
-Superheavies can have multiple secondary turrets
-Rebalanced chassis and modules e.g. Buff spall liners and reduce chassis costs by a couple points to balance out increased module cost#Partially done
+Superheavies can have multiple secondary turrets, heavy tanks may also have up to 2
+Rebalanced Chassis #Done for AC, APC, AFC, MBT, Heavy and Superheavy - Kugelpanzer and Experimental chassis are TBC
+Rebalanced Modules #Currently only for regular, TBC for experimental modules
 
 ### Ships ###
 Buff nuclear ship engines
@@ -23,7 +24,7 @@ Make Aircav a line battalion again
 Balance Aircav e.g. weaker in forest/jungle vs elite inf (and make them very fast everywhere) #Done movement, but needs rexamining
 Modify historic division templates accordingly #Done for playable scenarios, maybe look into doing it for all tags
 Naval helicopters carrier capable
-Change carrier air wing sizes from 10 to 20
+Change carrier air wing sizes from 10 to 20, for ease of management on large fleets
 
 ### Misc ###
 Fix Naval terrain penalties for small screens #Might want to change display order though

@@ -2,8 +2,7 @@
 Move radios to their own slot
 Perhaps categorize special modules e.g. maintenance, weapons, armour, misc
 Amphibious Drive? #Shelved for now
-Reexamine experimental tank chassis
-Look at max speeds for heavy armour, also fuel consumption, apc stats and breakthrough
+Rebalance experimental modules
 
 ### Ships ###
 Battleship hull changes?
@@ -19,4 +18,4 @@ Maybe edit land air wing sizes too?
 Japanese ship namelists (and that one division name)
 Rebalance terrain movement?
 Fix Japanese tank designer GFX
-Look into improving air supply
+Buff air supply and make it provide a trickle of fuel if possible

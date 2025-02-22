@@ -426,7 +426,7 @@ equipments = {
 		}
 
 		fuel_consumption = 0
-		maximum_speed = 5
+		maximum_speed = 10
 		reliability = 0.8
 		defense = 14
 		hardness = 0.8
@@ -482,7 +482,7 @@ equipments = {
 			ac_nsb_armor_upgrade
 		}
 
-		maximum_speed = 6
+		maximum_speed = 11
 		build_cost_ic = 0.5
 		defense = 16
 		breakthrough = 3
@@ -516,7 +516,7 @@ equipments = {
 			ac_nsb_armor_upgrade
 		}
 
-		maximum_speed = 10
+		maximum_speed = 12.5
 		defense = 18
 		breakthrough = 4
 		reliability = 1
@@ -549,7 +549,7 @@ equipments = {
 			ac_nsb_armor_upgrade
 		}
 
-		maximum_speed = 14
+		maximum_speed = 15
 		defense = 20
 		breakthrough = 6
 		reliability = 1.1
@@ -573,7 +573,7 @@ equipments = {
 			ac_nsb_armor_upgrade
 		}
 
-		maximum_speed = 18
+		maximum_speed = 17
 		defense = 22
 		breakthrough = 8
 		reliability = 1.15
@@ -597,7 +597,7 @@ equipments = {
 			ac_nsb_armor_upgrade
 		}
 
-		maximum_speed = 22
+		maximum_speed = 21
 		defense = 24
 		breakthrough = 11
 		reliability = 1.2
@@ -797,7 +797,7 @@ equipments = {
 		}
 
 		fuel_consumption = 0
-		maximum_speed = 5
+		maximum_speed = 8
 		reliability = 0.8
 		defense = 15
 		breakthrough = 5
@@ -848,7 +848,7 @@ equipments = {
 
 		visual_level = 1
 
-		maximum_speed = 6
+		maximum_speed = 9
 		defense = 17
 		breakthrough = 7
 		reliability = 0.95
@@ -877,7 +877,7 @@ equipments = {
 
 		visual_level = 2
 
-		maximum_speed = 6
+		maximum_speed = 10
 		defense = 19
 		breakthrough = 9
 		reliability = 1.1
@@ -909,7 +909,7 @@ equipments = {
 
 		visual_level = 3
 
-		maximum_speed = 6.5
+		maximum_speed = 11
 		defense = 21
 		breakthrough = 12
 		reliability = 1.3
@@ -931,7 +931,7 @@ equipments = {
 
 		visual_level = 4
 
-		maximum_speed = 7
+		maximum_speed = 12
 		defense = 23
 		breakthrough = 14
 		reliability = 1.5
@@ -953,7 +953,7 @@ equipments = {
 
 		visual_level = 5
 
-		maximum_speed = 7.5
+		maximum_speed = 13
 		defense = 25
 		breakthrough = 16
 		reliability = 1.7
@@ -1171,8 +1171,8 @@ equipments = {
 			engine_type_slot = tank_gasoline_engine
 		}
 
-		fuel_consumption = 0
-		maximum_speed = 5
+		fuel_consumption = 0.25
+		maximum_speed = 7
 		defense = 16
 		breakthrough = 2
 		reliability = 1
@@ -1200,7 +1200,7 @@ equipments = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		maximum_speed = 4.5
+		maximum_speed = 7
 		defense = 18
 		breakthrough = 2
 		reliability = 0.75
@@ -1232,6 +1232,7 @@ equipments = {
 
 		visual_level = 1
 
+		maximum_speed = 7.5
 		defense = 20
 		breakthrough = 4
 		armor_value = 35
@@ -1259,7 +1260,7 @@ equipments = {
 
 		visual_level = 2
 
-		maximum_speed = 5
+		maximum_speed = 8
 		defense = 22
 		breakthrough = 6
 		reliability = 1.3
@@ -1291,7 +1292,7 @@ equipments = {
 
 		visual_level = 3
 
-		maximum_speed = 5
+		maximum_speed = 9
 		defense = 24
 		breakthrough = 8
 		reliability = 1.6
@@ -1313,7 +1314,7 @@ equipments = {
 
 		visual_level = 4
 
-		maximum_speed = 5.5
+		maximum_speed = 10
 		defense = 26
 		breakthrough = 10
 		reliability = 1.9
@@ -1335,7 +1336,7 @@ equipments = {
 
 		visual_level = 5
 
-		maximum_speed = 6
+		maximum_speed = 11
 		defense = 28
 		breakthrough = 12
 		reliability = 2.2
@@ -1537,9 +1538,10 @@ equipments = {
 		}
 
 		fuel_consumption = 1
-		maximum_speed = 3.5
+		maximum_speed = 5
 		reliability = 1
 		defense = 20
+		breakthrough = 4
 		hardness = 0.95
 		armor_value = 30
 		build_cost_ic = 4
@@ -1587,8 +1589,9 @@ equipments = {
 
 		visual_level = 1
 
-		maximum_speed = 5
+		maximum_speed = 5.5
 		defense = 25
+		breakthrough = 6
 		reliability = 1.1
 		armor_value = 40
 		build_cost_ic = 4.5
@@ -1615,8 +1618,9 @@ equipments = {
 
 		visual_level = 2
 
-		maximum_speed = 7
+		maximum_speed = 6
 		defense = 30
+		breakthrough = 8
 		reliability = 1.2
 		armor_value = 50
 		build_cost_ic = 5
@@ -1643,11 +1647,12 @@ equipments = {
 
 		visual_level = 3
 
-		maximum_speed = 9
+		maximum_speed = 7
 		defense = 35
+		breakthrough = 10
 		reliability = 1.3
 		armor_value = 60
-		build_cost_ic = 6.5
+		build_cost_ic = 6
 	}
 
 	## SUPERHEAVY ##
@@ -1841,6 +1846,7 @@ equipments = {
 		maximum_speed = 3
 		reliability = 0.9
 		defense = 30
+		breakthrough = 2
 		hardness = 0.95
 		armor_value = 45
 		build_cost_ic = 11
@@ -1896,8 +1902,9 @@ equipments = {
 
 		visual_level = 1
 
-		maximum_speed = 5
+		maximum_speed = 4
 		defense = 10
+		breakthrough = 4
 		reliability = 1
 		armor_value = 55
 		build_cost_ic = 12
@@ -1924,8 +1931,9 @@ equipments = {
 
 		visual_level = 2
 
-		maximum_speed = 7
+		maximum_speed = 5
 		defense = 15
+		breakthrough = 6
 		reliability = 1.1
 		armor_value = 65
 		build_cost_ic = 14
@@ -2119,9 +2127,10 @@ equipments = {
 		}
 
 		fuel_consumption = 0
-		maximum_speed = 5
+		maximum_speed = 9
 		reliability = 0.8
 		defense = 14
+		breakthrough = 1
 		hardness = 0.8
 		armor_value = 5
 		build_cost_ic = 1
@@ -2169,8 +2178,9 @@ equipments = {
 
 		visual_level = 1
 
-		maximum_speed = 3
+		maximum_speed = 10
 		defense = 16
+		breakthrough = 2
 		reliability = 0.95
 		armor_value = 5
 		build_cost_ic = 1
@@ -2202,8 +2212,9 @@ equipments = {
 
 		visual_level = 2
 
-		maximum_speed = 6
+		maximum_speed = 11
 		defense = 18
+		breakthrough = 3
 		reliability = 1
 		armor_value = 10
 		build_cost_ic = 1.5
@@ -2239,8 +2250,9 @@ equipments = {
 
 		visual_level = 3
 
-		maximum_speed = 9
+		maximum_speed = 12
 		defense = 20
+		breakthrough = 4
 		reliability = 1.1
 		armor_value = 15
 		build_cost_ic = 2
@@ -2266,8 +2278,9 @@ equipments = {
 
 		visual_level = 4
 
-		maximum_speed = 12
+		maximum_speed = 13
 		defense = 22
+		breakthrough = 5
 		reliability = 1.15
 		armor_value = 20
 		build_cost_ic = 2.5
@@ -2293,8 +2306,9 @@ equipments = {
 
 		visual_level = 5
 
-		maximum_speed = 15
+		maximum_speed = 14
 		defense = 24
+		breakthrough = 6
 		reliability = 1.2
 		armor_value = 25
 		build_cost_ic = 3
