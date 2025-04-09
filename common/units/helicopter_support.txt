@@ -7,6 +7,7 @@ sub_units = {
 		ai_priority = 0
 		active = no
 		affects_speed = no
+		can_be_parachuted = yes
 
 		type = {
 			infantry
@@ -214,6 +215,7 @@ sub_units = {
 		active = no
 		affects_speed = no
 		special_forces = yes
+		can_be_parachuted = yes
 
 		type = {
 			infantry

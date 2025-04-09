@@ -17,5 +17,8 @@ Maybe edit land air wing sizes too?
 ### Misc ###
 Japanese ship namelists (and that one division name)
 Rebalance terrain movement?
-Fix Japanese tank designer GFX
 Buff air supply and make it provide a trickle of fuel if possible
+PARADROPS BABY! (add order to GFX)
+Remove all reference to the concept of light/heavy cruiser distinction, maybe even amend the icon from "CA" to "C"
+Amend history files and fix state GDPs
+Fuel capacity bonus for log company?

@@ -456,7 +456,8 @@ equipment_modules = {
 	ship_light_medium_battery_1 = {
 		abbreviation = "sao"
 		category = ship_medium_battery
-		gui_category = ship_light_battery
+		gui_category = ship_medium_battery
+		add_equipment_type = capital_ship
 
 		sfx = sfx_ui_sd_module_turret
 
@@ -480,9 +481,10 @@ equipment_modules = {
 	ship_light_medium_battery_2 = {
 		abbreviation = "sap"
 		category = ship_medium_battery
-		gui_category = ship_light_battery
+		gui_category = ship_medium_battery
 		parent = ship_light_medium_battery_1
 		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
 
 		add_stats = {
 			lg_attack = 5
@@ -511,9 +513,10 @@ equipment_modules = {
 	ship_light_medium_battery_3 = {
 		abbreviation = "saq"
 		category = ship_medium_battery
-		gui_category = ship_light_battery
+		gui_category = ship_medium_battery
 		parent = ship_light_medium_battery_2
 		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
 
 		add_stats = {
 
@@ -547,12 +550,12 @@ equipment_modules = {
 		abbreviation = "sar"
 		category = ship_medium_battery
 		sfx = sfx_ui_sd_module_turret
-		gui_category = ship_light_battery
+		gui_category = ship_medium_battery
 		parent = ship_light_medium_battery_3
+		add_equipment_type = capital_ship
+		
 		add_stats = {
-
 			lg_attack = 7.5
-
 			build_cost_ic = 350
 		}
 		multiply_stats = {

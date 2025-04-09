@@ -14,13 +14,13 @@ equipments = {
 		is_buildable = no
 		type = screen_ship
 		interface_category = interface_category_screen_ships
-		alias = light_cruiser
+		alias = cruiser
 		priority = 1950
 
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
-				allowed_module_categories = { ship_light_battery ship_medium_battery }
+				allowed_module_categories = { ship_medium_battery }
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
@@ -90,7 +90,7 @@ equipments = {
 		}
 
 		default_modules = {
-			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_battery_slot = ship_light_medium_battery_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = ship_radar_1
@@ -863,7 +863,7 @@ equipments = {
 		}
 
 		module_slots = {
-			fixed_ship_battery_slot = inherit
+			fixed_ship_battery_slot = ship_medium_battery_1
 			fixed_ship_anti_air_slot = inherit
 			fixed_ship_fire_control_system_slot = inherit
 			fixed_ship_radar_slot = inherit

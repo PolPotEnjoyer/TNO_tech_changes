@@ -184,6 +184,7 @@ sub_units = {
 		sprite = infantry
 		map_icon_category = infantry
 		special_forces = yes
+		can_be_parachuted = yes
 
 		priority = 1001
 		ai_priority = 200
@@ -260,6 +261,7 @@ sub_units = {
 		sprite = infantry
 		map_icon_category = infantry
 		special_forces = yes
+		can_be_parachuted = yes
 
 		priority = 2
 		ai_priority = 2
@@ -301,8 +303,6 @@ sub_units = {
 		movement = 1
 
 		transport = transport_helicopter_equipment
-
-		can_be_parachuted = no
 	
 		need = {
 			infantry_equipment = 150

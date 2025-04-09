@@ -32,6 +32,5 @@ Restore infrastructure balance back to vanilla levels
 Fixed blank GFX for flame tank companies #Currently just a generic AFV/MBT sprite but it's better than no GFX at all
 Nerf rifle piercing values #That's what rocket launchers are for!
 Nerf infantry AA to shred CAS a bit less #That's what MANPADs and towed AA are for!
-Fix Muto's GFX
 Reduced frequency of ace generation
 Made Japanese power grid properly dependent on power stations, and nerfed it somewhat
