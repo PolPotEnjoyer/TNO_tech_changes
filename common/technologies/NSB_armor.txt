@@ -5,6 +5,12 @@ technologies = {
 ############
 
 	NSB_AC_1945 = {
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Basic_Tech = yes
+				TNO_KD_Can_Research_Basic_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			armored_car_chassis_0
 		}
@@ -33,11 +39,17 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 50
+			factor = 10
 		}
 	}
 
 	NSB_AC_1950 = {
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Basic_Tech = yes
+				TNO_KD_Can_Research_Basic_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			armored_car_chassis_1
 		}
@@ -58,11 +70,17 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 50
+			factor = 10
 		}
 	}
 
 	NSB_AC_1960 = {
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Basic_Tech = yes
+				TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			armored_car_chassis_2
 		}
@@ -83,11 +101,17 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 50
+			factor = 10
 		}
 	}
 
 	NSB_AC_1970 = {
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Outdated_Tech = yes
+				TNO_KD_Can_Research_Basic_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			armored_car_chassis_3
 		}
@@ -108,11 +132,17 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 50
+			factor = 10
 		}
 	}
 
 	NSB_AC_1980 = {
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Modern_Tech = yes
+				TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			armored_car_chassis_4
 		}
@@ -133,11 +163,17 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 50
+			factor = 10
 		}
 	}
 
 	NSB_AC_1990 = {
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Advanced_Tech = yes
+				TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			armored_car_chassis_5
 		}
@@ -163,7 +199,12 @@ technologies = {
 ###########
 
 	NSB_APC_1945 = {
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Basic_Tech = yes
+				TNO_KD_Can_Research_Basic_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			APC_chassis_0
 		}
@@ -200,7 +241,12 @@ technologies = {
 	}
 
 	NSB_APC_1950 = { #Panzer I
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Outdated_Tech = yes
+				TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			APC_chassis_1
 		}
@@ -234,7 +280,12 @@ technologies = {
 	}
 
 	NSB_APC_1960 = { #Panzer II / APC 1960
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Outdated_Tech = yes
+				TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			APC_chassis_2
 		}
@@ -269,7 +320,12 @@ technologies = {
 	}
 
 	NSB_APC_1970 = { #Leopard
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Modern_Tech = yes
+				TNO_KD_Can_Research_Developed_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			APC_chassis_3
 		}
@@ -303,7 +359,12 @@ technologies = {
 	}
 
 	NSB_APC_1980 = { #Leopard
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Advanced_Tech = yes
+				TNO_KD_Can_Research_Modern_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			APC_chassis_4
 		}
@@ -333,7 +394,12 @@ technologies = {
 	}
 
 	NSB_APC_1990 = { #Leopard
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Advanced_Tech = yes
+				TNO_KD_Can_Research_Modern_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			APC_chassis_5
 		}
@@ -363,15 +429,16 @@ technologies = {
 ###########
 
 	NSB_IFV_1945 = { #First IFV
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Basic_Tech = yes
+				TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			IFV_chassis_0
 		}
 		enable_equipment_modules = {
-
-			tank_gasoline_engine
-			tank_diesel_engine
-			tank_petrol_electric_engine
 
 			tank_torsion_bar_suspension
 			tank_christie_suspension
@@ -428,7 +495,12 @@ technologies = {
 	}
 
 	NSB_IFV_1945_modules_1 = {
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Basic_Tech = yes
+				TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+			}
+		}
 		research_cost = 1
 		start_year = 1945
 
@@ -452,7 +524,12 @@ technologies = {
 		}
 	}
 	NSB_IFV_1945_modules_2 = {
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Basic_Tech = yes
+				TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+			}
+		}
 		research_cost = 1
 		start_year = 1945
 
@@ -476,7 +553,12 @@ technologies = {
 	}
 
 	NSB_IFV_1950 = { #2nd IFV
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Outdated_Tech = yes
+				TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			IFV_chassis_1
 		}
@@ -516,7 +598,12 @@ technologies = {
 	}
 
 	NSB_IFV_1950_modules_1 = {
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Basic_Tech = yes
+				TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+			}
+		}
 		research_cost = 1
 		start_year = 1955
 
@@ -540,7 +627,12 @@ technologies = {
 		}
 	}
 	NSB_IFV_1950_modules_2 = {
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Outdated_Tech = yes
+				TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+			}
+		}
 		research_cost = 1
 		start_year = 1955
 
@@ -565,7 +657,12 @@ technologies = {
 	}
 
 	NSB_IFV_1960 = { #
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Outdated_Tech = yes
+				TNO_KD_Can_Research_Developed_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			IFV_chassis_2
 		}
@@ -605,7 +702,12 @@ technologies = {
 	}
 
 	NSB_IFV_1960_modules_1 = {
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Modern_Tech = yes
+				TNO_KD_Can_Research_Developed_Manufactoring = yes
+			}
+		}
 		research_cost = 1
 		start_year = 1965
 
@@ -629,7 +731,12 @@ technologies = {
 		}
 	}
 	NSB_IFV_1960_modules_2 = {
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Modern_Tech = yes
+				TNO_KD_Can_Research_Developed_Manufactoring = yes
+			}
+		}
 		research_cost = 1
 		start_year = 1965
 
@@ -654,7 +761,12 @@ technologies = {
 	}
 
 	NSB_IFV_1970 = { #
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Modern_Tech = yes
+				TNO_KD_Can_Research_Modern_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			IFV_chassis_3
 		}
@@ -685,7 +797,12 @@ technologies = {
 	}
 
 	NSB_IFV_1980 = { #
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Advanced_Tech = yes
+				TNO_KD_Can_Research_Modern_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			IFV_chassis_4
 		}
@@ -716,7 +833,12 @@ technologies = {
 	}
 
 	NSB_IFV_1990 = { #
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Advanced_Tech = yes
+				TNO_KD_Can_Research_Modern_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			IFV_chassis_5
 		}
@@ -746,7 +868,12 @@ technologies = {
 ###########
 
 	NSB_MBT_1945 = { #
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Basic_Tech = yes
+				TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			MBT_chassis_0
 		}
@@ -774,7 +901,19 @@ technologies = {
 
 
 		ai_will_do = {
-			factor = 50
+			factor = 1
+			modifier = {
+				factor = -100
+				num_of_military_factories < 30
+			}
+			modifier = {
+				factor = 50
+				num_of_military_factories > 30
+			}
+			modifier = {
+				factor = 50
+				num_of_military_factories > 50
+			}
 		}
 
 		categories = {
@@ -790,7 +929,12 @@ technologies = {
 	}
 
 	NSB_MBT_1945_modules_1 = {
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Basic_Tech = yes
+				TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+			}
+		}
 		research_cost = 1
 		start_year = 1945
 
@@ -814,7 +958,12 @@ technologies = {
 		}
 	}
 	NSB_MBT_1945_modules_2 = {
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Basic_Tech = yes
+				TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+			}
+		}
 		research_cost = 1
 		start_year = 1945
 
@@ -839,7 +988,12 @@ technologies = {
 	}
 
 	NSB_MBT_1950 = { #
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Outdated_Tech = yes
+				TNO_KD_Can_Research_Developed_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			MBT_chassis_1
 		}
@@ -867,7 +1021,19 @@ technologies = {
 
 
 		ai_will_do = {
-			factor = 50
+			factor = 15
+			modifier = {
+				factor = -100
+				num_of_military_factories < 30
+			}
+			modifier = {
+				factor = 50
+				num_of_military_factories > 30
+			}
+			modifier = {
+				factor = 50
+				num_of_military_factories > 50
+			}
 		}
 
 		categories = {
@@ -877,7 +1043,12 @@ technologies = {
 	}
 
 	NSB_MBT_1950_modules_1 = {
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Outdated_Tech = yes
+				TNO_KD_Can_Research_Developed_Manufactoring = yes
+			}
+		}
 		research_cost = 1
 		start_year = 1955
 
@@ -901,7 +1072,13 @@ technologies = {
 		}
 	}
 	NSB_MBT_1950_modules_2 = {
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Outdated_Tech = yes
+				TNO_KD_Can_Research_Developed_Manufactoring = yes
+			}
+		}
+		dependencies = { computing_machine_1960 = 1 }
 		research_cost = 1
 		start_year = 1955
 
@@ -926,7 +1103,12 @@ technologies = {
 	}
 
 	NSB_MBT_1960 = { #
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Modern_Tech = yes
+				TNO_KD_Can_Research_Developed_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			MBT_chassis_2
 		}
@@ -954,7 +1136,19 @@ technologies = {
 
 
 		ai_will_do = {
-			factor = 50
+			factor = 15
+			modifier = {
+				factor = -100
+				num_of_military_factories < 30
+			}
+			modifier = {
+				factor = 50
+				num_of_military_factories > 30
+			}
+			modifier = {
+				factor = 50
+				num_of_military_factories > 50
+			}
 		}
 
 		categories = {
@@ -964,7 +1158,12 @@ technologies = {
 	}
 
 	NSB_MBT_1960_modules_1 = {
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Outdated_Tech = yes
+				TNO_KD_Can_Research_Developed_Manufactoring = yes
+			}
+		}
 		research_cost = 1
 		start_year = 1965
 
@@ -988,7 +1187,12 @@ technologies = {
 		}
 	}
 	NSB_MBT_1960_modules_2 = {
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Modern_Tech = yes
+				TNO_KD_Can_Research_Developed_Manufactoring = yes
+			}
+		}
 		research_cost = 1
 		start_year = 1965
 
@@ -999,7 +1203,7 @@ technologies = {
 
 
 		ai_will_do = {
-			factor = 50
+			factor = 0
 		}
 
 		categories = {
@@ -1013,7 +1217,12 @@ technologies = {
 	}
 
 	NSB_MBT_1970 = { #
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Modern_Tech = yes
+				TNO_KD_Can_Research_Modern_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			MBT_chassis_3
 		}
@@ -1047,7 +1256,12 @@ technologies = {
 	}
 
 	NSB_MBT_1980 = { #
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Advanced_Tech = yes
+				TNO_KD_Can_Research_Advanced_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			MBT_chassis_4
 		}
@@ -1076,7 +1290,12 @@ technologies = {
 	}
 
 	NSB_MBT_1990 = { #
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Advanced_Manufactoring = yes
+				TNO_KD_Can_Research_Advanced_Tech = yes
+			}
+		}
 		enable_equipments = {
 			MBT_chassis_5
 		}
@@ -1105,7 +1324,12 @@ technologies = {
 ###########
 
 	NSB_artillery_1945 = { #Starting artillery
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Basic_Tech = yes
+				TNO_KD_Can_Research_Basic_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			artillery_equipment_2
 		}
@@ -1129,7 +1353,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 15
 		}
 
 		enable_equipment_modules = {
@@ -1143,7 +1367,12 @@ technologies = {
 	}
 
 	NSB_artillery_1950 = { #
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Basic_Tech = yes
+				TNO_KD_Can_Research_Basic_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			artillery_equipment_3
 		}
@@ -1175,7 +1404,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 15
 		}
 
 		enable_equipment_modules = {
@@ -1191,7 +1420,12 @@ technologies = {
 	}
 
 	NSB_artillery_MODULE = {
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Outdated_Tech = yes
+				TNO_KD_Can_Research_Basic_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			#
 		}
@@ -1228,6 +1462,12 @@ technologies = {
 	}
 
 	NSB_artillery_1950_SA = { #50s upgrades
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Basic_Tech = yes
+				TNO_KD_Can_Research_Basic_Manufactoring = yes
+			}
+		}
 		artillery_brigade = {
 			soft_attack = 0.05
 		}
@@ -1257,6 +1497,12 @@ technologies = {
 	}
 
 	NSB_artillery_1950_SA_2 = { #
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Basic_Tech = yes
+				TNO_KD_Can_Research_Basic_Manufactoring = yes
+			}
+		}
 		artillery_brigade = {
 			soft_attack = 0.1
 		}
@@ -1286,6 +1532,12 @@ technologies = {
 	}
 
 	NSB_artillery_1950_SA_3 = { #
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Basic_Tech = yes
+				TNO_KD_Can_Research_Basic_Manufactoring = yes
+			}
+		}
 		artillery_brigade = {
 			soft_attack = 0.15
 		}
@@ -1311,7 +1563,12 @@ technologies = {
 	}
 
 	NSB_artillery_1970 = { #
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Modern_Tech = yes
+				TNO_KD_Can_Research_Modern_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			artillery_equipment_4
 		}
@@ -1339,7 +1596,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 15
 		}
 
 		enable_equipment_modules = {
@@ -1357,6 +1614,12 @@ technologies = {
 	}
 
 	NSB_artillery_1970_SA = { #70s upgrades
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Modern_Tech = yes
+				TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+			}
+		}
 		artillery_brigade = {
 			soft_attack = 0.05
 		}
@@ -1386,6 +1649,12 @@ technologies = {
 	}
 
 	NSB_artillery_1970_SA_2 = { #
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Modern_Tech = yes
+				TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+			}
+		}
 		artillery_brigade = {
 			soft_attack = 0.1
 		}
@@ -1415,6 +1684,12 @@ technologies = {
 	}
 
 	NSB_artillery_1970_SA_3 = { #
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Modern_Tech = yes
+				TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+			}
+		}
 		artillery_brigade = {
 			soft_attack = 0.15
 		}
@@ -1440,7 +1715,12 @@ technologies = {
 	}
 
 	NSB_artillery_1990 = { #
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Advanced_Tech = yes
+				TNO_KD_Can_Research_Modern_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			artillery_equipment_5
 		}
@@ -1468,7 +1748,12 @@ technologies = {
 ###########
 
 	NSB_antiair_1945 = { #Starting artillery
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Basic_Tech = yes
+				TNO_KD_Can_Research_Basic_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			anti_air_equipment_1
 		}
@@ -1503,7 +1788,12 @@ technologies = {
 	}
 
 	NSB_antiair_1950 = { #
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Outdated_Tech = yes
+				TNO_KD_Can_Research_Basic_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			anti_air_equipment_2
 		}
@@ -1548,7 +1838,12 @@ technologies = {
 	}
 
 	NSB_antiair_MODULE = {
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Outdated_Tech = yes
+				TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			#
 		}
@@ -1580,6 +1875,12 @@ technologies = {
 	}
 
 	NSB_antiair_1950_AA = {
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Outdated_Tech = yes
+				TNO_KD_Can_Research_Basic_Manufactoring = yes
+			}
+		}
 		anti_air_brigade = {
 			air_attack = 0.05
 		}
@@ -1610,6 +1911,12 @@ technologies = {
 	}
 
 	NSB_antiair_1950_AA_2 = {
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Outdated_Tech = yes
+				TNO_KD_Can_Research_Basic_Manufactoring = yes
+			}
+		}
 		anti_air_brigade = {
 			air_attack = 0.1
 		}
@@ -1640,6 +1947,12 @@ technologies = {
 	}
 
 	NSB_antiair_1950_AA_3 = {
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Outdated_Tech = yes
+				TNO_KD_Can_Research_Basic_Manufactoring = yes
+			}
+		}
 		anti_air_brigade = {
 			air_attack = 0.15
 		}
@@ -1666,7 +1979,12 @@ technologies = {
 	}
 
 	NSB_antiair_1970 = { #
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Modern_Tech = yes
+				TNO_KD_Can_Research_Developed_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			anti_air_equipment_3
 		}
@@ -1708,6 +2026,12 @@ technologies = {
 	}
 
 	NSB_antiair_1970_AA = {
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Modern_Tech = yes
+				TNO_KD_Can_Research_Developed_Manufactoring = yes
+			}
+		}
 		anti_air_brigade = {
 			air_attack = 0.05
 		}
@@ -1738,6 +2062,12 @@ technologies = {
 	}
 
 	NSB_antiair_1970_AA_2 = {
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Modern_Tech = yes
+				TNO_KD_Can_Research_Developed_Manufactoring = yes
+			}
+		}
 		anti_air_brigade = {
 			air_attack = 0.1
 		}
@@ -1768,6 +2098,12 @@ technologies = {
 	}
 
 	NSB_antiair_1970_AA_3 = {
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Modern_Tech = yes
+				TNO_KD_Can_Research_Developed_Manufactoring = yes
+			}
+		}
 		anti_air_brigade = {
 			air_attack = 0.15
 		}
@@ -1794,7 +2130,12 @@ technologies = {
 	}
 
 	NSB_antiair_1990 = { #
-
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Advanced_Tech = yes
+				TNO_KD_Can_Research_Developed_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			anti_air_equipment_4
 		}
@@ -1827,7 +2168,9 @@ technologies = {
 ############
 
 	NSB_Armour_1 = {
-
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+		}
 		path = {
 			leads_to_tech = NSB_Armour_2
 			research_cost_coeff = 1
@@ -1857,7 +2200,9 @@ technologies = {
 	}
 
 	NSB_Armour_2 = {
-
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+		}
 		path = {
 			leads_to_tech = NSB_Armour_3
 			research_cost_coeff = 1
@@ -1887,7 +2232,9 @@ technologies = {
 	}
 
 	NSB_Armour_3 = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+		}
 		path = {
 			leads_to_tech = NSB_Armour_4
 			research_cost_coeff = 1
@@ -1921,7 +2268,9 @@ technologies = {
 	}
 
 	NSB_Armour_4 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+		}
 		on_research_complete = {
 			custom_effect_tooltip = armor_tech_4_tt
 		}
@@ -1950,6 +2299,9 @@ technologies = {
 ##########
 
 	NSB_Engine_1 = {
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+		}
 		path = {
 			leads_to_tech = NSB_Engine_2
 			research_cost_coeff = 1
@@ -1979,6 +2331,9 @@ technologies = {
 	}
 
 	NSB_Engine_2 = {
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+		}
 		path = {
 			leads_to_tech = NSB_Engine_3
 			research_cost_coeff = 1
@@ -2008,6 +2363,9 @@ technologies = {
 	}
 
 	NSB_Engine_3 = {
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+		}
 		path = {
 			leads_to_tech = NSB_Engine_4
 			research_cost_coeff = 1
@@ -2037,7 +2395,9 @@ technologies = {
 	}
 
 	NSB_Engine_4 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+		}
 		on_research_complete = {
 			custom_effect_tooltip = engine_tech_4_tt
 		}
@@ -2094,6 +2454,12 @@ technologies = {
 ###########
 
 	NSB_heavy_1945 = {
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Basic_Tech = yes
+				TNO_KD_Can_Research_Developed_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			heavy_tank_chassis_0
 		}
@@ -2119,7 +2485,11 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 50
+			factor = 10
+			modifier = {
+				factor = 0
+				has_idea = tno_research_facilities_modern
+			}
 		}
 
 		enable_subunits = {
@@ -2128,6 +2498,12 @@ technologies = {
 	}
 
 	NSB_heavy_1950 = {
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Outdated_Tech = yes
+				TNO_KD_Can_Research_Developed_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			heavy_tank_chassis_1
 		}
@@ -2148,11 +2524,21 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 50
+			factor = 30
+			modifier = {
+				factor = 0
+				has_idea = tno_research_facilities_modern
+			}
 		}
 	}
 
 	NSB_heavy_1960 = {
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Modern_Tech = yes
+				TNO_KD_Can_Research_Developed_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			heavy_tank_chassis_2
 		}
@@ -2173,11 +2559,21 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 50
+			factor = 30
+			modifier = {
+				factor = 0
+				has_idea = tno_research_facilities_modern
+			}
 		}
 	}
 
 	NSB_heavy_1970 = {
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Modern_Tech = yes
+				TNO_KD_Can_Research_Modern_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			heavy_tank_chassis_3
 		}
@@ -2198,7 +2594,11 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 50
+			factor = 30
+			modifier = {
+				factor = 0
+				has_idea = tno_research_facilities_modern
+			}
 		}
 	}
 
@@ -2207,6 +2607,12 @@ technologies = {
 ###########
 
 	NSB_superheavy_1945 = {
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Outdated_Tech = yes
+				TNO_KD_Can_Research_Developed_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			superheavy_tank_chassis_0
 		}
@@ -2232,7 +2638,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 50
+			factor = 0
 		}
 
 		enable_subunits = {
@@ -2241,6 +2647,12 @@ technologies = {
 	}
 
 	NSB_superheavy_1950 = {
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Outdated_Tech = yes
+				TNO_KD_Can_Research_Developed_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			superheavy_tank_chassis_1
 		}
@@ -2261,11 +2673,17 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 50
+			factor = 0
 		}
 	}
 
 	NSB_superheavy_1960 = {
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Modern_Tech = yes
+				TNO_KD_Can_Research_Modern_Manufactoring = yes
+			}
+		}
 		enable_equipments = {
 			superheavy_tank_chassis_2
 		}
@@ -2282,7 +2700,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 50
+			factor = 0
 		}
 	}
 

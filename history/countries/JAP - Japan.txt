@@ -97,7 +97,7 @@ if = {
 	set_oob = "JAP_1962_nsb"
 }
 
-set_research_slots = 5
+set_research_slots = 4 #KD's Notes - 5 is excessive, you always end up researching 1970 tech in 1965
 set_convoys = 200
 #add_stability = 0
 #add_war_support =
@@ -145,12 +145,12 @@ set_technology = {
 	motorized_infantry = 1
 	motorized_rocket_unit = 1
 	motorized_infantry_1 = 1
-	marines = 1
 	#
 	tech_special_forces = 1
+	marines = 1
 	marines2 = 1
+	marines3 = 1
 	tech_mountaineers = 1
-	#
 	tech_mountaineers2 = 1
 	tech_mountaineers3 = 1
 	paratroopers = 1
@@ -175,6 +175,7 @@ set_technology = {
 	tech_field_hospital = 1
 	tech_field_hospital2 = 1
 	tech_logistics_company = 1
+	tech_logistics_company2 = 1
 	tech_signal_company = 1
 	tech_signal_company2 = 1
 	command_and_control1 = 1
@@ -287,6 +288,10 @@ set_technology = {
 	prison_construction_1 = 1
 	batch_production_1 = 1
 	batch_production_2 = 1
+	production_unit_gain_1 = 1
+	production_unit_gain_2 = 1
+	consumer_goods_reduction_1 = 1
+	consumer_goods_reduction_2 = 1
 	
 	##WMDs##
 	ICBM = 1
@@ -627,6 +632,8 @@ add_ideas = {
 }
 
 add_dynamic_modifier = { modifier = JAP_military_extra_funding }
+add_dynamic_modifier = { modifier = JAP_colonial_costs }
+set_variable = { JAP_colonial_costs = 7 } #1 from Borneo, 1.5 for Malaya, rest for commitments around the Sphere
 
 # Policy effectivness
 

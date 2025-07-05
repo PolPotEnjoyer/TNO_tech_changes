@@ -3,7 +3,6 @@ technologies = {
 ## INFANTRY WEAPONS ##
 
 	infantry_weapons_1 = {
-
 		enable_equipments = {
 			infantry_equipment_0
 		}
@@ -46,7 +45,9 @@ technologies = {
 	}
 
 	infantry_weapons_2 = {
-
+		allow = {
+			TNO_KD_Can_Research_Basic_Manufactoring = yes
+		}
 		enable_equipments = {
 			infantry_equipment_1
 		}
@@ -72,36 +73,10 @@ technologies = {
 		}
 	}
 
-	#infantry_weapons_improvements_mine_1 = {
-	#
-	#	category_light_infantry = {
-	#		soft_attack = 0.025
-	#	}
-	#	motorized = {
-	#		soft_attack = 0.025
-	#	}
-	#	path = {
-	#		leads_to_tech = infantry_weapons_improvements_ammo_1
-	#		research_cost_coeff = 1
-	#	}
-	#
-	#	research_cost = 1
-	#	start_year = 1950
-	#	folder = {
-	#		name = infantry_folder
-	#		position = { x = 0 y = 7 }
-	#	}
-	#
-	#	categories = {
-	#		infantry_weapons
-	#	}
-	#
-	#	ai_will_do = {
-	#		factor = 75
-	#	}
-	#}
 	infantry_weapons_improvements_mine_1 = {
-
+		allow = {
+			TNO_KD_Can_Research_Basic_Manufactoring = yes
+		}
 		category_light_infantry = {
 			soft_attack = 0.05
 			hard_attack = 0.075
@@ -131,7 +106,9 @@ technologies = {
 		}
 	}
 	infantry_weapons_improvements_ammo_1 = {
-
+		allow = {
+			TNO_KD_Can_Research_Basic_Manufactoring = yes
+		}
 		category_light_infantry = {
 			soft_attack = 0.05
 			ap_attack = 0.1
@@ -161,7 +138,9 @@ technologies = {
 		}
 	}
 	infantry_weapons_improvements_grenade_1 = {
-
+		allow = {
+			TNO_KD_Can_Research_Basic_Manufactoring = yes
+		}
 		category_light_infantry = {
 			soft_attack = 0.05
 			breakthrough = 0.025
@@ -193,7 +172,10 @@ technologies = {
 		}
 	}
 	infantry_weapons_3 = {
-
+		allow = {
+			TNO_KD_Can_Research_Basic_Tech = yes
+			TNO_KD_Can_Research_Basic_Manufactoring = yes
+		}
 		enable_equipments = {
 			infantry_equipment_2
 		}
@@ -220,7 +202,10 @@ technologies = {
 	}
 
 	infantry_weapons_improvements_mine_2 = {
-
+		allow = {
+			TNO_KD_Can_Research_Basic_Tech = yes
+			TNO_KD_Can_Research_Basic_Manufactoring = yes
+		}
 		category_light_infantry = {
 			soft_attack = 0.05
 			hard_attack = 0.075
@@ -250,7 +235,10 @@ technologies = {
 		}
 	}
 	infantry_weapons_improvements_ammo_2 = {
-
+		allow = {
+			TNO_KD_Can_Research_Basic_Tech = yes
+			TNO_KD_Can_Research_Basic_Manufactoring = yes
+		}
 		category_light_infantry = {
 			soft_attack = 0.05
 			ap_attack = 0.1
@@ -280,7 +268,10 @@ technologies = {
 		}
 	}
 	infantry_weapons_improvements_grenade_2 = {
-
+		allow = {
+			TNO_KD_Can_Research_Basic_Tech = yes
+			TNO_KD_Can_Research_Basic_Manufactoring = yes
+		}
 		category_light_infantry = {
 			soft_attack = 0.05
 			breakthrough = 0.025
@@ -312,7 +303,10 @@ technologies = {
 		}
 	}
 	infantry_weapons_4 = {
-
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+			TNO_KD_Can_Research_Basic_Manufactoring = yes
+		}
 		enable_equipments = {
 			infantry_equipment_3
 		}
@@ -338,7 +332,10 @@ technologies = {
 		}
 	}
 	infantry_weapons_improvements_mine_3 = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		category_light_infantry = {
 			soft_attack = 0.05
 			hard_attack = 0.075
@@ -368,7 +365,10 @@ technologies = {
 		}
 	}
 	infantry_weapons_improvements_ammo_3 = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		category_light_infantry = {
 			soft_attack = 0.05
 			ap_attack = 0.1
@@ -398,7 +398,10 @@ technologies = {
 		}
 	}
 	infantry_weapons_improvements_grenade_3 = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		category_light_infantry = {
 			soft_attack = 0.05
 			breakthrough = 0.025
@@ -430,7 +433,10 @@ technologies = {
 		}
 	}
 	infantry_weapons_5 = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		enable_equipments = {
 			infantry_equipment_4
 		}
@@ -456,7 +462,10 @@ technologies = {
 		}
 	}
 	infantry_weapons_improvements_mine_4 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Basic_Manufactoring = yes
+		}
 		category_light_infantry = {
 			soft_attack = 0.05
 			hard_attack = 0.075
@@ -486,7 +495,10 @@ technologies = {
 		}
 	}
 	infantry_weapons_improvements_ammo_4 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		category_light_infantry = {
 			soft_attack = 0.05
 			ap_attack = 0.1
@@ -516,7 +528,10 @@ technologies = {
 		}
 	}
 	infantry_weapons_improvements_grenade_4 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Modern_Manufactoring = yes
+		}
 		category_light_infantry = {
 			soft_attack = 0.05
 			breakthrough = 0.025
@@ -548,7 +563,10 @@ technologies = {
 		}
 	}
 	infantry_weapons_6 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Modern_Manufactoring = yes
+		}
 		enable_equipments = {
 			infantry_equipment_5
 		}
@@ -582,7 +600,10 @@ technologies = {
 			breakthrough = 0.025
 			default_morale = 0.015
 		}
-		enemy_army_bonus_air_superiority_factor = -0.025
+		category_all_infantry = {
+			acclimatization_cold_climate_gain_factor = 0.05
+			acclimatization_hot_climate_gain_factor = 0.05
+		}
 		enable_equipments = {
 			infantry_kit_eq_36
 		}
@@ -618,7 +639,10 @@ technologies = {
 			breakthrough = 0.025
 			default_morale = 0.015
 		}
-		enemy_army_bonus_air_superiority_factor = -0.025
+		category_all_infantry = {
+			acclimatization_cold_climate_gain_factor = 0.05
+			acclimatization_hot_climate_gain_factor = 0.05
+		}
 		enable_equipments = {
 			infantry_kit_eq_45
 		}
@@ -644,6 +668,9 @@ technologies = {
 	}
 
 	infantry_kit_3 = {
+		allow = {
+			TNO_KD_Can_Research_Basic_Tech = yes
+		}
 		category_light_infantry = {
 			defense = 0.025
 			breakthrough = 0.025
@@ -654,7 +681,10 @@ technologies = {
 			breakthrough = 0.025
 			default_morale = 0.025
 		}
-		enemy_army_bonus_air_superiority_factor = -0.025
+		category_all_infantry = {
+			acclimatization_cold_climate_gain_factor = 0.05
+			acclimatization_hot_climate_gain_factor = 0.05
+		}
 		enable_equipments = {
 			infantry_kit_eq_52
 		}
@@ -680,6 +710,9 @@ technologies = {
 	}
 
 	infantry_kit_4 = {
+		allow = {
+			TNO_KD_Can_Research_Basic_Tech = yes
+		}
 		category_light_infantry = {
 			defense = 0.025
 			breakthrough = 0.025
@@ -690,7 +723,10 @@ technologies = {
 			breakthrough = 0.025
 			default_morale = 0.025
 		}
-		enemy_army_bonus_air_superiority_factor = -0.025
+		category_all_infantry = {
+			acclimatization_cold_climate_gain_factor = 0.05
+			acclimatization_hot_climate_gain_factor = 0.05
+		}
 		enable_equipments = {
 			infantry_kit_eq_58
 		}
@@ -716,6 +752,9 @@ technologies = {
 	}
 
 	infantry_kit_5 = {
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+		}
 		category_light_infantry = {
 			defense = 0.025
 			breakthrough = 0.025
@@ -726,7 +765,10 @@ technologies = {
 			breakthrough = 0.025
 			default_morale = 0.025
 		}
-		enemy_army_bonus_air_superiority_factor = -0.025
+		category_all_infantry = {
+			acclimatization_cold_climate_gain_factor = 0.05
+			acclimatization_hot_climate_gain_factor = 0.05
+		}
 		enable_equipments = {
 			infantry_kit_eq_64
 		}
@@ -752,6 +794,9 @@ technologies = {
 	}
 
 	infantry_kit_6 = {
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+		}
 		category_light_infantry = {
 			defense = 0.025
 			breakthrough = 0.025
@@ -762,7 +807,10 @@ technologies = {
 			breakthrough = 0.025
 			default_morale = 0.025
 		}
-		enemy_army_bonus_air_superiority_factor = -0.025
+		category_all_infantry = {
+			acclimatization_cold_climate_gain_factor = 0.05
+			acclimatization_hot_climate_gain_factor = 0.05
+		}
 		enable_equipments = {
 			infantry_kit_eq_70
 		}
@@ -788,6 +836,9 @@ technologies = {
 	}
 
 	infantry_kit_7 = {
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+		}
 		category_light_infantry = {
 			defense = 0.025
 			breakthrough = 0.025
@@ -798,7 +849,10 @@ technologies = {
 			breakthrough = 0.025
 			default_morale = 0.025
 		}
-		enemy_army_bonus_air_superiority_factor = -0.025
+		category_all_infantry = {
+			acclimatization_cold_climate_gain_factor = 0.05
+			acclimatization_hot_climate_gain_factor = 0.05
+		}
 		enable_equipments = {
 			infantry_kit_eq_76
 		}
@@ -824,6 +878,9 @@ technologies = {
 	}
 
 	infantry_kit_8 = {
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+		}
 		category_light_infantry = {
 			defense = 0.025
 			breakthrough = 0.025
@@ -834,7 +891,10 @@ technologies = {
 			breakthrough = 0.025
 			default_morale = 0.025
 		}
-		enemy_army_bonus_air_superiority_factor = -0.025
+		category_all_infantry = {
+			acclimatization_cold_climate_gain_factor = 0.05
+			acclimatization_hot_climate_gain_factor = 0.05
+		}
 		enable_equipments = {
 			infantry_kit_eq_82
 		}
@@ -860,6 +920,9 @@ technologies = {
 	}
 
 	infantry_kit_9 = {
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+		}
 		category_light_infantry = {
 			defense = 0.025
 			breakthrough = 0.025
@@ -870,7 +933,10 @@ technologies = {
 			breakthrough = 0.025
 			default_morale = 0.025
 		}
-		enemy_army_bonus_air_superiority_factor = -0.025
+		category_all_infantry = {
+			acclimatization_cold_climate_gain_factor = 0.05
+			acclimatization_hot_climate_gain_factor = 0.05
+		}
 		enable_equipments = {
 			infantry_kit_eq_88
 		}
@@ -894,8 +960,13 @@ technologies = {
 ## SPECIAL FORCES ##
 
 	paratroopers = {
+		allow = {
+			AND = {
+				TNO_KD_Can_Research_Modern_SPECOPS = yes
+			}	
+		}
 		dependencies = {
-			early_helicopter = 1
+			transport_helicopter_1960 = 1
 		}
 
 		enable_subunits = {
@@ -920,31 +991,29 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
-
+			factor = 100
 			modifier = {
-				factor = 2
-				tag = USA
+				factor = -100
+				num_of_military_factories < 30
 			}
-
 			modifier = {
-				factor = 2
-				tag = GER
+				factor = 50
+				num_of_military_factories > 30
 			}
-
 			modifier = {
-				factor = 2
-				tag = ENG
+				factor = 150
+				num_of_military_factories > 50
 			}
 		}
 	}
 
 	paratroopers2 = {
-
+		allow = { TNO_KD_Can_Research_Modern_SPECOPS = yes }
 		air_assault = {
 			max_organisation = 2
 			soft_attack = 0.025
 			default_morale = 0.025
+			equipment_capture_factor = 0.01
 		}
 
 		path = {
@@ -965,31 +1034,29 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
-
+			factor = 100
 			modifier = {
-				factor = 2
-				tag = USA
+				factor = -100
+				num_of_military_factories < 30
 			}
-
 			modifier = {
-				factor = 2
-				tag = GER
+				factor = 50
+				num_of_military_factories > 30
 			}
-
 			modifier = {
-				factor = 2
-				tag = ENG
+				factor = 150
+				num_of_military_factories > 50
 			}
 		}
 	}
 
 	paratroopers3 = {
-
+		allow = { TNO_KD_Can_Research_Modern_SPECOPS = yes }
 		air_assault = {
 			max_organisation = 2
 			soft_attack = 0.025
 			default_morale = 0.025
+			equipment_capture_factor = 0.01
 		}
 		path = {
 			leads_to_tech = paratroopers4
@@ -1009,29 +1076,27 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
-
+			factor = 100
 			modifier = {
-				factor = 2
-				tag = USA
+				factor = -100
+				num_of_military_factories < 30
 			}
-
 			modifier = {
-				factor = 2
-				tag = GER
+				factor = 50
+				num_of_military_factories > 30
 			}
-
 			modifier = {
-				factor = 2
-				tag = ENG
+				factor = 150
+				num_of_military_factories > 50
 			}
 		}
 	}
 	paratroopers4 = {
-
+		allow = { TNO_KD_Can_Research_Modern_SPECOPS = yes }
 		air_assault = {
 			max_organisation = 2
 			soft_attack = 0.025
+			equipment_capture_factor = 0.01
 			default_morale = 0.025
 		}
 
@@ -1052,21 +1117,11 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
+			factor = 100
 		}
 	}
 	paratroopers5 = {
-
+		allow = { TNO_KD_Can_Research_Modern_SPECOPS = yes }
 		air_assault = {
 			max_organisation = 2
 			soft_attack = 0.025
@@ -1089,21 +1144,11 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
+			factor = 100
 		}
 	}
 	paratroopers6 = {
-
+		allow = { TNO_KD_Can_Research_Modern_SPECOPS = yes }
 		air_assault = {
 			max_organisation = 2
 			soft_attack = 0.025
@@ -1123,21 +1168,11 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
+			factor = 100
 		}
 	}
 	marines = {
-
+		allow = { TNO_KD_Can_Research_Basic_SPECOPS = yes }
 		enable_subunits = {
 			marine
 		}
@@ -1221,25 +1256,22 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
-
+			factor = 70
 			modifier = {
-				factor = 2
-				tag = USA
-			}
-
-			modifier = {
-				factor = 2
-				tag = JAP
+				factor = 100
+				has_army_size = {
+					size > 20
+				}
 			}
 		}
 	}
 
 	marines2 = {
-
+		allow = { TNO_KD_Can_Research_Basic_SPECOPS = yes }
 		marine = {
 			max_organisation = 3
 			soft_attack = 0.05
+			equipment_capture_factor = 0.01
 			amphibious = {
 				attack = 0.05
 				movement = 0.05
@@ -1310,22 +1342,18 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
-
+			factor = 70
 			modifier = {
-				factor = 2
-				tag = USA
-			}
-
-			modifier = {
-				factor = 2
-				tag = JAP
+				factor = 100
+				has_army_size = {
+					size > 20
+				}
 			}
 		}
 	}
 
 	marines3 = {
-
+		allow = { TNO_KD_Can_Research_Basic_SPECOPS = yes }
 		marine = {
 			max_organisation = 2
 			soft_attack = 0.05
@@ -1398,24 +1426,21 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
-
+			factor = 70
 			modifier = {
-				factor = 2
-				tag = USA
-			}
-
-			modifier = {
-				factor = 2
-				tag = JAP
+				factor = 100
+				has_army_size = {
+					size > 20
+				}
 			}
 		}
 	}
 	marines4 = {
-
+		allow = { TNO_KD_Can_Research_Modern_SPECOPS = yes }
 		marine = {
 			max_organisation = 3
 			soft_attack = 0.05
+			equipment_capture_factor = 0.01
 			amphibious = {
 				attack = 0.05
 				movement = 0.05
@@ -1486,24 +1511,21 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
-
+			factor = 70
 			modifier = {
-				factor = 2
-				tag = USA
-			}
-
-			modifier = {
-				factor = 2
-				tag = JAP
+				factor = 100
+				has_army_size = {
+					size > 20
+				}
 			}
 		}
 	}
 	marines5 = {
-
+		allow = { TNO_KD_Can_Research_Modern_SPECOPS = yes }
 		marine = {
 			max_organisation = 2
 			soft_attack = 0.05
+			equipment_capture_factor = 0.01
 			amphibious = {
 				attack = 0.05
 				movement = 0.05
@@ -1573,21 +1595,17 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
-
+			factor = 70
 			modifier = {
-				factor = 2
-				tag = USA
-			}
-
-			modifier = {
-				factor = 2
-				tag = JAP
+				factor = 100
+				has_army_size = {
+					size > 20
+				}
 			}
 		}
 	}
 	marines6 = {
-
+		allow = { TNO_KD_Can_Research_Modern_SPECOPS = yes }
 		marine = {
 			max_organisation = 3
 			soft_attack = 0.05
@@ -1656,21 +1674,17 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
-
+			factor = 70
 			modifier = {
-				factor = 2
-				tag = USA
-			}
-
-			modifier = {
-				factor = 2
-				tag = JAP
+				factor = 100
+				has_army_size = {
+					size > 20
+				}
 			}
 		}
 	}
 	tech_mountaineers = {
-
+		allow = { TNO_KD_Can_Research_Basic_SPECOPS = yes }
 		enable_subunits = {
 			mountaineers
 		}
@@ -1780,13 +1794,21 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 70
+			modifier = {
+				factor = 100
+				has_army_size = {
+					size > 20
+				}
+			}
 		}
 	}
 
 	tech_mountaineers2 = {
+		allow = { TNO_KD_Can_Research_Basic_SPECOPS = yes }
 		mountaineers = {
 			max_organisation = 2
+			equipment_capture_factor = 0.01
 			hills = {
 				attack = 0.05
 				movement = 0.05
@@ -1885,12 +1907,18 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 70
+			modifier = {
+				factor = 100
+				has_army_size = {
+					size > 20
+				}
+			}
 		}
 	}
 
 	tech_mountaineers3 = {
-
+		allow = { TNO_KD_Can_Research_Basic_SPECOPS = yes }
 		mountaineers = {
 			hills = {
 				attack = 0.05
@@ -1990,12 +2018,20 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 70
+			modifier = {
+				factor = 100
+				has_army_size = {
+					size > 20
+				}
+			}
 		}
 	}
 	tech_mountaineers4 = {
+		allow = { TNO_KD_Can_Research_Modern_SPECOPS = yes }
 		mountaineers = {
 			max_organisation = 2
+			equipment_capture_factor = 0.01
 			hills = {
 				attack = 0.05
 				movement = 0.05
@@ -2092,22 +2128,19 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
-
+			factor = 70
 			modifier = {
-				factor = 2
-				tag = USA
-			}
-
-			modifier = {
-				factor = 2
-				tag = JAP
+				factor = 100
+				has_army_size = {
+					size > 20
+				}
 			}
 		}
 	}
 	tech_mountaineers5 = {
-
+		allow = { TNO_KD_Can_Research_Modern_SPECOPS = yes }
 		mountaineers = {
+			equipment_capture_factor = 0.01
 			hills = {
 				attack = 0.05
 				movement = 0.05
@@ -2204,20 +2237,17 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
-
+			factor = 70
 			modifier = {
-				factor = 2
-				tag = USA
-			}
-
-			modifier = {
-				factor = 2
-				tag = JAP
+				factor = 100
+				has_army_size = {
+					size > 20
+				}
 			}
 		}
 	}
 	tech_mountaineers6 = {
+		allow = { TNO_KD_Can_Research_Modern_SPECOPS = yes }
 		mountaineers = {
 			max_organisation = 2
 			hills = {
@@ -2313,21 +2343,17 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
-
+			factor = 70
 			modifier = {
-				factor = 2
-				tag = USA
-			}
-
-			modifier = {
-				factor = 2
-				tag = JAP
+				factor = 100
+				has_army_size = {
+					size > 20
+				}
 			}
 		}
 	}
 	assault_weapons_1 = {
-
+		allow = { TNO_KD_Can_Research_Flamethrowers = yes }
 		engineer = {
 			soft_attack = 0.25
 		}
@@ -2433,11 +2459,17 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 70
+			modifier = {
+				factor = 100
+				has_army_size = {
+					size > 20
+				}
+			}
 		}
 	}
 	assault_weapons_2 = {
-
+		allow = { TNO_KD_Can_Research_Flamethrowers = yes }
 		engineer = {
 			soft_attack = 0.25
 		}
@@ -2501,8 +2533,13 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
-
+			factor = 70
+			modifier = {
+				factor = 100
+				has_army_size = {
+					size > 20
+				}
+			}
 		}
 
 		enable_subunits = {
@@ -2511,7 +2548,7 @@ technologies = {
 		}
 	}
 	assault_weapons_3 = {
-
+		allow = { TNO_KD_Can_Research_Flamethrowers = yes }
 		engineer = {
 			soft_attack = 0.25
 		}
@@ -2573,12 +2610,17 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
-
+			factor = 70
+			modifier = {
+				factor = 100
+				has_army_size = {
+					size > 20
+				}
+			}
 		}
 	}
 	assault_weapons_4 = {
-
+		allow = { TNO_KD_Can_Research_Flamethrowers = yes }
 		engineer = {
 			soft_attack = 0.25
 		}
@@ -2640,12 +2682,17 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
-
+			factor = 70
+			modifier = {
+				factor = 100
+				has_army_size = {
+					size > 20
+				}
+			}
 		}
 	}
 	assault_weapons_5 = {
-
+		allow = { TNO_KD_Can_Research_Flamethrowers = yes }
 		engineer = {
 			soft_attack = 0.25
 		}
@@ -2707,12 +2754,17 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
-
+			factor = 70
+			modifier = {
+				factor = 100
+				has_army_size = {
+					size > 20
+				}
+			}
 		}
 	}
 	assault_weapons_6 = {
-
+		allow = { TNO_KD_Can_Research_Flamethrowers = yes }
 		engineer = {
 			soft_attack = 0.25
 		}
@@ -2769,8 +2821,13 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
-
+			factor = 70
+			modifier = {
+				factor = 100
+				has_army_size = {
+					size > 20
+				}
+			}
 		}
 	}
 	## WILL BE REWORKED WHEN NEW TREE IS IN. KEEP IN FILE ##
@@ -2858,7 +2915,9 @@ technologies = {
 	}
 
 	support_weapons = {
-
+		allow = {
+			TNO_KD_Can_Research_Basic_Manufactoring = yes
+		}
 		category_all_infantry = {
 			defense = 0.05
 			breakthrough = 0.05
@@ -2889,15 +2948,13 @@ technologies = {
 		}
 	}
 	combat_support_equipment_1 = { #i made it obvious which techs need new icons
-
+		allow = {
+			TNO_KD_Can_Research_Basic_Manufactoring = yes
+		}
 		army_morale_factor = 0.2
 		army_org_factor = 0.025
-		acclimatization_cold_climate_gain_factor = 0.05
-		acclimatization_hot_climate_gain_factor = 0.05
-
-		category_special_forces = {
-			acclimatization_cold_climate_gain_factor = 0.05
-			acclimatization_hot_climate_gain_factor = 0.05
+		category_all_infantry = {
+			casualty_trickleback = 0.01
 		}
 
 		path = {
@@ -2916,11 +2973,13 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 60
+			factor = 90 #This helps little tags a LOT
 		}
 	}
 	support_weapons_hmg_1 = {
-
+		allow = {
+			TNO_KD_Can_Research_Basic_Manufactoring = yes
+		}
 		category_all_infantry = {
 			defense = 0.05
 			breakthrough = 0.05
@@ -2951,7 +3010,9 @@ technologies = {
 		}
 	}
 	support_weapons_arty_1 = {
-
+		allow = {
+			TNO_KD_Can_Research_Basic_Manufactoring = yes
+		}
 		category_all_infantry = {
 			defense = 0.05
 			breakthrough = 0.05
@@ -2982,15 +3043,13 @@ technologies = {
 		}
 	}
 	combat_support_equipment_2 = {
-
+		allow = {
+			TNO_KD_Can_Research_Basic_Manufactoring = yes
+		}
 		army_morale_factor = 0.2
 		army_org_factor = 0.025
-		acclimatization_cold_climate_gain_factor = 0.05
-		acclimatization_hot_climate_gain_factor = 0.05
-
-		category_special_forces = {
-			acclimatization_cold_climate_gain_factor = 0.05
-			acclimatization_hot_climate_gain_factor = 0.05
+		category_all_infantry = {
+			casualty_trickleback = 0.01
 		}
 
 		path = {
@@ -3013,7 +3072,9 @@ technologies = {
 		}
 	}
 	support_weapons_hmg_2 = {
-
+		allow = {
+			TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+		}
 		category_all_infantry = {
 			defense = 0.05
 			breakthrough = 0.05
@@ -3044,7 +3105,9 @@ technologies = {
 		}
 	}
 	support_weapons_arty_2 = {
-
+		allow = {
+			TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+		}
 		category_all_infantry = {
 			defense = 0.05
 			breakthrough = 0.05
@@ -3075,15 +3138,14 @@ technologies = {
 		}
 	}
 	combat_support_equipment_3 = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		army_morale_factor = 0.2
 		army_org_factor = 0.025
-		acclimatization_cold_climate_gain_factor = 0.05
-		acclimatization_hot_climate_gain_factor = 0.05
-
-		category_special_forces = {
-			acclimatization_cold_climate_gain_factor = 0.05
-			acclimatization_hot_climate_gain_factor = 0.05
+		category_all_infantry = {
+			casualty_trickleback = 0.01
 		}
 
 		path = {
@@ -3106,7 +3168,10 @@ technologies = {
 		}
 	}
 	support_weapons_hmg_3 = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		category_all_infantry = {
 			defense = 0.05
 			breakthrough = 0.05
@@ -3137,7 +3202,10 @@ technologies = {
 		}
 	}
 	support_weapons_arty_3 = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		category_all_infantry = {
 			defense = 0.05
 			breakthrough = 0.05
@@ -3164,15 +3232,14 @@ technologies = {
 		}
 	}
 	combat_support_equipment_4 = {
-
-		army_morale_factor = 0.2
-		army_org_factor = 0.025
-		acclimatization_cold_climate_gain_factor = 0.05
-		acclimatization_hot_climate_gain_factor = 0.05
-
-		category_special_forces = {
-			acclimatization_cold_climate_gain_factor = 0.05
-			acclimatization_hot_climate_gain_factor = 0.05
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
+		army_morale_factor = 0.25
+		army_org_factor = 0.05
+		category_all_infantry = {
+			casualty_trickleback = 0.02
 		}
 
 		path = {
@@ -3195,7 +3262,10 @@ technologies = {
 		}
 	}
 	support_weapons_hmg_4 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		category_all_infantry = {
 			defense = 0.05
 			breakthrough = 0.05
@@ -3222,7 +3292,10 @@ technologies = {
 		}
 	}
 	support_weapons_arty_4 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		category_all_infantry = {
 			defense = 0.05
 			breakthrough = 0.05
@@ -3252,7 +3325,10 @@ technologies = {
 	###ANTI-AIR PATH###
 
 	infantry_aa1 = {
-
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+			TNO_KD_Can_Research_Basic_Manufactoring = yes
+		}
 		enable_equipments = {
 			anti_air_shoulder_equipment_0
 		}
@@ -3317,7 +3393,10 @@ technologies = {
 	}
 
 	infantry_aa2 = {
-
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+			TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+		}
 		enable_equipments = {
 			anti_air_shoulder_equipment_1
 		}
@@ -3387,7 +3466,10 @@ technologies = {
 	}
 
 	infantry_aa3 = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+		}
 		category_all_infantry = {
 			air_attack = 0.15
 		}
@@ -3416,7 +3498,10 @@ technologies = {
 	}
 
 	infantry_aa4 = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+		}
 		category_all_infantry = {
 			air_attack = 0.05
 		}
@@ -3449,7 +3534,10 @@ technologies = {
 	}
 
 	infantry_aa5 = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+		}
 		category_all_infantry = {
 			air_attack = 0.15
 		}
@@ -3478,7 +3566,10 @@ technologies = {
 	}
 
 	infantry_aa6 = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+		}
 		category_all_infantry = {
 			air_attack = 0.05
 		}
@@ -3512,7 +3603,10 @@ technologies = {
 	}
 
 	infantry_aa7 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+		}
 		category_all_infantry = {
 			air_attack = 0.15
 		}
@@ -3541,7 +3635,10 @@ technologies = {
 	}
 
 	infantry_aa8 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+		}
 		category_all_infantry = {
 			air_attack = 0.05
 		}
@@ -3596,7 +3693,9 @@ technologies = {
 	}
 
 	night_vision_2 = {
-
+		allow = {
+			TNO_KD_Can_Research_Basic_Tech = yes
+		}
 		land_night_attack = 0.025
 		night_spotting_chance = 0.025
 		air_carrier_night_penalty_reduction_factor = 0.05
@@ -3626,7 +3725,9 @@ technologies = {
 	}
 
 	night_vision_3 = {
-
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+		}
 		land_night_attack = 0.05
 		night_spotting_chance = 0.1
 		air_carrier_night_penalty_reduction_factor = 0.05
@@ -3662,13 +3763,16 @@ technologies = {
 	}
 
 	night_vision_4 = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+		}
 		land_night_attack = 0.05
 		naval_night_attack = 0.05
 		night_spotting_chance = 0.05
 		air_night_penalty = -0.05
 		category_special_forces = {
 			recon = 0.5
+			equipment_capture_factor = 0.01
 		}
 
 		enable_equipment_modules = {
@@ -3695,13 +3799,16 @@ technologies = {
 		}
 	}
 	night_vision_5 = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+		}
 		land_night_attack = 0.05
 		naval_night_attack = 0.1
 		night_spotting_chance = 0.05
 		air_night_penalty = -0.05
 		category_special_forces = {
 			recon = 0.5
+			equipment_capture_factor = 0.01
 		}
 
 		path = {
@@ -3724,13 +3831,16 @@ technologies = {
 		}
 	}
 	night_vision_6 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+		}
 		land_night_attack = 0.05
 		naval_night_attack = 0.1
 		night_spotting_chance = 0.025
 		air_night_penalty = -0.05
 		category_special_forces = {
 			recon = 0.5
+			equipment_capture_factor = 0.01
 		}
 
 		research_cost = 1.5
@@ -3751,7 +3861,10 @@ technologies = {
 
 	###ANTI-TANK PATH###
 	infantry_at = {
-
+		allow = {
+			TNO_KD_Can_Research_Basic_Tech = yes
+			TNO_KD_Can_Research_Basic_Manufactoring = yes
+		}
 		enable_equipments = {
 			anti_tank_equipment_0
 		}
@@ -3791,7 +3904,10 @@ technologies = {
 	}
 
 	infantry_at_upgrade_1 = {
-
+		allow = {
+			TNO_KD_Can_Research_Basic_Tech = yes
+			TNO_KD_Can_Research_Basic_Manufactoring = yes
+		}
 		anti_tank = {
 			hard_attack = 0.1
 			ap_attack = 0.1
@@ -3827,7 +3943,10 @@ technologies = {
 	}
 
 	infantry_at2 = {
-
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+			TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+		}
 		enable_equipments = {
 			anti_tank_equipment_1
 		}
@@ -3864,7 +3983,10 @@ technologies = {
 		}
 	}
 	infantry_at_upgrade_2 = {
-
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+			TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+		}
 		anti_tank = {
 			hard_attack = 0.1
 			ap_attack = 0.1
@@ -3900,7 +4022,10 @@ technologies = {
 		}
 	}
 	infantry_at3 = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		enable_equipments = {
 			anti_tank_equipment_2
 		}
@@ -3932,7 +4057,10 @@ technologies = {
 		}
 	}
 	infantry_at_upgrade_3 = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		anti_tank = {
 			hard_attack = 0.1
 			ap_attack = 0.1
@@ -3968,7 +4096,10 @@ technologies = {
 		}
 	}
 	infantry_at4 = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		enable_equipments = {
 			anti_tank_equipment_3
 		}
@@ -4000,7 +4131,10 @@ technologies = {
 		}
 	}
 	infantry_at_upgrade_4 = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		anti_tank = {
 			hard_attack = 0.1
 			ap_attack = 0.1
@@ -4030,7 +4164,10 @@ technologies = {
 		}
 	}
 	infantry_at5 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		enable_equipments = {
 			anti_tank_equipment_4
 		}
@@ -4053,13 +4190,18 @@ technologies = {
 	}
 
 	motorized_infantry = {
-
+		allow = { TNO_KD_Can_Research_Basic_Manufactoring = yes }
 		enable_subunits = {
 			motorized
 		}
 
 		enable_equipments = {
 			motorized_equipment_0
+		}
+		enable_equipment_modules = {
+			tank_gasoline_engine
+			tank_diesel_engine
+			tank_petrol_electric_engine
 		}
 		path = {
 			leads_to_tech = motorized_infantry_1
@@ -4108,7 +4250,7 @@ technologies = {
 		}
 	}
 	motorized_rocket_unit = {
-
+		allow = { TNO_KD_Can_Research_Basic_Manufactoring = yes }
 		enable_subunits = {
 			motorized_rocket_brigade
 		}
@@ -4128,7 +4270,7 @@ technologies = {
 		}
 	}
 	motorized_infantry_1 = {
-
+		allow = { TNO_KD_Can_Research_Basic_Manufactoring = yes }
 		truck_attrition_factor = -0.05
 		supply_node_range = 0.03
 
@@ -4157,10 +4299,12 @@ technologies = {
 		}
 	}
 	motorized_infantry_2 = {
-
+		allow = { TNO_KD_Can_Research_Basic_Manufactoring = yes }
 		truck_attrition_factor = -0.05
 		supply_node_range = 0.04
-
+		motorized = {
+			equipment_capture_factor = 0.01
+		}
 		enable_equipments = {
 			motorized_equipment_2
 		}
@@ -4186,7 +4330,7 @@ technologies = {
 		}
 	}
 	motorized_infantry_3 = {
-
+		allow = { TNO_KD_Can_Research_Rudimentary_Manufactoring = yes }
 		truck_attrition_factor = -0.05
 		supply_node_range = 0.04
 
@@ -4214,7 +4358,7 @@ technologies = {
 		}
 	}
 	motorized_infantry_4 = {
-
+		allow = { TNO_KD_Can_Research_Rudimentary_Manufactoring = yes }
 		truck_attrition_factor = -0.1
 		supply_node_range = 0.04
 
@@ -4241,6 +4385,7 @@ technologies = {
 
 ####SPECIAL FORCES####
 	tech_special_forces = {
+		allow = { TNO_KD_Can_Research_Basic_SPECOPS = yes }
 		category_special_forces = {
 			acclimatization_hot_climate_gain_factor = 0.05
 			acclimatization_cold_climate_gain_factor = 0.05
@@ -4284,12 +4429,12 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 0.7
+			factor = 84
 		}
 	}
 
 	specialist_weapons1 = {
-
+		allow = { TNO_KD_Can_Research_Basic_SPECOPS = yes }
 		category_special_forces = {
 			defense = 0.05
 			soft_attack = 0.075
@@ -4320,12 +4465,12 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 0.7
+			factor = 84
 		}
 	}
 
 	specialist_training1 = {
-
+		allow = { TNO_KD_Can_Research_Basic_SPECOPS = yes }
 		category_special_forces = {
 			max_organisation = 5
 			default_morale = 0.2
@@ -4356,13 +4501,16 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 0.7
+			factor = 84
 		}
 	}
 
 	expanded_special_forces1 = {
-
-		special_forces_cap = 0.25
+		allow = { TNO_KD_Can_Research_Basic_SPECOPS = yes }
+		special_forces_training_time_factor = -0.15
+		category_special_forces = {
+			initiative = 0.01
+		}
 
 		research_cost = 2
 		start_year = 1954
@@ -4379,13 +4527,13 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 0.7
+			factor = 300
 		}
 	}
 
 
 	demolitions_equipment1 = {
-
+		allow = { TNO_KD_Can_Research_Basic_SPECOPS = yes }
 		category_special_forces = {
 			hard_attack = 0.05
 			breakthrough = 0.05
@@ -4421,16 +4569,17 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 0.7
+			factor = 84
 		}
 	}
 
 
 	survival_training1 = {
-
+		allow = { TNO_KD_Can_Research_Basic_SPECOPS = yes }
 		category_special_forces = {
 			acclimatization_hot_climate_gain_factor = 0.20
 			acclimatization_cold_climate_gain_factor = 0.20
+			casualty_trickleback = 0.01
 			jungle = {
 				attack = 0.05
 				movement = 0.1
@@ -4480,15 +4629,17 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 0.7
+			factor = 84
 		}
 	}
 
 
 	special_forces_modernization1 = {
+		allow = { TNO_KD_Can_Research_Modern_SPECOPS = yes }
 		category_special_forces = {
 			maximum_speed = 0.05
 			max_organisation = 10
+			equipment_capture_factor = 0.01
 		}
 		path = {
 			leads_to_tech = specialist_weapons2
@@ -4514,12 +4665,12 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 0.7
+			factor = 84
 		}
 	}
 
 	specialist_weapons2 = {
-
+		allow = { TNO_KD_Can_Research_Modern_SPECOPS = yes }
 		category_special_forces = {
 			defense = 0.05
 			soft_attack = 0.075
@@ -4550,12 +4701,12 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 0.7
+			factor = 84
 		}
 	}
 
 	specialist_training2 = {
-
+		allow = { TNO_KD_Can_Research_Modern_SPECOPS = yes }
 		category_special_forces = {
 			max_organisation = 5
 			default_morale = 0.2
@@ -4588,14 +4739,16 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 0.7
+			factor = 84
 		}
 	}
 
 	expanded_special_forces2 = {
-
-		special_forces_cap = 0.25
-
+		allow = { TNO_KD_Can_Research_Modern_SPECOPS = yes }
+		special_forces_training_time_factor = -0.25
+		category_special_forces = {
+			initiative = 0.01
+		}
 		research_cost = 2
 		start_year = 1972
 		folder = {
@@ -4611,13 +4764,13 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 0.7
+			factor = 200
 		}
 	}
 
 
 	demolitions_equipment2 = {
-
+		allow = { TNO_KD_Can_Research_Modern_SPECOPS = yes }
 		category_special_forces = {
 			hard_attack = 0.05
 			breakthrough = 0.05
@@ -4646,16 +4799,17 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 0.7
+			factor = 84
 		}
 	}
 
 
 	survival_training2 = {
-
+		allow = { TNO_KD_Can_Research_Modern_SPECOPS = yes }
 		category_special_forces = {
 			acclimatization_hot_climate_gain_factor = 0.20
 			acclimatization_cold_climate_gain_factor = 0.20
+			casualty_trickleback = 0.01
 		}
 
 		special_forces_out_of_supply_factor = -0.1
@@ -4681,15 +4835,17 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 0.7
+			factor = 84
 		}
 	}
 
 
 	special_forces_modernization2 = {
+		allow = { TNO_KD_Can_Research_Advanced_SPECOPS = yes }
 		category_special_forces = {
 			maximum_speed = 0.05
 			max_organisation = 10
+			equipment_capture_factor = 0.01
 		}
 
 		research_cost = 2
@@ -4707,282 +4863,9 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 0.7
+			factor = 84
 		}
 	}
-
-	#jungle_warfare1 = {
-	#	category_special_forces = {
-	#		jungle = {
-	#			attack = 0.05
-	#			movement = 0.1
-	#		}
-	#		forest = {
-	#			attack = 0.05
-	#			movement = 0.1
-	#		}
-	#		mountain = {
-	#			attack = 0.05
-	#			movement = 0.1
-	#		}
-	#	}
-	#
-	#	on_research_complete_limit = {
-	#		always = yes
-	#	}
-	#
-	#	on_research_complete = {
-	#		custom_effect_tooltip = JUNGLE_TRAINING1_EFFECT
-	#	}
-	#	research_cost = 2
-	#
-	#	start_year = 1960
-	#	folder = {
-	#		name = infantry_folder
-	#		position = { x = 3 y = 8 }
-	#	}
-
-	#	categories = {
-	#		mountaineers_tech
-	#		marine_tech
-	#		air_assault_tech
-	#		special_forces_tech
-	#	}
-	#	ai_will_do = {
-	#		factor = 0.7
-	#	}
-	#}
-	#infiltration_specialization = {
-	#	category_special_forces = {
-	#		urban = {
-	#			attack = 0.15
-	#			defence = 0.15
-	#			movement = 0.2
-	#		}
-	#		fort = {
-	#			attack = 0.15
-	#			defence = 0.15
-	#			movement = 0.2
-	#		}
-	#	}
-	#	research_cost = 2
-
-	#	on_research_complete_limit = {
-	#		always = yes
-	#	}
-
-	#	on_research_complete = {
-	#		custom_effect_tooltip = INFILTRATION_SPECIALIZATION_EFFECT
-	#	}
-	#	start_year = 1960
-	#	folder = {
-	#		name = infantry_folder
-	#		position = { x = -3 y = 8 }
-	#	}
-
-	#	categories = {
-	#		mountaineers_tech
-	#		marine_tech
-	#		air_assault_tech
-	#		special_forces_tech
-	#	}
-	#	ai_will_do = {
-	#		factor = 0.7
-	#	}
-	#}
-	#SpecOps_Elite_of_the_Elite = {
-	#	xor={
-	#		SpecOps_Massed_Forces
-	#	}
-
-	#	category_special_forces = {
-	#		max_organisation = 2
-	#		defense = 0.1
-	#		soft_attack = 0.1
-	#		default_morale = 0.2
-	#		build_cost_ic = 0.2
-	#	}
-	#	special_forces_out_of_supply_factor = -0.15
-
-	#	path = {
-	#		leads_to_tech = SpecOps_Independent_Strike_Groups
-	#		research_cost_coeff = 1
-	#	}
-	#	path = {
-	#		leads_to_tech = SpecOps_Assault_Squadrons
-	#		research_cost_coeff = 1
-	#	}
-	#	research_cost = 2
-
-	#	start_year = 1980
-	#	folder = {
-	#		name = infantry_folder
-	#		position = { x = -2 y = 16 }
-	#	}
-
-	#	categories = {
-	#		mountaineers_tech
-	#		marine_tech
-	#		air_assault_tech
-	#		special_forces_tech
-	#	}
-	#	ai_will_do = {
-	#		factor = 0.7
-	#	}
-	#}
-	#SpecOps_Massed_Forces = {
-	#	xor={
-	#		SpecOps_Elite_of_the_Elite
-	#	}
-	#	category_special_forces = {
-	#		build_cost_ic = -0.3
-	#	}
-	#	special_forces_cap = 0.05
-
-	#	path = {
-	#		leads_to_tech = SpecOps_Veteran_Experience
-	#		research_cost_coeff = 1
-	#	}
-	#	path = {
-	#		leads_to_tech = SpecOps_Army_Integration
-	#		research_cost_coeff = 1
-	#	}
-	#	research_cost = 2
-
-	#	start_year = 1980
-	#	folder = {
-	#		name = infantry_folder
-	#		position = { x = 2 y = 16 }
-	#	}
-
-	#	categories = {
-	#		mountaineers_tech
-	#		marine_tech
-	#		air_assault_tech
-	#		special_forces_tech
-	#	}
-	#	ai_will_do = {
-	#		factor = 0.7
-	#	}
-	#}
-	#SpecOps_Independent_Strike_Groups = {
-	#	xor={
-	#		SpecOps_Assault_Squadrons
-	#	}
-
-	#	category_special_forces = {
-	#		max_organisation = 10
-	#		default_morale = 0.2
-	#		soft_attack = 0.2
-	#	}
-	#	special_forces_no_supply_grace = 120
-	#	special_forces_training_time_factor = 0.25
-	#	research_cost = 2
-
-	#	start_year = 1990
-	#	folder = {
-	#		name = infantry_folder
-	#		position = { x = -3 y = 20 }
-	#	}
-
-	#	categories = {
-	#		mountaineers_tech
-	#		marine_tech
-	#		air_assault_tech
-	#		special_forces_tech
-	#	}
-	#	ai_will_do = {
-	#		factor = 0.7
-	#	}
-	#}
-	#SpecOps_Assault_Squadrons = {
-	#	xor={
-	#		SpecOps_Independent_Strike_Groups
-	#	}
-	#	category_special_forces = {
-	#		max_organisation = 2
-	#		defense = 0.2
-	#		soft_attack = 0.1
-	#	}
-	#	category_special_forces = {
-	#		acclimatization_hot_climate_gain_factor = 0.50
-	#		acclimatization_cold_climate_gain_factor = 0.50
-	#	}
-	#	research_cost = 2
-
-	#	start_year = 1990
-	#	folder = {
-	#		name = infantry_folder
-	#		position = { x = -1 y = 20 }
-	#	}
-
-	#	categories = {
-	#		mountaineers_tech
-	#		marine_tech
-	#		air_assault_tech
-	#		special_forces_tech
-	#	}
-	#	ai_will_do = {
-	#		factor = 0.7
-	#	}
-	#}
-	#SpecOps_Veteran_Experience = {
-	#	xor={
-	#		SpecOps_Army_Integration
-	#	}
-
-	#	category_special_forces = {
-	#		acclimatization_hot_climate_gain_factor = 0.20
-	#		acclimatization_cold_climate_gain_factor = 0.20
-	#		max_organisation = 2
-	#		soft_attack = 0.1
-	#	}
-	#	special_forces_cap = 0.05
-
-	#	research_cost = 2
-
-	#	start_year = 1990
-	#	folder = {
-	#		name = infantry_folder
-	#		position = { x = 1 y = 20 }
-	#	}
-
-	#	categories = {
-	#		mountaineers_tech
-	#		marine_tech
-	#		air_assault_tech
-	#		special_forces_tech
-	#	}
-	#	ai_will_do = {
-	#		factor = 0.7
-	#	}
-	#}
-	#SpecOps_Army_Integration = {
-	#	xor={
-	#		SpecOps_Veteran_Experience
-	#	}
-
-	#	special_forces_cap = 0.15
-	#	special_forces_training_time_factor = -0.25
-
-	#	research_cost = 2
-
-	#	start_year = 1990
-	#	folder = {
-	#		name = infantry_folder
-	#		position = { x = 3 y = 20 }
-	#	}
-
-	#	categories = {
-	#		mountaineers_tech
-	#		marine_tech
-	#		air_assault_tech
-	#		special_forces_tech
-	#	}
-	#	ai_will_do = {
-	#		factor = 0.7
-	#	}
-	#}
 
 	### Special Tech for Germany in Iran
 	expanded_gebirgsjager_program = {
@@ -5067,6 +4950,10 @@ technologies = {
 	}
 
 	basic_train = {
+		allow = {
+			TNO_KD_Can_Research_Basic_Tech = yes
+			TNO_KD_Can_Research_Basic_Manufactoring = yes
+		}
 		enable_equipments = {
 			train_equipment_1
 		}
@@ -5098,29 +4985,15 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 60
-			modifier = {
-				check_variable = { GDP > 5 }
-				factor = 100 #might wanna get on that
-			}
-			modifier = {
-				factor = 1.2
-				date > "1962.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "1963.1.1"
-			}
-
-			modifier = {
-				factor = 1.2
-				date > "1964.1.1"
-			}
+			factor = 1000
 		}
 	}
 
 	railway_gun = {
+		allow = {
+			TNO_KD_Can_Research_Basic_Tech = yes
+			TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+		}
 		enable_equipments = {
 			railway_gun_equipment_1
 		}
@@ -5152,6 +5025,10 @@ technologies = {
 	}
 
 	wartime_train = {
+		allow = {
+			TNO_KD_Can_Research_Basic_Tech = yes
+			TNO_KD_Can_Research_Basic_Manufactoring = yes
+		}
 		enable_equipments = {
 			train_equipment_2
 		}
@@ -5193,6 +5070,10 @@ technologies = {
 	}
 
 	armored_train = {
+		allow = {
+			TNO_KD_Can_Research_Basic_Tech = yes
+			TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+		}
 		enable_equipments = {
 			train_equipment_3
 		}
@@ -5244,10 +5125,13 @@ technologies = {
 	}
 
 	trains_1955 = {
-
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+		}
 		production_units_to_GDP_ratio_modifier = 0.02
 		consumer_goods_production_factor = 0.02
-		supply_node_range = 0.03
+		land_reinforce_rate = 0.025
+		supply_node_range = 0.02
 
 		path = {
 			leads_to_tech = trains_1965
@@ -5266,14 +5150,17 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 5
+			factor = 1000
 		}
 	}
 
 	trains_1965 = {
-
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+		}
 		production_units_to_GDP_ratio_modifier = 0.01
 		consumer_goods_production_factor = 0.02
+		land_reinforce_rate = 0.025
 		supply_node_range = 0.02
 
 		path = {
@@ -5293,14 +5180,17 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 5
+			factor = 1000
 		}
 	}
 
 	trains_1975 = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+		}
 		production_units_to_GDP_ratio_modifier = 0.01
 		consumer_goods_production_factor = 0.01
+		land_reinforce_rate = 0.025
 		supply_node_range = 0.02
 
 		path = {
@@ -5320,14 +5210,17 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 5
+			factor = 1000
 		}
 	}
 
 	trains_1985 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+		}
 		production_units_to_GDP_ratio_modifier = 0.01
 		consumer_goods_production_factor = 0.01
+		land_reinforce_rate = 0.025
 		supply_node_range = 0.02
 
 		research_cost = 1
@@ -5342,7 +5235,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 5
+			factor = 1000
 		}
 	}
 

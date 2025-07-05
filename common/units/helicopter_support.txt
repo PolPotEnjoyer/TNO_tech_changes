@@ -28,15 +28,15 @@ sub_units = {
 		#Size Definitions
 		max_strength = 3
 		max_organisation = 30
-		default_morale = 0.4
+		default_morale = 0.2
 		manpower = 600
 		training_time = 200
 
 		#Misc Abilities
 		weight = 0.1
-		supply_consumption = 0.45
-
-		fuel_consumption = 0.4
+		supply_consumption = 0.5
+		equipment_capture_factor = 0.02
+		fuel_consumption = 0.6
 
 		# Offensive abilities
 		defense = 0.1
@@ -252,6 +252,7 @@ sub_units = {
 		ap_attack = 0.6
 		soft_attack = 0.5
 		hard_attack = 0.4
+		equipment_capture_factor = 0.02
 
 		essential = {
 			experimental_helicopter_equipment

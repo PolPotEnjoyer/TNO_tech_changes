@@ -32,6 +32,16 @@ technologies = {
 
 		ai_will_do = {
 			factor = 35
+			modifier = {
+				factor = 500
+				OR = {
+					tag = USA
+					AND = {
+						is_in_faction_with = USA
+						num_of_military_factories > 10
+					}
+				}
+			}
 		}
 
 		ai_research_weights = {
@@ -109,7 +119,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 35
+			factor = 100
 		}
 
 		ai_research_weights = {
@@ -150,7 +160,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 35
+			factor = 100
 		}
 
 		ai_research_weights = {
@@ -159,7 +169,7 @@ technologies = {
 		}
 	}
 
-	tactical_support = { #Branch focused on air assistance.
+	tactical_support = {
 
 		air_cas_present_factor = 0.1
 		air_superiority_efficiency = 0.1
@@ -224,7 +234,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 35
+			factor = 1
 		}
 
 		ai_research_weights = {
@@ -238,6 +248,7 @@ technologies = {
 		category_all_infantry = {
 			default_morale = 0.2
 			max_organisation = 10
+			equipment_capture_factor = 0.01
 		}
 
 		additional_brigade_column_size = 1
@@ -309,6 +320,13 @@ technologies = {
 
 		ai_will_do = {
 			factor = 35
+			modifier = {
+				factor = 1000
+				OR = {
+					tag = USA
+					num_of_military_factories > 45
+				}
+			}
 		}
 
 		ai_research_weights = {
@@ -323,6 +341,7 @@ technologies = {
 			max_organisation = 10
 			defense = 0.15
 			default_morale = 0.3
+			equipment_capture_factor = 0.01
 		}
 		enable_tactic = tactic_vertical_envelopement
 
@@ -508,6 +527,7 @@ technologies = {
 
 		category_all_armor = {
 			breakthrough = 0.1
+			equipment_capture_factor = 0.01
 		}
 
 		planning_speed = 0.2
@@ -544,6 +564,13 @@ technologies = {
 
 		ai_will_do = {
 			factor = 35
+			modifier = {
+				factor = 1000
+				OR = {
+					tag = GER
+					is_in_faction_with = GER
+				}
+			}
 		}
 
 		ai_research_weights = {
@@ -593,7 +620,7 @@ technologies = {
 	}
 
 	spearpoints = {
-
+		equipment_capture_factor = 0.01
 		category_tanks = {
 			max_organisation = 3
 			breakthrough = 0.15
@@ -632,7 +659,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 35
+			factor = 50
 		}
 
 		ai_research_weights = {
@@ -669,7 +696,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 35
+			factor = 75
 		}
 
 		ai_research_weights = {
@@ -709,7 +736,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 35
+			factor = 50
 		}
 
 		ai_research_weights = {
@@ -719,7 +746,7 @@ technologies = {
 	}
 
 	combined_blitz = {
-
+		equipment_capture_factor = 0.01
 		category_tanks = {
 			max_organisation = 2
 		}
@@ -1088,8 +1115,28 @@ technologies = {
 			position = { x = 0 y = 0 }
 		}
 
-		ai_will_do = {
+		ai_will_do = { #KD's Notes - Best one for small tags
 			factor = 35
+			modifier = {
+				factor = 1000
+				AND = {
+					OR = {
+						num_of_military_factories < 20
+						tag = CHI
+						tag = IND
+						tag = IBR
+					}
+					NOT = {
+						tag = HAI #Needs the Extra Army Buffs for wars
+						tag = CAN
+						tag = AST
+						tag = COL
+						tag = FRA
+						tag = CLC
+						is_russian_nation = yes #Russia has a lot of wars, needs actual buffs
+					}
+				}
+			}
 		}
 
 		ai_research_weights = {
@@ -1143,7 +1190,7 @@ technologies = {
 	army_reserve_training = {
 
 		conscription_factor = 0.10
-		minimum_training_level = -0.07
+		training_time_army_factor = -0.1
 		category_light_infantry = {
 			max_organisation = 15
 			defense = 0.15
@@ -1477,7 +1524,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 35
+			factor = 200
 		}
 
 		ai_research_weights = {

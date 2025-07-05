@@ -35,7 +35,7 @@ sub_units = {
 		training_time = 180
 		weight = 1
 		supply_consumption = 0.42
-
+		equipment_capture_factor = -0.03
 		breakthrough = -0.42
 
 		suppression = 1.25

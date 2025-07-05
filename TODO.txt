@@ -3,6 +3,7 @@ Move radios to their own slot
 Perhaps categorize special modules e.g. maintenance, weapons, armour, misc
 Amphibious Drive? #Shelved for now
 Rebalance experimental modules
+IFV as heavy APC rather than light tank?
 
 ### Ships ###
 Battleship hull changes?
@@ -22,3 +23,4 @@ PARADROPS BABY! (add order to GFX)
 Remove all reference to the concept of light/heavy cruiser distinction, maybe even amend the icon from "CA" to "C"
 Amend history files and fix state GDPs
 Fuel capacity bonus for log company?
+Reexamine assault concentration doctrine

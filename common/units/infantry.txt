@@ -39,10 +39,10 @@ sub_units = {
 		weight = 0.5
 		ap_attack = -0.85
 		hard_attack = -0.85
-
+		equipment_capture_factor = 0.02
 		transport = infantry_equipment
 
-		supply_consumption = 0.07
+		supply_consumption = 0.09
 
 		need = {
 			infantry_equipment = 100
@@ -84,10 +84,10 @@ sub_units = {
 		weight = 0.5
 		ap_attack = -0.85
 		hard_attack = -0.85
-
+		equipment_capture_factor = 0.02
 		transport = infantry_equipment
 
-		supply_consumption = 0.07
+		supply_consumption = 0.09
 
 		need = {
 			infantry_equipment = 100
@@ -119,18 +119,18 @@ sub_units = {
 
 		#Size Definitions
 		max_strength = 20
-		max_organisation = 60
-		default_morale = 0.25
+		max_organisation = 45
+		default_morale = 0.4
 		manpower = 800
 
 		#Misc Abilities
 		training_time = 60
 		suppression = 1
 		weight = 0.5
-
+		equipment_capture_factor = 0.01
 		transport = infantry_equipment
 
-		supply_consumption = 0.04
+		supply_consumption = 0.06
 
 		need = {
 			infantry_equipment = 80
@@ -162,18 +162,18 @@ sub_units = {
 
 		#Size Definitions
 		max_strength = 20
-		max_organisation = 60
-		default_morale = 0.25
+		max_organisation = 45
+		default_morale = 0.4
 		manpower = 800
 
 		#Misc Abilities
 		training_time = 60
 		suppression = 1
 		weight = 0.5
-
+		equipment_capture_factor = 0.01
 		transport = infantry_equipment
 
-		supply_consumption = 0.04
+		supply_consumption = 0.06
 
 		need = {
 			infantry_equipment = 80
@@ -208,20 +208,21 @@ sub_units = {
 
 		#Size Definitions
 		max_strength = 30
-		max_organisation = 80
-		default_morale = 0.4
+		max_organisation = 70
+		default_morale = 0.45
 		manpower = 1000
 
 		#Misc Abilities
 		training_time = 120
 		suppression = 1.5
 		weight = 0.5
-		supply_consumption = 0.1
+		supply_consumption = 0.12
 		breakthrough = 0.35
 		maximum_speed = 0.1
 		soft_attack = 0.25
 		ap_attack = -0.825
 		hard_attack = -0.8
+		equipment_capture_factor = 0.03
 		transport = infantry_equipment
 
 		need = {
@@ -236,6 +237,10 @@ sub_units = {
 		mountain = {
 			attack = 0.05
 			movement = 0.05
+		}
+		valleys = {
+			attack = 0.02
+			movement = 0.02
 		}
 		jungle = {
 			attack = 0.05
@@ -412,7 +417,7 @@ sub_units = {
 		maximum_speed = 0.1
 		ap_attack = -0.85
 		hard_attack = -0.843
-
+		equipment_capture_factor = 0.02
 		transport = infantry_equipment
 
 		need = {
@@ -472,7 +477,7 @@ sub_units = {
 		maximum_speed = 0.1
 		ap_attack = -0.85
 		hard_attack = -0.843
-
+		equipment_capture_factor = 0.02
 		transport = infantry_equipment
 
 		need = {
@@ -533,7 +538,7 @@ sub_units = {
 		maximum_speed = 0.1
 		ap_attack = -0.85
 		hard_attack = -0.843
-
+		equipment_capture_factor = 0.02
 		transport = infantry_equipment
 
 		need = {
@@ -595,10 +600,10 @@ sub_units = {
 		training_time = 90
 		suppression = 2.5
 		weight = 0.75
-		supply_consumption = 0.11
+		supply_consumption = 0.15
 		ap_attack = -0.85
 		hard_attack = -0.843
-
+		equipment_capture_factor = 0.03
 		# this is what moves us and sets speed
 		transport = motorized_equipment
 
@@ -680,10 +685,10 @@ sub_units = {
 		training_time = 90
 		suppression = 2.5
 		weight = 0.75
-		supply_consumption = 0.11
+		supply_consumption = 0.14
 		ap_attack = -0.85
 		hard_attack = -0.843
-
+		equipment_capture_factor = 0.03
 		# this is what moves us and sets speed
 		transport = motorized_equipment
 

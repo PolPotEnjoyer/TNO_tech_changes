@@ -26,14 +26,14 @@ sub_units = {
 
 		#Size Definitions
 		max_strength = 2
-		max_organisation = 20
+		max_organisation = 60
 		default_morale = 0.3
 		manpower = 500
 		training_time = 120
 
 		#Misc Abilities
 		weight = 0.1
-		supply_consumption = 0.02
+		supply_consumption = 0.01
 		recon = 1
 		equipment_capture_factor = 0.02
 
@@ -42,6 +42,7 @@ sub_units = {
 		breakthrough = -0.5
 		soft_attack = -0.9
 		hard_attack = -0.9
+		initiative = 0.05
 		maximum_speed = 1.0 # move at cav speeds
 
 		essential = {
@@ -124,7 +125,7 @@ sub_units = {
 
 		#Size Definitions
 		max_strength = 2
-		max_organisation = 20
+		max_organisation = 65
 		default_morale = 0.3
 		manpower = 500
 		training_time = 120
@@ -140,7 +141,7 @@ sub_units = {
 		breakthrough = -0.5
 		soft_attack = -0.9
 		hard_attack = -0.9
-
+		initiative = 0.06
 		essential = {
 			infantry_equipment
 			support_equipment
@@ -223,7 +224,7 @@ sub_units = {
 
 		#Size Definitions
 		max_strength = 2
-		max_organisation = 20
+		max_organisation = 50
 		default_morale = 0.3
 		manpower = 500
 		training_time = 120
@@ -239,7 +240,7 @@ sub_units = {
 		defense = -0.5
 		soft_attack = -0.9
 		hard_attack = -0.9
-
+		initiative = 0.06
 		essential = {
 			IFV_equipment
 		}
@@ -318,7 +319,7 @@ sub_units = {
 
 		#Size Definitions
 		max_strength = 2
-		max_organisation = 20
+		max_organisation = 60
 		default_morale = 0.3
 		manpower = 500
 		training_time = 120
@@ -328,7 +329,7 @@ sub_units = {
 		supply_consumption = 0.02
 		recon = 2.5
 		fuel_consumption = -0.27		#less units in brigade = less fuel consumed
-
+		initiative = 0.06
 		# Support nerfs to combat abilities
 		breakthrough = -0.5
 		defense = -0.5
@@ -414,7 +415,7 @@ sub_units = {
 
 		#Size Definitions
 		max_strength = 2
-		max_organisation = 20
+		max_organisation = 50
 		default_morale = 0.3
 		manpower = 500
 		training_time = 120
@@ -430,7 +431,7 @@ sub_units = {
 		breakthrough = -0.5
 		soft_attack = -0.9
 		hard_attack = -0.9
-
+		initiative = 0.05
 		essential = {
 			MBT_equipment
 		}
@@ -512,7 +513,7 @@ sub_units = {
 
 		#Size Definitions
 		max_strength = 2
-		max_organisation = 25
+		max_organisation = 40
 		default_morale = 0.3
 		manpower = 500
 		training_time = 150
@@ -528,7 +529,7 @@ sub_units = {
 		breakthrough = -0.5
 		soft_attack = -0.9
 		hard_attack = -0.9
-
+		initiative = 0.1
 		essential = {
 			scout_helicopter_equipment
 		}

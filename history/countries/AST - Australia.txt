@@ -266,28 +266,49 @@ if = { #quick placeholder for now, more or less based off otl
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
-		mtg_transport = 1
+		early_ship_hull_very_light = 1
+		basic_ship_hull_very_light = 1
+		improved_ship_hull_very_light = 1
+		early_ship_hull_more_light = 1
+		basic_ship_hull_more_light = 1
+		improved_ship_hull_more_light = 1
 		early_ship_hull_light = 1
 		basic_ship_hull_light = 1
 		improved_ship_hull_light = 1
+		smoke_generator = 1
+		basic_depth_charges = 1
+		improved_depth_charges = 1
+		sonar = 1
+		improved_sonar = 1
 		early_ship_hull_cruiser = 1
 		basic_ship_hull_cruiser = 1
 		improved_ship_hull_cruiser = 1
 		early_ship_hull_heavy = 1
-		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
+		basic_ship_hull_heavy = 1
 		early_ship_hull_carrier = 1
 		basic_ship_hull_carrier = 1
 		improved_ship_hull_carrier = 1
-		early_ship_hull_more_light = 1
-		basic_ship_hull_more_light = 1
-		improved_ship_hull_more_light = 1
-		early_ship_hull_very_light = 1
-		basic_ship_hull_very_light = 1
-		improved_ship_hull_very_light = 1
-		smoke_generator = 1
-		basic_depth_charges = 1
-		sonar = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		improved_ship_hull_submarine = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		magnetic_detonator = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_secondary_battery = 1
+		improved_secondary_battery = 1
+		damage_control_1 = 1
+		fire_control_methods_1 = 1
+		mtg_transport = 1
+		mtg_landing_craft = 1
+		basic_naval_mines = 1
+		improved_naval_mines = 1
+		submarine_mine_laying = 1
+		improved_submarine_mine_laying = 1
+		continue_battleship_development = 1
 	}
 	set_naval_oob = "AST_1962_naval_mtg"
 	create_equipment_variant = {
@@ -524,7 +545,7 @@ add_ideas = {
 	tno_education_subsidised_higher_education
 	tno_penal_system_rehabilitation
 	tno_gender_rights_women_in_the_workplace
-	tno_security_regulated_police
+	tno_security_crime_prevention
 	tno_regulations_strict_regulations
 
 	##MISC LAWS##

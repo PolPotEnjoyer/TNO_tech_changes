@@ -27,14 +27,14 @@ sub_units = {
 
 		#Size Definitions
 		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
+		max_organisation = 50
+		default_morale = 0.35
 		manpower = 300
 		training_time = 120
 
 		#Misc Abilities
 		weight = 0.1
-		supply_consumption = 0.02
+		supply_consumption = 0.04
 		entrenchment = 5
 		equipment_capture_factor = 0.02
 		defense = 0.1
@@ -129,8 +129,8 @@ sub_units = {
 
 		#Size Definitions
 		max_strength = 2
-		max_organisation = 25
-		default_morale = 0.3
+		max_organisation = 60
+		default_morale = 0.4
 		manpower = 400
 		training_time = 120
 

@@ -4,7 +4,10 @@ technologies = {
 ###Corvettes
 ###############
 	early_ship_hull_very_light = {
-
+		allow = {
+			TNO_KD_Can_Research_Basic_Tech = yes
+			TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_very_light_1
 		}
@@ -40,12 +43,15 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			dd_tech
+			fs_tech
 		}
 	}
 
 	basic_ship_hull_very_light = {
-
+		allow = {
+			TNO_KD_Can_Research_Basic_Tech = yes
+			TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_very_light_2
 		}
@@ -84,12 +90,15 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			dd_tech
+			fs_tech
 		}
 	}
 
 	improved_ship_hull_very_light = {
-
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+			TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_very_light_3
 		}
@@ -125,12 +134,15 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			dd_tech
+			fs_tech
 		}
 	}
 
 	advanced_ship_hull_very_light = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_very_light_4
 		}
@@ -167,12 +179,15 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			dd_tech
+			fs_tech
 		}
 	}
 
 	semi_modern_ship_hull_very_light = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_very_light_5
 		}
@@ -209,12 +224,15 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			dd_tech
+			fs_tech
 		}
 	}
 
 	modern_ship_hull_very_light = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Advanced_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_very_light_6
 		}
@@ -246,7 +264,7 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			dd_tech
+			fs_tech
 		}
 	}
 
@@ -254,7 +272,10 @@ technologies = {
 ###Frigates
 ###############
 	early_ship_hull_more_light = {
-
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_more_light_1
 		}
@@ -290,7 +311,7 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			dd_tech
+			ff_tech
 		}
 	}
 
@@ -334,12 +355,15 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			dd_tech
+			ff_tech
 		}
 	}
 
 	improved_ship_hull_more_light = {
-
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_more_light_3
 		}
@@ -376,12 +400,15 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			dd_tech
+			ff_tech
 		}
 	}
 
 	advanced_ship_hull_more_light = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Modern_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_more_light_4
 		}
@@ -418,12 +445,15 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			dd_tech
+			ff_tech
 		}
 	}
 
 	semi_modern_ship_hull_more_light = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Modern_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_more_light_5
 		}
@@ -460,12 +490,15 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			dd_tech
+			ff_tech
 		}
 	}
 
 	modern_ship_hull_more_light = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Advanced_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_more_light_6
 		}
@@ -497,7 +530,7 @@ technologies = {
 
 		categories = {
 			naval_equipment
-			dd_tech
+			ff_tech
 		}
 	}
 
@@ -505,7 +538,10 @@ technologies = {
 ###Destroyers
 ###############
 	early_ship_hull_light = {
-
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_light_1
 		}
@@ -547,10 +583,18 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
 			modifier = {
-				factor = 4
-				tag = ENG
+				factor = -100
+				check_variable = { num_of_naval_factories < 10 }
+			}
+			modifier = {
+				factor = 50
+				OR = {
+					tag = USA
+					tag = GER
+					tag = JAP
+					tag = ITA
+				}
 			}
 		}
 
@@ -561,7 +605,10 @@ technologies = {
 	}
 
 	basic_ship_hull_light = {
-
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_light_2
 		}
@@ -584,17 +631,18 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
 			modifier = {
-				factor = 4
-				OR = {
-					tag = ENG
-					tag = JAP
-				}
+				factor = -100
+				check_variable = { num_of_naval_factories < 10 }
 			}
 			modifier = {
-				has_war = yes
-				factor = 2
+				factor = 50
+				OR = {
+					tag = USA
+					tag = GER
+					tag = JAP
+					tag = ITA
+				}
 			}
 		}
 
@@ -605,7 +653,10 @@ technologies = {
 	}
 
 	improved_ship_hull_light = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Modern_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_light_3
 		}
@@ -629,13 +680,17 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
 			modifier = {
-				factor = 4
+				factor = -100
+				check_variable = { num_of_naval_factories < 10 }
+			}
+			modifier = {
+				factor = 50
 				OR = {
-					tag = ENG
-					tag = JAP
 					tag = USA
+					tag = GER
+					tag = JAP
+					tag = ITA
 				}
 			}
 		}
@@ -647,7 +702,10 @@ technologies = {
 	}
 
 	advanced_ship_hull_light = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Modern_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_light_4
 		}
@@ -671,13 +729,17 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
 			modifier = {
-				factor = 4
+				factor = -100
+				check_variable = { num_of_naval_factories < 10 }
+			}
+			modifier = {
+				factor = 50
 				OR = {
-					tag = ENG
-					tag = JAP
 					tag = USA
+					tag = GER
+					tag = JAP
+					tag = ITA
 				}
 			}
 		}
@@ -689,7 +751,10 @@ technologies = {
 	}
 
 	semi_modern_ship_hull_light = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Modern_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_light_5
 		}
@@ -713,13 +778,17 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
 			modifier = {
-				factor = 4
+				factor = -100
+				check_variable = { num_of_naval_factories < 10 }
+			}
+			modifier = {
+				factor = 50
 				OR = {
-					tag = ENG
-					tag = JAP
 					tag = USA
+					tag = GER
+					tag = JAP
+					tag = ITA
 				}
 			}
 		}
@@ -731,7 +800,10 @@ technologies = {
 	}
 
 	modern_ship_hull_light = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Advanced_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_light_6
 		}
@@ -750,13 +822,17 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
 			modifier = {
-				factor = 4
+				factor = -100
+				check_variable = { num_of_naval_factories < 10 }
+			}
+			modifier = {
+				factor = 50
 				OR = {
-					tag = ENG
-					tag = JAP
 					tag = USA
+					tag = GER
+					tag = JAP
+					tag = ITA
 				}
 			}
 		}
@@ -767,7 +843,9 @@ technologies = {
 		}
 	}
 	smoke_generator = {
-
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+		}
 		naval_retreat_speed = 0.2
 
 		research_cost = 0.75
@@ -780,11 +858,19 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 8
-
+			factor = 1
 			modifier = {
-				factor = 2
-				tag = ENG
+				factor = -100
+				has_navy_size = { size < 20 } # if nation has no carriers, don't bother
+			}
+			modifier = {
+				factor = 50
+				OR = {
+					tag = USA
+					tag = GER
+					tag = JAP
+					tag = ITA
+				}
 			}
 		}
 
@@ -802,7 +888,10 @@ technologies = {
 
 
 	basic_depth_charges = {
-
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+			TNO_KD_Can_Research_Rudimentary_Manufactoring = yes
+		}
 		enable_equipment_modules = {
 			ship_depth_charge_1
 		}
@@ -823,11 +912,6 @@ technologies = {
 
 		ai_will_do = {
 			factor = 4
-
-			modifier = {
-				factor = 2
-				has_war_with = GER
-			}
 		}
 
 		categories = {
@@ -837,7 +921,10 @@ technologies = {
 		}
 	}
 	improved_depth_charges = {
-
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		enable_equipment_modules = {
 			ship_depth_charge_2
 		}
@@ -860,8 +947,8 @@ technologies = {
 			factor = 4
 
 			modifier = {
-				factor = 2
-				has_war_with = GER
+				factor = -100
+				has_navy_size = { size < 20 } # if nation has no carriers, don't bother
 			}
 		}
 
@@ -872,7 +959,10 @@ technologies = {
 		}
 	}
 	advanced_depth_charges = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Modern_Manufactoring = yes
+		}
 		enable_equipment_modules = {
 			ship_depth_charge_3
 		}
@@ -894,8 +984,8 @@ technologies = {
 			factor = 2
 
 			modifier = {
-				factor = 4
-				has_war_with = GER
+				factor = -100
+				has_navy_size = { size < 20 } # if nation has no carriers, don't bother
 			}
 		}
 
@@ -906,7 +996,10 @@ technologies = {
 		}
 	}
 	modern_depth_charges = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Modern_Manufactoring = yes
+		}
 		enable_equipment_modules = {
 			ship_depth_charge_4
 		}
@@ -928,8 +1021,8 @@ technologies = {
 			factor = 2
 
 			modifier = {
-				factor = 4
-				has_war_with = GER
+				factor = -100
+				has_navy_size = { size < 20 } # if nation has no carriers, don't bother
 			}
 		}
 
@@ -940,6 +1033,10 @@ technologies = {
 		}
 	}
 	even_more_modern_depth_charges = {
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Modern_Manufactoring = yes
+		}
 		enable_equipment_modules = {
 			ship_depth_charge_5
 		}
@@ -960,8 +1057,8 @@ technologies = {
 			factor = 2
 
 			modifier = {
-				factor = 4
-				has_war_with = GER
+				factor = -100
+				has_navy_size = { size < 20 } # if nation has no carriers, don't bother
 			}
 		}
 
@@ -972,6 +1069,10 @@ technologies = {
 		}
 	}
 	super_modern_depth_charges = {
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Modern_Manufactoring = yes
+		}
 		enable_equipment_modules = {
 			ship_depth_charge_6
 		}
@@ -989,8 +1090,8 @@ technologies = {
 			factor = 2
 
 			modifier = {
-				factor = 4
-				has_war_with = GER
+				factor = -100
+				has_navy_size = { size < 20 } # if nation has no carriers, don't bother
 			}
 		}
 
@@ -1001,6 +1102,9 @@ technologies = {
 		}
 	}
 	sonar = {
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+		}
 		enable_equipment_modules = {
 			ship_sonar_1
 		}
@@ -1022,8 +1126,8 @@ technologies = {
 			factor = 2
 
 			modifier = {
-				factor = 4
-				has_war_with = GER
+				factor = -100
+				has_navy_size = { size < 20 } # if nation has no carriers, don't bother
 			}
 		}
 
@@ -1035,6 +1139,9 @@ technologies = {
 	}
 
 	improved_sonar = {
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+		}
 		enable_equipment_modules = {
 			ship_sonar_2
 		}
@@ -1055,8 +1162,8 @@ technologies = {
 			factor = 2
 
 			modifier = {
-				factor = 4
-				has_war_with = GER
+				factor = -100
+				has_navy_size = { size < 20 } # if nation has no carriers, don't bother
 			}
 		}
 
@@ -1067,6 +1174,9 @@ technologies = {
 		}
 	}
 	good_sonar = {
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+		}
 		enable_equipment_modules = {
 			ship_sonar_3
 		}
@@ -1087,8 +1197,8 @@ technologies = {
 			factor = 2
 
 			modifier = {
-				factor = 4
-				has_war_with = GER
+				factor = -100
+				has_navy_size = { size < 20 } # if nation has no carriers, don't bother
 			}
 		}
 
@@ -1099,6 +1209,9 @@ technologies = {
 		}
 	}
 	advanced_sonar = {
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+		}
 		enable_equipment_modules = {
 			ship_sonar_4
 		}
@@ -1119,8 +1232,8 @@ technologies = {
 			factor = 2
 
 			modifier = {
-				factor = 4
-				has_war_with = GER
+				factor = -100
+				has_navy_size = { size < 20 } # if nation has no carriers, don't bother
 			}
 		}
 
@@ -1131,6 +1244,9 @@ technologies = {
 		}
 	}
 	semi_modern_sonar = {
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+		}
 		enable_equipment_modules = {
 			ship_sonar_5
 		}
@@ -1151,8 +1267,8 @@ technologies = {
 			factor = 2
 
 			modifier = {
-				factor = 4
-				has_war_with = GER
+				factor = -100
+				has_navy_size = { size < 20 } # if nation has no carriers, don't bother
 			}
 		}
 
@@ -1163,6 +1279,9 @@ technologies = {
 		}
 	}
 	modern_sonar = {
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+		}
 		enable_equipment_modules = {
 			ship_sonar_6
 		}
@@ -1180,8 +1299,8 @@ technologies = {
 			factor = 2
 
 			modifier = {
-				factor = 4
-				has_war_with = GER
+				factor = -100
+				has_navy_size = { size < 20 } # if nation has no carriers, don't bother
 			}
 		}
 
@@ -1196,7 +1315,10 @@ technologies = {
 ###Cruiser
 ##########
 	early_ship_hull_cruiser = {
-
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_cruiser_1
 		}
@@ -1225,13 +1347,17 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
 			modifier = {
-				factor = 4
+				factor = -100
+				check_variable = { num_of_naval_factories < 14 }
+			}
+			modifier = {
+				factor = 20
 				OR = {
-					tag = ENG
-					tag = JAP
 					tag = USA
+					tag = GER
+					tag = JAP
+					tag = ITA
 				}
 			}
 		}
@@ -1244,7 +1370,10 @@ technologies = {
 	}
 
 	basic_ship_hull_cruiser = {
-
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+			TNO_KD_Can_Research_Modern_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_cruiser_2
 		}
@@ -1270,13 +1399,17 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
 			modifier = {
-				factor = 4
+				factor = -100
+				check_variable = { num_of_naval_factories < 14 }
+			}
+			modifier = {
+				factor = 20
 				OR = {
-					tag = ENG
-					tag = JAP
 					tag = USA
+					tag = GER
+					tag = JAP
+					tag = ITA
 				}
 			}
 		}
@@ -1289,7 +1422,10 @@ technologies = {
 	}
 
 	improved_ship_hull_cruiser = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Modern_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_cruiser_3
 		}
@@ -1322,14 +1458,18 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
 			modifier = {
+				factor = -100
+				check_variable = { num_of_naval_factories < 14 }
+			}
+			modifier = {
+				factor = 20
 				OR = {
-					tag = ENG
-					tag = JAP
 					tag = USA
+					tag = GER
+					tag = JAP
+					tag = ITA
 				}
-				factor = 4
 			}
 		}
 
@@ -1341,7 +1481,10 @@ technologies = {
 	}
 
 	advanced_ship_hull_cruiser = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Modern_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_cruiser_4
 		}
@@ -1374,12 +1517,17 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
 			modifier = {
-				factor = 2
+				factor = -100
+				check_variable = { num_of_naval_factories < 14 }
+			}
+			modifier = {
+				factor = 50
 				OR = {
-					tag = ENG
 					tag = USA
+					tag = GER
+					tag = JAP
+					tag = ITA
 				}
 			}
 		}
@@ -1392,7 +1540,10 @@ technologies = {
 	}
 
 	semi_modern_ship_hull_cruiser = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Advanced_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_cruiser_5
 		}
@@ -1424,17 +1575,20 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
 			modifier = {
+				factor = -100
+				check_variable = { num_of_naval_factories < 14 }
+			}
+			modifier = {
+				factor = 50
 				OR = {
-					tag = ENG
-					tag = JAP
 					tag = USA
+					tag = GER
+					tag = JAP
+					tag = ITA
 				}
-				factor = 4
 			}
 		}
-
 		categories = {
 			naval_equipment
 			cl_tech
@@ -1443,7 +1597,10 @@ technologies = {
 	}
 
 	modern_ship_hull_cruiser = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Advanced_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_cruiser_6
 		}
@@ -1470,12 +1627,17 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
 			modifier = {
-				factor = 2
+				factor = -100
+				check_variable = { num_of_naval_factories < 14 }
+			}
+			modifier = {
+				factor = 50
 				OR = {
-					tag = ENG
 					tag = USA
+					tag = GER
+					tag = JAP
+					tag = ITA
 				}
 			}
 		}
@@ -1488,7 +1650,10 @@ technologies = {
 	}
 
 	missile_corvette_1960 = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Modern_Manufactoring = yes
+		}
 		enable_equipment_modules = {
 			ship_anti_ship_missile_battery_1
 			ship_anti_air_missile_battery_1
@@ -1523,7 +1688,10 @@ technologies = {
 		}
 	}
 	missile_corvette_1970 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Modern_Manufactoring = yes
+		}
 		enable_equipment_modules = {
 			ship_anti_ship_missile_battery_2
 			ship_anti_air_missile_battery_2
@@ -1558,7 +1726,10 @@ technologies = {
 		}
 	}
 	missile_corvette_1980 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Advanced_Manufactoring = yes
+		}
 		enable_equipment_modules = {
 			ship_anti_ship_missile_battery_3
 			ship_anti_air_missile_battery_3
@@ -1593,7 +1764,10 @@ technologies = {
 		}
 	}
 	missile_corvette_1990 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Advanced_Manufactoring = yes
+		}
 		enable_equipment_modules = {
 			ship_anti_ship_missile_battery_4
 			ship_anti_air_missile_battery_4
@@ -1629,7 +1803,9 @@ technologies = {
 	}
 
 	nuclear_cruiser_1960 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+		}
 		enable_equipment_modules = {
 			cruiser_ship_nuclear_engine_1
 		}
@@ -1663,7 +1839,9 @@ technologies = {
 		}
 	}
 	nuclear_cruiser_1970 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+		}
 		enable_equipment_modules = {
 			cruiser_ship_nuclear_engine_2
 		}
@@ -1697,7 +1875,9 @@ technologies = {
 		}
 	}
 	nuclear_cruiser_1980 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+		}
 		enable_equipment_modules = {
 			cruiser_ship_nuclear_engine_3
 		}
@@ -1731,7 +1911,9 @@ technologies = {
 		}
 	}
 	nuclear_cruiser_1990 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+		}
 		enable_equipment_modules = {
 			cruiser_ship_nuclear_engine_4
 		}
@@ -1773,7 +1955,10 @@ technologies = {
 
 
 	early_ship_hull_heavy = {
-
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_heavy_1
 		}
@@ -1847,12 +2032,7 @@ technologies = {
 		start_year = 1936
 
 		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 25
-				tag = JAP
-			}
+			factor = 0
 		}
 
 		categories = {
@@ -1863,7 +2043,7 @@ technologies = {
 
 	continue_battleship_development = {
 
-		research_cost = 2
+		research_cost = 0
 
 		start_year = 1945
 
@@ -1891,6 +2071,10 @@ technologies = {
 	}
 
 	basic_ship_hull_heavy = {
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+			TNO_KD_Can_Research_Modern_Manufactoring = yes
+		}
 		dependencies = {
 			continue_battleship_development = 1
 		}
@@ -1942,7 +2126,10 @@ technologies = {
 	}
 
 	improved_ship_hull_heavy = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Modern_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_heavy_3
 		}
@@ -1988,7 +2175,10 @@ technologies = {
 	}
 
 	advanced_ship_hull_heavy = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Advanced_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_heavy_4
 		}
@@ -2034,7 +2224,10 @@ technologies = {
 		}
 	}
 	semi_modern_ship_hull_heavy = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Advanced_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_heavy_5
 		}
@@ -2080,7 +2273,10 @@ technologies = {
 	}
 
 	modern_ship_hull_heavy = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Advanced_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_heavy_6
 		}
@@ -2122,7 +2318,9 @@ technologies = {
 	}
 
 	nuclear_battleship_1960 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+		}
 		enable_equipment_modules = {
 			battleship_ship_nuclear_engine_1
 		}
@@ -2145,6 +2343,7 @@ technologies = {
 					tag = ENG
 					tag = JAP
 					tag = USA
+					tag = ITA
 				}
 			}
 		}
@@ -2155,7 +2354,9 @@ technologies = {
 		}
 	}
 	nuclear_battleship_1970 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+		}
 		enable_equipment_modules = {
 			battleship_ship_nuclear_engine_2
 		}
@@ -2178,6 +2379,7 @@ technologies = {
 					tag = ENG
 					tag = JAP
 					tag = USA
+					tag = ITA
 				}
 			}
 		}
@@ -2188,7 +2390,9 @@ technologies = {
 		}
 	}
 	nuclear_battleship_1980 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+		}
 		enable_equipment_modules = {
 			battleship_ship_nuclear_engine_3
 		}
@@ -2211,6 +2415,7 @@ technologies = {
 					tag = ENG
 					tag = JAP
 					tag = USA
+					tag = ITA
 				}
 			}
 		}
@@ -2221,7 +2426,9 @@ technologies = {
 		}
 	}
 	nuclear_battleship_1990 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+		}
 		enable_equipment_modules = {
 			battleship_ship_nuclear_engine_4
 		}
@@ -2244,6 +2451,7 @@ technologies = {
 					tag = ENG
 					tag = JAP
 					tag = USA
+					tag = ITA
 				}
 			}
 		}
@@ -2283,7 +2491,10 @@ technologies = {
 ###Carriers
 #############
 	early_ship_hull_carrier = {
-
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+			TNO_KD_Can_Research_Modern_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_carrier_1
 		}
@@ -2309,7 +2520,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 0
 
 			modifier = {
 				factor = 8
@@ -2317,6 +2528,7 @@ technologies = {
 					tag = ENG
 					tag = JAP
 					tag = USA
+					tag = ITA
 				}
 			}
 		}
@@ -2328,7 +2540,10 @@ technologies = {
 	}
 
 	basic_ship_hull_carrier = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Modern_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_carrier_2
 		}
@@ -2351,13 +2566,17 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
 			modifier = {
-				factor = 8
+				factor = -100
+				check_variable = { num_of_naval_factories < 30 }
+			}
+			modifier = {
+				factor = 50
 				OR = {
-					tag = ENG
-					tag = JAP
 					tag = USA
+					tag = GER
+					tag = JAP
+					tag = ITA
 				}
 			}
 		}
@@ -2369,7 +2588,10 @@ technologies = {
 	}
 
 	improved_ship_hull_carrier = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Modern_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_carrier_3
 		}
@@ -2396,13 +2618,17 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
 			modifier = {
-				factor = 8
+				factor = -100
+				check_variable = { num_of_naval_factories < 30 }
+			}
+			modifier = {
+				factor = 50
 				OR = {
-					tag = ENG
-					tag = JAP
 					tag = USA
+					tag = GER
+					tag = JAP
+					tag = ITA
 				}
 			}
 		}
@@ -2414,7 +2640,10 @@ technologies = {
 	}
 
 	advanced_ship_hull_carrier = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Advanced_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_carrier_4
 		}
@@ -2441,13 +2670,17 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
 			modifier = {
-				factor = 8
+				factor = -100
+				check_variable = { num_of_naval_factories < 30 }
+			}
+			modifier = {
+				factor = 50
 				OR = {
-					tag = ENG
-					tag = JAP
 					tag = USA
+					tag = GER
+					tag = JAP
+					tag = ITA
 				}
 			}
 		}
@@ -2459,7 +2692,10 @@ technologies = {
 	}
 
 	semi_modern_ship_hull_carrier = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Advanced_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_carrier_5
 		}
@@ -2486,17 +2722,20 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
 			modifier = {
-				factor = 8
+				factor = -100
+				check_variable = { num_of_naval_factories < 30 }
+			}
+			modifier = {
+				factor = 50
 				OR = {
-					tag = ENG
-					tag = JAP
 					tag = USA
+					tag = GER
+					tag = JAP
+					tag = ITA
 				}
 			}
 		}
-
 		categories = {
 			naval_equipment
 			cv_tech
@@ -2504,7 +2743,10 @@ technologies = {
 	}
 
 	modern_ship_hull_carrier = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Advanced_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_carrier_6
 		}
@@ -2527,13 +2769,17 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
 			modifier = {
-				factor = 8
+				factor = -100
+				check_variable = { num_of_naval_factories < 30 }
+			}
+			modifier = {
+				factor = 50
 				OR = {
-					tag = ENG
-					tag = JAP
 					tag = USA
+					tag = GER
+					tag = JAP
+					tag = ITA
 				}
 			}
 		}
@@ -2545,7 +2791,9 @@ technologies = {
 	}
 
 	nuclear_carrier_1960 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+		}
 		enable_equipment_modules = {
 			carrier_ship_nuclear_engine_1
 		}
@@ -2561,13 +2809,17 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
 			modifier = {
-				factor = 4
+				factor = -100
+				check_variable = { num_of_naval_factories < 30 }
+			}
+			modifier = {
+				factor = 50
 				OR = {
-					tag = ENG
-					tag = JAP
 					tag = USA
+					tag = GER
+					tag = JAP
+					tag = ITA
 				}
 			}
 		}
@@ -2578,7 +2830,9 @@ technologies = {
 		}
 	}
 	nuclear_carrier_1970 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+		}
 		enable_equipment_modules = {
 			carrier_ship_nuclear_engine_2
 		}
@@ -2594,13 +2848,17 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
 			modifier = {
-				factor = 4
+				factor = -100
+				check_variable = { num_of_naval_factories < 30 }
+			}
+			modifier = {
+				factor = 50
 				OR = {
-					tag = ENG
-					tag = JAP
 					tag = USA
+					tag = GER
+					tag = JAP
+					tag = ITA
 				}
 			}
 		}
@@ -2611,7 +2869,9 @@ technologies = {
 		}
 	}
 	nuclear_carrier_1980 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+		}
 		enable_equipment_modules = {
 			carrier_ship_nuclear_engine_3
 		}
@@ -2624,16 +2884,19 @@ technologies = {
 			name = mtgnavalfolder
 			position = { x = 1 y = 24 }
 		}
-
 		ai_will_do = {
 			factor = 1
-
 			modifier = {
-				factor = 4
+				factor = -100
+				check_variable = { num_of_naval_factories < 30 }
+			}
+			modifier = {
+				factor = 50
 				OR = {
-					tag = ENG
-					tag = JAP
 					tag = USA
+					tag = GER
+					tag = JAP
+					tag = ITA
 				}
 			}
 		}
@@ -2644,7 +2907,9 @@ technologies = {
 		}
 	}
 	nuclear_carrier_1990 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+		}
 		enable_equipment_modules = {
 			carrier_ship_nuclear_engine_4
 		}
@@ -2660,13 +2925,17 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-
 			modifier = {
-				factor = 4
+				factor = -100
+				check_variable = { num_of_naval_factories < 30 }
+			}
+			modifier = {
+				factor = 50
 				OR = {
-					tag = ENG
-					tag = JAP
 					tag = USA
+					tag = GER
+					tag = JAP
+					tag = ITA
 				}
 			}
 		}
@@ -2682,7 +2951,10 @@ technologies = {
 #############
 
 	early_ship_hull_submarine = {
-
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_submarine_1
 		}
@@ -2725,7 +2997,10 @@ technologies = {
 	}
 
 	basic_ship_hull_submarine = {
-
+		allow = {
+			TNO_KD_Can_Research_Outdated_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_submarine_2
 		}
@@ -2769,7 +3044,10 @@ technologies = {
 	}
 
 	improved_ship_hull_submarine = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_submarine_3
 		}
@@ -2815,7 +3093,10 @@ technologies = {
 	}
 
 	advanced_ship_hull_submarine = {
-
+		allow = {
+			TNO_KD_Can_Research_Modern_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_submarine_4
 		}
@@ -2859,7 +3140,10 @@ technologies = {
 	}
 
 	semi_modern_ship_hull_submarine = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_submarine_5
 		}
@@ -2905,7 +3189,10 @@ technologies = {
 	}
 
 	modern_ship_hull_submarine = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+			TNO_KD_Can_Research_Developed_Manufactoring = yes
+		}
 		enable_equipments = {
 			ship_hull_submarine_6
 		}
@@ -2946,7 +3233,9 @@ technologies = {
 	}
 
 	nuclear_sub_1960 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+		}
 		enable_equipment_modules = {
 			sub_ship_nuclear_engine_1
 		}
@@ -2979,7 +3268,9 @@ technologies = {
 		}
 	}
 	nuclear_sub_1970 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+		}
 		enable_equipment_modules = {
 			sub_ship_nuclear_engine_2
 		}
@@ -3012,7 +3303,9 @@ technologies = {
 		}
 	}
 	nuclear_sub_1980 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+		}
 		enable_equipment_modules = {
 			sub_ship_nuclear_engine_3
 		}
@@ -3045,7 +3338,9 @@ technologies = {
 		}
 	}
 	nuclear_sub_1990 = {
-
+		allow = {
+			TNO_KD_Can_Research_Advanced_Tech = yes
+		}
 		enable_equipment_modules = {
 			sub_ship_nuclear_engine_4
 		}

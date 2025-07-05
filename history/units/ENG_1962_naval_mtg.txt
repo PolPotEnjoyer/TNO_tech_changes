@@ -15,13 +15,13 @@
 
 			#light cruisers
 
-			ship = { name = "HMS Bellona" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
-			ship = { name = "HMS Black Prince" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
+			ship = { name = "HMS Bellona" definition = cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
+			ship = { name = "HMS Black Prince" definition = cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
 
-			ship = { name = "HMS Uganda" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Fiji Class" } } }
-			ship = { name = "HMS Fiji" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Fiji Class" } } }
+			ship = { name = "HMS Uganda" definition = cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Fiji Class" } } }
+			ship = { name = "HMS Fiji" definition = cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Fiji Class" } } }
 
-			ship = { name = "HMS Ajax" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Leander Class" } } }
+			ship = { name = "HMS Ajax" definition = cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Leander Class" } } }
 			#Destroyer
 
 			#Daring
