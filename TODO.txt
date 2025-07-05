@@ -24,3 +24,5 @@ Remove all reference to the concept of light/heavy cruiser distinction, maybe ev
 Amend history files and fix state GDPs
 Fuel capacity bonus for log company?
 Reexamine assault concentration doctrine
+Bring back research backgrounds #Maybe some other time when I understand how lol
+Teach the AI how to make ships

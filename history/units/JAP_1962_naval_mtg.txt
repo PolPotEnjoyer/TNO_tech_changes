@@ -79,8 +79,8 @@ units = {
 		task_force = {
 			name = "1st Carrier Division"
 			location = 2874
-			ship = { name = "Seiryū" definition = carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_3 = { amount = 1 owner = JAP version_name = "Seiryu Class Nuclear Refit" } } }
-			ship = { name = "Hakuryū" definition = carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_3 = { amount = 1 owner = JAP version_name = "Seiryu Class Nuclear Refit" } } }
+			ship = { name = "Sōryū" definition = carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_3 = { amount = 1 owner = JAP version_name = "Seiryu Class Nuclear Refit" } } }
+			ship = { name = "Hiryū" definition = carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_3 = { amount = 1 owner = JAP version_name = "Seiryu Class Nuclear Refit" } } }
 		}
 		task_force = {
 			name = "1st Destroyer Division"
@@ -132,8 +132,8 @@ units = {
 		task_force = {
 			name = "2nd Carrier Division"
 			location = 7014
-			ship = { name = "Hijun" definition = carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_3 = { amount = 1 owner = JAP version_name = "Seiryu Class" } } }
-			ship = { name = "Sōryū" definition = carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_3 = { amount = 1 owner = JAP version_name = "Seiryu Class" } } }
+			ship = { name = "Unryū" definition = carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_3 = { amount = 1 owner = JAP version_name = "Seiryu Class" } } }
+			ship = { name = "Seiryū" definition = carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_3 = { amount = 1 owner = JAP version_name = "Seiryu Class" } } }
 		}
 		task_force = {
 			name = "23rd Destroyer Division"
@@ -178,8 +178,8 @@ units = {
 		task_force = {
 			name = "3rd Carrier Division"
 			location = 4289
-			ship = { name = "Shinryū" definition = carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_3 = { amount = 1 owner = JAP version_name = "Seiryu Class" } } }
-			ship = { name = "Hakkaku" definition = carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_3 = { amount = 1 owner = JAP version_name = "Seiryu Class" } } }
+			ship = { name = "Byakuryū" definition = carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_3 = { amount = 1 owner = JAP version_name = "Seiryu Class" } } }
+			ship = { name = "Enryū" definition = carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_3 = { amount = 1 owner = JAP version_name = "Seiryu Class" } } }
 		}
 		task_force = {
 			name = "10th Destroyer Division"
@@ -228,8 +228,8 @@ units = {
 		task_force = {
 			name = "5th Carrier Division"
 			location = 9859
-			ship = { name = "Shōyō" definition = carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_3 = { amount = 1 owner = JAP version_name = "Seiryu Class Nuclear Refit" } } }
-			ship = { name = "Shinkaku" definition = carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_3 = { amount = 1 owner = JAP version_name = "Seiryu Class" } } }
+			ship = { name = "Shinryū" definition = carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_3 = { amount = 1 owner = JAP version_name = "Seiryu Class Nuclear Refit" } } }
+			ship = { name = "Hakuryū" definition = carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_3 = { amount = 1 owner = JAP version_name = "Seiryu Class" } } }
 		}
 		task_force = {
 			name = "27th Destroyer Division"
@@ -278,8 +278,8 @@ units = {
 		task_force = {
 			name = "6th Carrier Division"
 			location = 1092
-			ship = { name = "Taihō" definition = carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_3 = { amount = 1 owner = JAP version_name = "Seiryu Class Nuclear Refit" } } }
-			ship = { name = "Shōhō" definition = carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_3 = { amount = 1 owner = JAP version_name = "Seiryu Class Nuclear Refit" } } }
+			ship = { name = "Kairyū" definition = carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_3 = { amount = 1 owner = JAP version_name = "Seiryu Class Nuclear Refit" } } }
+			ship = { name = "Kūryū" definition = carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_3 = { amount = 1 owner = JAP version_name = "Seiryu Class Nuclear Refit" } } }
 		}
 		task_force = {
 			name = "41th Destroyer Division"

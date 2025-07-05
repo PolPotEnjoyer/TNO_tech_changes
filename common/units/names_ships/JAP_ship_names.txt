@@ -190,8 +190,9 @@ JAP_CV_HISTORICAL = {
 
 	unique = {
 		#Merged Fleet and Light carriers, minus the names of ships converted from BB/BC
-		"Sōryū" "Hiryū" "Unryū" "Seiryū" "Shinryū" "Hakuryū" "Kairyū" "Kūryū"
-		"Shōkaku" "Zuikaku" "Shinkaku" "Hakkaku"
+		"Sōryū" "Hiryū" "Unryū" "Seiryū" "Shinryū" "Hakuryū"
+		"Kairyū" "Kūryū" "Byakuryū" "Enryū"
+		"Shōkaku" "Zuikaku" "Shinkaku" "Hakkaku" "Seikaku"
 		"Zuihō" "Shōhō" "Ryuhō" "Taihō" "Kakuhō" "Yōhō" "Shinhō"
 		"Jun'yō" "Hiyō" "Kaiyō" "Unyō" "Chuyō" "Shinyō" "Shōyō" 
 		"Hōshō" "Ryūjō"

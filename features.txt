@@ -25,6 +25,7 @@ Balance Aircav e.g. weaker in forest/jungle vs elite inf (and make them very fas
 Modify historic division templates accordingly #Done for playable scenarios, maybe look into doing it for all tags
 Naval helicopters carrier capable
 Change carrier air wing sizes from 10 to 20, for ease of management on large fleets
+Carrier overstacking penalties reduced
 
 ### Misc ###
 Fix Naval terrain penalties for small screens #Might want to change display order though

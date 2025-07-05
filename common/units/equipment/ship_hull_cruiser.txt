@@ -28,7 +28,7 @@ equipments = {
 			}
 			fixed_ship_fire_control_system_slot = {
 				required = yes
-				allowed_module_categories = { ship_fire_control_system }
+				allowed_module_categories = { ship_fire_control_system ship_radar }
 			}
 			fixed_ship_radar_slot = {
 				required = no
@@ -87,6 +87,11 @@ equipments = {
 					ship_anti_air_missile_battery
 				}
 			}
+		}
+
+		module_count_limit = {
+			module = ship_radar
+			count < 2
 		}
 
 		default_modules = {
