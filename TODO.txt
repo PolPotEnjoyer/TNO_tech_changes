@@ -7,7 +7,6 @@ IFV as heavy APC rather than light tank?
 
 ### Ships ###
 Battleship hull changes?
-Look into more electronics on ships
 Finally fix all ship priorities
 Change aerial mine warfare (aerial minesweeping before 1980?)
 
@@ -19,7 +18,6 @@ Maybe edit land air wing sizes too?
 Japanese ship namelists (and that one division name)
 Rebalance terrain movement?
 Buff air supply and make it provide a trickle of fuel if possible
-PARADROPS BABY! (add order to GFX)
 Remove all reference to the concept of light/heavy cruiser distinction, maybe even amend the icon from "CA" to "C"
 Amend history files and fix state GDPs
 Fuel capacity bonus for log company?

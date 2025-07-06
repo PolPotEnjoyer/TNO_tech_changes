@@ -90,7 +90,7 @@ equipments = {
 		}
 
 		module_count_limit = {
-			module = ship_radar
+			category = ship_radar
 			count < 2
 		}
 

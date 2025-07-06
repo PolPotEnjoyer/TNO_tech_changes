@@ -18,6 +18,7 @@ Buff nuclear ship engines
 Secondary armaments can instead be AA guns #But not SAMs; I want to incentivize researching both systems
 Removed the large carrier deck space modules for a fairer carrier game
 Ballistic missiles can now be put on submarines
+Sonar and Radar simultaneously
 
 ### Aircraft ###
 Make Aircav a line battalion again
@@ -34,3 +35,4 @@ Fixed blank GFX for flame tank companies #Currently just a generic AFV/MBT sprit
 Nerf rifle piercing values #That's what rocket launchers are for!
 Nerf infantry AA to shred CAS a bit less #That's what MANPADs and towed AA are for!
 Reduced frequency of ace generation
+PARADROPS!!!
