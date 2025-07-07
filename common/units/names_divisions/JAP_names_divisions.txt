@@ -273,7 +273,7 @@ JAP_MOT_01 = {
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { JAP_INF_01 }
+	link_numbering_with = { JAP_INF_01 JAP_MEC_01}
 
 	fallback_name = "%d Jidoushoka Shidan"
 
@@ -459,7 +459,7 @@ JAP_MEC_01 = {
 	division_types = { "APC" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { JAP_INF_01 }
+	link_numbering_with = { JAP_INF_01 JAP_MOT_01}
 
 	fallback_name = "%d Kikaika Shidan"
 
@@ -744,19 +744,19 @@ JAP_MAR_01 = {
 	ordered = {
 		21 = { "Sasebo Rikusentai" }
 		22 = { "Maizaru Rikusentai" }
-		23 = { "Yokohama Rikusentai" }
+		23 = { "Yokosuka Rikusentai" }
 		24 = { "Kure Rikusentai" }
-		1 = { "%d Rikusentai" }
-		2 = { "%d Rikusentai" }
-		3 = { "%d Rikusentai" }
-		4 = { "%d Rikusentai" }
-		5 = { "%d Rikusentai" }
-		6 = { "%d Rikusentai" }
-		7 = { "%d Rikusentai" }
-		8 = { "%d Rikusentai" }
-		9 = { "%d Rikusentai" }
-		10 = { "%d Rikusentai" }
-		11 = { "%d Rikusentai" }
+		1 = { "Tokushima Rikusentai" }
+		2 = { "Yokohama Rikusentai" }
+		3 = { "Fuzan Rikusentai" }
+		4 = { "Hakodate Rikusentai" }
+		5 = { "Rabauru Rikusentai" }
+		6 = { "Hiroshima Rikusentai" }
+		7 = { "Toyohara Rikusentai" }
+		8 = { "Sendai Rikusentai" }
+		9 = { "Nagasaki Rikusentai" }
+		10 = { "Taihoku Rikusentai" }
+		11 = { "Kantō Rikusentai" }
 		12 = { "%d Rikusentai" }
 		13 = { "%d Rikusentai" }
 		14 = { "%d Rikusentai" }

@@ -16,7 +16,7 @@ Rebalanced Modules #Currently only for regular, TBC for experimental modules
 ### Ships ###
 Buff nuclear ship engines
 Secondary armaments can instead be AA guns #But not SAMs; I want to incentivize researching both systems
-Removed the large carrier deck space modules for a fairer carrier game
+Removed the large carrier deck space modules for a fairer and more realistic carrier game #Planes got bigger after WW2
 Ballistic missiles can now be put on submarines
 Sonar and Radar simultaneously
 
@@ -36,3 +36,5 @@ Nerf rifle piercing values #That's what rocket launchers are for!
 Nerf infantry AA to shred CAS a bit less #That's what MANPADs and towed AA are for!
 Reduced frequency of ace generation
 PARADROPS!!!
+Improved Japanese div and capital ship namelists #Still need to do screens 
+Small fuel capacity bonus from logistic companies #Improved logistics shouldn't hold back an infantry template so much now

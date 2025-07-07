@@ -65,7 +65,7 @@ JAP_DE_HISTORICAL = {
 
 ### LIGHT CRUISER NAMES###
 JAP_CL_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_CL
+	name = "Rivers ('Historical' Light Cruisers)"
 
 	for_countries = { JAP }
 
@@ -77,41 +77,50 @@ JAP_CL_HISTORICAL = {
 	unique = {
 		"Suzuya" "Kumano" "Katori" "Kashima" "Kashii" "Kashiwara" "Agano" "Noshiro" "Yahagi" "Sakawa" "Oyodo"
 		# Captured/Converted/Older Models
-		"Ioshima" "Yasoshima" "Yodo" "Hirado" "Yahagi"
+		"Ioshima" "Yasoshima" "Yodo" "Hirado"
 		"Tenryu" "Tatsuta" "Kuma" "Tama" "Kitakami" "Oi" "Kiso" "Nagara" "Isuzu" "Natori" "Yura" "Kinu" "Abukuma" "Yubari" "Sendai" "Jintsu" "Naka"
-		"Furutaka" "Kako" "Aoba" "Kinugasa" "Myoko" "Nachi" "Haguro" "Ashigara" "Takao" "Atago" "Maya" "Chokai" "Tone" "Chikuma" "Aso" "Tsugaru" "Soya" "Ibuki" "Haogi" "Mogami" "Mikuma"
+		"Tone" "Chikuma" "Tsugaru" "Soya" "Mogami" "Mikuma"
 		# Fictional
-		"Iwaki" "Mabechi" "Takase" "Naruse" "Yoneshiro" "Omono" "Koyoshi" "Kuji" "Tsurumi" "Oyabe" "Tedori" "Kano" "Shonai" "Suzuka" "Kumozu" "Kushida" "Maruyama" "Hino"
-		"Takatsu" "Yoshii" "Takahashi" "Ashida" "Yoshino" "Onga" "Yabe" "Matsuura" "Yamakuni" "Chikugo" "Rokkaku" "Kikuchi" "Kase" "Honmyo" "Oita" "Ono" "Ota" "Banjo"
+		"Mabechi" "Takase" "Naruse" "Yoneshiro" "Omono" "Koyoshi" "Kuji" "Tsurumi" "Oyabe" "Tedori" "Kano" "Shonai" "Suzuka" "Kumozu" "Kushida" "Maruyama" "Hino"
+		"Takatsu" "Yoshii" "Takahashi" "Ashida" "Onga" "Yabe" "Matsuura" "Yamakuni" "Chikugo" "Rokkaku" "Kikuchi" "Kase" "Honmyo" "Oita" "Ono" "Ota" "Banjo"
 		"Gokase" "Omaru" "Kimotsuki"
+
+		"Kako" "Otowa" "Ogura" "Tashiro" "Akanagi" "Otofuke" "Tsutsujyo" "Oogasa" "Marusasa" "Kurogasa" "Kazakoshi" "Mikoshi" "Arakai" "Kumoso"
 	}
 }
 
 ### HEAVY CRUISER NAMES###
 JAP_CA_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_CA
+	name = "Mountains ('Historical' Heavy Cruisers/Battlecruisers)"
 
 	for_countries = { JAP }
 
 	type = ship
-	ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser }
+	ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser battle_cruiser cruiser }
 
 	fallback_name = "Jujun'yokan %d -go"
 
 	unique = {
-		"Tone" "Chikuma" "Aso" "Tsugaru" "Soya"
-		# Older Models
-		"Furutaka" "Kako" "Aoba" "Kinugasa" "Myoko" "Nachi" "Haguro" "Ashigara" "Takao" "Atago" "Maya" "Chokai"
-		# Cancelled/not completed
-		"Ibuki" "Haogi" "Mogami" "Mikuma" "Suzuya" "Kumano"
-		# Fictional
-		"Iwaki" "Iwate" "Asahi" "Zao" "Iide" "Azuma" "Bandai" "Nasu" "Makihata" "Tanigawa" "Takatsuma" "Hotaka"
-		"Asama" "Tsukuba" "Hotaka" "Jonen" "Norikura" "Tateshina" "Mizugaki" "Tanzawa" "Ena" "Shiomi" "Akaishi"
-		"Omine" "Ishizuchi" "Aso" "Kaimon" "Waga" "Kurikoma" "Moriyoshi" "Sumon" "Hakkai" "Iwasuge" "Myogi" "Buko"
+		# Historical/Default
+		"Aso" "Akagi" "Amagi" "Atago" "Maya" "Chokai" "Kongō" "Hiei" "Haruna" "Kirishima" "Niitaka"
+		"Furutaka" "Kako" "Aoba" "Kinugasa" "Myoko" "Nachi" "Haguro" "Ashigara" "Takao" 
+		"Ibuki" "Iwaki" "Iwate" "Asahi" "Iide" "Azuma" "Bandai" "Nasu" "Makihata" "Tanigawa" "Takatsuma" "Hotaka"
+		"Asama" "Tsukuba" "Hotaka" "Jōnen" "Tateshina" "Mizugaki" "Tanzawa" "Ena" "Shiomi" "Akaishi"
+		"Omine" "Ishizuchi" "Kaimon" "Waga" "Kurikoma" "Moriyoshi" "Sumon" "Iwasuge" "Myogi" "Buko"
 		"Hakuseki" "Ashitaka" "Osuzu" "Ichifusa" "Yufu" "Unzen" "Ariake" "Iizuma"
+
+		# Taken from OOB
+		"Yakumo" "Ikoma" "Nisshin" "Kasuga" "Yoshino"
+		"Shirane" "Yōtei" "Shiga" "Yamabushi" "Iizuna" "Miune" "Fuji" "Takahara"
+		"Hakkai" "Kumabushi" "Kintoki" "Suwa" "Inamura" "Zaō" "Ontake" "Mitoku"
+		"Hakone"  "Tsugitaka" "Nōtaka" "Hassen"
+		"Norikura" # Used to replace Osaka because it's a city name
+
+		# Some more from the 100 Famous Mountains of Japan (that aren't used above)
+		"Tsurugi" "Gassan" "Azumaya" "Shibutsu" "Hakusan" "Kumotori" "Hōō" "Miyanoura" "Ishizuchi" "Utsugi" "Yake"
+		"Kujū" "Daibosatsu" "Ryōkami" "Nantai" "Adatara" "Sukai" "Hayachine" "Kaikoma" "Naeba" "Hijiri" "Warusawa"
 	}
 }
-
 
 ### MINELAYER NAMES###
 JAP_MINELAYERS_HISTORICAL = {
@@ -136,8 +145,10 @@ JAP_MINELAYERS_HISTORICAL = {
 }
 
 ### BATTLESHIP NAMES ###
+# Old province names (used before prefectures), minus mountain names used for BCs
+# Made a single exception for Fuso, given its real WW2 usage
 JAP_BB_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_BB
+	name = "Old Provinces ('Historical' Battleships)"
 
 	for_countries = { JAP }
 
@@ -147,39 +158,26 @@ JAP_BB_HISTORICAL = {
 	fallback_name = "Senkan %d -go"
 
 	unique = {
-		"Hiei" "Yamato" "Musashi" "Tosa" "Kii" "Owari" "Iwami" "Sagami" "Suwo" "Hizen" "Tango" "Iki"
-			# Captured/Converted/Older Models
-		"Fuso" "Yamashiro" "Ise" "Hyuga" "Nagato" "Mutsu" "Haruna" "Kirishima" "Kaga" "Shinano"
-			# Fictional
-		"Dewa" "Hitachi" "Noto" "Hida" "Mino" "Mikawa" "Suruga" "Kai" "Izumi" "Kawachi" "Iga" "Tanba" "Sanuki" "Awa" "Satsuma"
-		"Osumi" "Aki" "Settsu" "Tajima" "Iyo" "Omi"
-	}
-}
-
-### BATTLECRUISER NAMES ###
-JAP_BC_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_BC
-
-	for_countries = { JAP }
-
-	type = ship
-	ship_types = { ship_hull_heavy battle_cruiser }
-
-	fallback_name = "Jun'yosenkan %d -go"
-
-	unique = {
-		"Amagi" "Tsukuba" "Ikoma" "Ibuki" "Kurama" "Akagi" "Atago" "Takao" "Kongo" "Hiei" "Haruna" "Kirishima"
+		# Exist in 1962
+		"Yamato" "Musashi" "Shinano" "Kii" "Tanba" "Satsuma"
+		
+		# WW2
+		"Nagato" "Mutsu" "Hyūga" "Ise" "Yamashiro" "Fusō" "Kaga" "Tosa"
+		
 		# Fictional
-		"Iwaki" "Iwate" "Asahi" "Zao" "Iide" "Azuma" "Bandai" "Nasu" "Makihata" "Tanigawa" "Takatsuma" "Hotaka"
-		"Asama" "Tsukuba" "Hotaka" "Jonen" "Norikura" "Tateshina" "Mizugaki" "Tanzawa" "Ena" "Shiomi" "Akaishi"
-		"Omine" "Ishizuchi" "Aso" "Kaimon" "Waga" "Kurikoma" "Moriyoshi" "Sumon" "Hakkai" "Iwasuge" "Myogi" "Buko"
-		"Hakuseki" "Ashitaka" "Osuzu" "Ichifusa" "Yufu" "Unzen" "Ariake" "Iizuma"
+		"Tajima" "Kawachi" "Iga" "Hitachi" "Echigo" "Iwami" "Hizen" "Ezo" "Tango" "Chikuzen"
+		"Kazusa" "Izumi" "Owari" "Iyo" "Mimasaka" "Suruga" "Ōmi" "Sanuki" "Aki" "Chikugo" "Etchū"
+		"Settsu" "Awa" "Sagami" "Awaji" "Ōsumi" "Mino" "Harima" "Hida"
+		"Bungo" "Mikawa" "Iki" "Kōzuke" "Wakasa" "Kai" "Dewa" "Noto" "Suō"
+		"Shimōsa" "Shimotsuke" "Bingo" "Inaba" "Hōki" "Buzen"
 	}
 }
 
 ### AIRCRAFT CARRIER NAMES ###
+# Merged Fleet and Light carriers, minus the names of ships converted from BB/BC
+# A mix of ww2 names and similar
 JAP_CV_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_CARRIERS
+	name = "'Historical' Carriers"
 
 	for_countries = { JAP }
 
@@ -189,38 +187,34 @@ JAP_CV_HISTORICAL = {
 	fallback_name = "Seikikubo %d -go"
 
 	unique = {
-		#Merged Fleet and Light carriers, minus the names of ships converted from BB/BC
+		# Exist in 1962, I changed the names to mostly follow a "-ryu" theme and 
+		# also not include Hijun, which the tech tree shows for the 1970 hull
 		"Sōryū" "Hiryū" "Unryū" "Seiryū" "Shinryū" "Hakuryū"
 		"Kairyū" "Kūryū" "Byakuryū" "Enryū"
+		"Jun'yō" "Hiyō"
+
+		# Future Carriers, organized neatly into groups :)
 		"Shōkaku" "Zuikaku" "Shinkaku" "Hakkaku" "Seikaku"
-		"Zuihō" "Shōhō" "Ryuhō" "Taihō" "Kakuhō" "Yōhō" "Shinhō"
-		"Jun'yō" "Hiyō" "Kaiyō" "Unyō" "Chuyō" "Shinyō" "Shōyō" 
+		"Zuihō" "Shōhō" "Ryūhō" "Taihō" "Kakuhō" "Yōhō" "Shinhō"
+		"Kaiyō" "Unyō" "Chuyō" "Shinyō" "Shōyō" 
 		"Hōshō" "Ryūjō"
-		"Hijun" "Hien" 
-		"Kōtaka" "Shintaka" 
-		"Shinjū" "Kōrin" "Kasasagi"
+		"Hijun" "Hien"
+		"Kōtaka" "Shintaka"
+		"Shinjū" "Kōrin" "Kasasagi" "Chitose"
 	}
 }
 
-### LIGHT CARRIER NAMES ###
-# JAP_CVL_HISTORICAL = {
-# 	name = NAME_THEME_HISTORICAL_CVL
-
-# 	for_countries = { JAP }
-
-# 	type = ship
-# 	ship_types = { ship_hull_carrier carrier }
-
-# 	fallback_name = "Keikubo %d -go"
-
-# 	unique = {
-# 		# CVL Names
-# 		"Zuiho" "Shoho" "Ryuho" "Chitose" "Chiyoda" "Ibuki" "Taiyo" "Unyo" "Chuyo" "Shinyo"
-# 		"Hosho" "Ryujo" "Kaiyo"
-# 		# CVE Names
-# 		"Yamashiro Maru" "Chigusa Maru" "Shimane Maru" "Otakisan Maru"
-# 	}
-# }
+### ESCORT CARRIER NAMES ###
+JAP_CVL_HISTORICAL = {
+	name = "Army Escort Carriers"
+	for_countries = { JAP }
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	fallback_name = "Keikubo %d -go"
+	unique = {
+		"Yamashiro Maru" "Chigusa Maru" "Shimane Maru" "Otakisan Maru"
+	}
+}
 
 ### SUBMARINES ###
 JAP_SS_HISTORICAL = {
@@ -367,20 +361,5 @@ JAP_NATURE = {
 		"Matsu" "Ume" "Kiri" "Sugi" "Sakura" "Kaba" "Kaede" "Yaezakura" "Yadake" "Kudzu" "Madake" "Hayaume" "Tobiume" "Wakazakura" "Yamazakura"
 		"Tachibana" "Shii" "Kusunoki" "Odake" "Hatsuzakura" "Hatsuume" "Azusa" "Mikura" "Miyake" "Awaji" "Kurahashi" "Nomi" "Chiburi" "Yashiro"
 		"Kusagaki" "Shinodake" "Shiraume" "Kashiwa" "Kigiku" "Hatsugiku" "Akane" "Shiragiku" "Chigusa" "Wakakusa" "Natsugusa" "Akikusa" "Tochi" "Nogiku"
-	}
-}
-
-JAP_RIVER_MOUNTAIN = {
-	name = NAME_THEME_RIVER_MOUNTAIN
-
-	for_countries = { JAP }
-
-	type = ship
-
-	unique = {
-		"Asama" "Furutaka" "Kako" "Aoba" "Kinugasa" "Myoko" "Nachi" "Haguro" "Ashigara" "Takao" "Atago" "Maya" "Chokai" "Mogami" "Mikuma" "Suzuya"
-		"Kumano" "Tone" "Chikuma" "Ibuki" "Yodo" "Hirado" "Yahagi" "Tenryu" "Tatsuta" "Kuma" "Tama" "Kitakami" "Oi" "Kiso" "Nagara" "Isuzu" "Natori"
-		"Yura" "Kinu" "Abukuma" "Yubari" "Sendai" "Jintsu" "Naka" "Agano" "Noshiro" "Yahagi" "Sakawa" "Oyodo"
-		"Ayase" "Minase" "Otonase"
 	}
 }

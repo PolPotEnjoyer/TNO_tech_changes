@@ -15,12 +15,11 @@ Maybe edit the stats of ASW heli vs CAS CV
 Maybe edit land air wing sizes too?
 
 ### Misc ###
-Japanese ship namelists (and that one division name)
+Japanese screen namelists
 Rebalance terrain movement?
 Buff air supply and make it provide a trickle of fuel if possible
 Remove all reference to the concept of light/heavy cruiser distinction, maybe even amend the icon from "CA" to "C"
-Amend history files and fix state GDPs
-Fuel capacity bonus for log company?
 Reexamine assault concentration doctrine
 Bring back research backgrounds #Maybe some other time when I understand how lol
 Teach the AI how to make ships
+Leg infantry speed bonus from log companies

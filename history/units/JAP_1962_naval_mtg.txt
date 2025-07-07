@@ -58,7 +58,7 @@ units = {
 		task_force = {
 			name = "9th Cruiser Division"
 			location = 1158
-			ship = { name = "Kongo" definition = cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "Tsukuba Class" } } }
+			ship = { name = "Kongō" definition = cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "Tsukuba Class" } } }
 			ship = { name = "Hiei" definition = cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "Tsukuba Class" } } }
 			ship = { name = "Haruna" definition = cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "Tsukuba Class" } } }
 			ship = { name = "Ikoma" definition = cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "Tsukuba Class" } } }
@@ -245,7 +245,7 @@ units = {
 		task_force = {
 			name = "21st Cruiser Division"
 			location = 9859
-			ship = { name = "Ōsaka" definition = cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "Tsukuba Class" } } }
+			ship = { name = "Norikura" definition = cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "Tsukuba Class" } } }
 			ship = { name = "Akanagi" definition = cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "Tsukuba Class" } } }
 			ship = { name = "Otofuke" definition = cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "Tsukuba Class" } } }
 			ship = { name = "Iizuna" definition = cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "Tsukuba Class" } } }
