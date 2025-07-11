@@ -13,6 +13,10 @@ Change aerial mine warfare (aerial minesweeping before 1980?)
 ### Aircraft ###
 Maybe edit the stats of ASW heli vs CAS CV
 Maybe edit land air wing sizes too?
+Fix some graphical issues
+Reexamine air assault company v battalion
+Upgradeable land helicopters and transports
+Weather penalties for helis?
 
 ### Misc ###
 Japanese screen namelists
@@ -22,4 +26,4 @@ Remove all reference to the concept of light/heavy cruiser distinction, maybe ev
 Reexamine assault concentration doctrine
 Bring back research backgrounds #Maybe some other time when I understand how lol
 Teach the AI how to make ships
-Leg infantry speed bonus from log companies
+Further support company tweaks

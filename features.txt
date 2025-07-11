@@ -38,3 +38,5 @@ Reduced frequency of ace generation
 PARADROPS!!!
 Improved Japanese div and capital ship namelists #Still need to do screens 
 Small fuel capacity bonus from logistic companies #Improved logistics shouldn't hold back an infantry template so much now
+Leg infantry speed bonus from log companies #Less to carry on their backs
+Small recon bonus from signal companies #Better communications = better recon, right?

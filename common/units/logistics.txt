@@ -41,6 +41,11 @@ sub_units = {
 		equipment_capture_factor = 0.05
 		own_equipment_fuel_consumption_mult = 0.5
 
+		battalion_mult = {
+			category = category_light_infantry
+			maximum_speed = 0.05
+		}
+
 		essential = {
 			support_equipment
 			motorized_equipment
@@ -97,6 +102,11 @@ sub_units = {
 		fuel_capacity = 50
 		equipment_capture_factor = 0.05
 		own_equipment_fuel_consumption_mult = 0.5
+
+		battalion_mult = {
+			category = category_light_infantry
+			maximum_speed = 0.1
+		}
 
 		essential = {
 			support_equipment

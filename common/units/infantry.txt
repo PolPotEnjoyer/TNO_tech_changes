@@ -280,7 +280,6 @@ sub_units = {
 		
 		categories = {
 			category_front_line
-			category_light_infantry
 			category_all_infantry
 			category_army
 			category_special_forces
@@ -315,64 +314,71 @@ sub_units = {
 			transport_helicopter_equipment = 50
 		}
 
-		#Fast everywhere no matter the terrain, though they have issues with combat in some rough terrain
+		#Fast everywhere no matter the terrain, though they have minor issues with combat in some rough terrain
 
 		plains = {
-			movement = 0.3
+			movement = 0.1
 		}
 		savanna = {
-			movement = 0.3
+			movement = 0.1
+			attack = -0.1
+			defence = -0.1
 		}
 		steppe = {
-			movement = 0.3
+			movement = 0.1
 		}
 		forest = {
-			movement = 0.3
+			movement = 0.1
 			attack = -0.2
 			defence = -0.2
 		}
 		jungle = {
-			movement = 0.3
+			movement = 0.1
 			attack = -0.2
 			defence = -0.2
 		}
 		marsh = {
-			movement = 0.3
+			movement = 0.1
 		}
 		hills = {
-			movement = 0.3
+			movement = 0.1
 			attack = -0.1
 			defence = -0.1
 		}
 		desert_hills = {
-			movement = 0.3
+			movement = 0.1
 			attack = -0.2
 			defence = -0.2
 		}
 		desert_plateau = {
-			movement = 0.3
+			movement = 0.1
 		}
 		mountain = {
-			movement = 0.3
+			movement = 0.1
 			attack = -0.2
 			defence = -0.2
 		}
 		valleys = {
-			movement = 0.3
+			movement = 0.1
 			attack = -0.2
 			defence = -0.2
 		}
 		urban = {
-			movement = 0.3 
+			movement = 0.1
 		}
 		desert = {
-			movement = 0.3
+			movement = 0.1
 		}
 		river = {
-			movement = 0.5
+			movement = 0.1
 		}
 		amphibious = {
-			movement = 0.5
+			movement = 0.1
+		}
+
+		#Don't care what the situation on the ground is
+		snow = {
+			movement = 0.3
 		}
 	}
 
@@ -381,6 +387,7 @@ sub_units = {
 		map_icon_category = infantry
 		special_forces = yes
 		marines = yes
+		can_be_parachuted = yes
 
 		priority = 1002
 		ai_priority = 200
@@ -441,6 +448,7 @@ sub_units = {
 		map_icon_category = infantry
 		special_forces = yes
 		marines = yes
+		can_be_parachuted = yes
 
 		priority = 1002
 		ai_priority = 200
@@ -501,6 +509,7 @@ sub_units = {
 		map_icon_category = infantry
 		special_forces = yes
 		mountaineers = yes
+		can_be_parachuted = yes
 
 		priority = 1002
 		ai_priority = 200

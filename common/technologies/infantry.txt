@@ -3871,8 +3871,8 @@ technologies = {
 
 		enable_subunits = {
 			anti_tank
-			anti_tank_brigade
-			mot_anti_tank_brigade
+			# anti_tank_brigade
+			# mot_anti_tank_brigade
 		}
 
 		infantry = {
@@ -3912,10 +3912,10 @@ technologies = {
 			hard_attack = 0.1
 			ap_attack = 0.1
 		}
-		anti_tank_brigade = {
-			hard_attack = 0.1
-			ap_attack = 0.1
-		}
+		# anti_tank_brigade = {
+		# 	hard_attack = 0.1
+		# 	ap_attack = 0.1
+		# }
 
 		path = {
 			leads_to_tech = infantry_at2
@@ -3991,10 +3991,10 @@ technologies = {
 			hard_attack = 0.1
 			ap_attack = 0.1
 		}
-		anti_tank_brigade = {
-			hard_attack = 0.1
-			ap_attack = 0.1
-		}
+		# anti_tank_brigade = {
+		# 	hard_attack = 0.1
+		# 	ap_attack = 0.1
+		# }
 
 		path = {
 			leads_to_tech = infantry_at3
@@ -4065,10 +4065,10 @@ technologies = {
 			hard_attack = 0.1
 			ap_attack = 0.1
 		}
-		anti_tank_brigade = {
-			hard_attack = 0.1
-			ap_attack = 0.1
-		}
+		# anti_tank_brigade = {
+		# 	hard_attack = 0.1
+		# 	ap_attack = 0.1
+		# }
 
 		path = {
 			leads_to_tech = infantry_at4
@@ -4139,10 +4139,10 @@ technologies = {
 			hard_attack = 0.1
 			ap_attack = 0.1
 		}
-		anti_tank_brigade = {
-			hard_attack = 0.1
-			ap_attack = 0.1
-		}
+		# anti_tank_brigade = {
+		# 	hard_attack = 0.1
+		# 	ap_attack = 0.1
+		# }
 		path = {
 			leads_to_tech = infantry_at5
 			research_cost_coeff = 1
@@ -4507,6 +4507,7 @@ technologies = {
 
 	expanded_special_forces1 = {
 		allow = { TNO_KD_Can_Research_Basic_SPECOPS = yes }
+		special_forces_cap = 0.25
 		special_forces_training_time_factor = -0.15
 		category_special_forces = {
 			initiative = 0.01
@@ -4746,6 +4747,7 @@ technologies = {
 	expanded_special_forces2 = {
 		allow = { TNO_KD_Can_Research_Modern_SPECOPS = yes }
 		special_forces_training_time_factor = -0.25
+		special_forces_cap = 0.25
 		category_special_forces = {
 			initiative = 0.01
 		}

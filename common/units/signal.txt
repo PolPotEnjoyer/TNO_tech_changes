@@ -36,6 +36,7 @@ sub_units = {
 
 		# Important Ability
 		initiative = 0.20
+		recon = 0.4
 		equipment_capture_factor = 0.01
 		own_equipment_fuel_consumption_mult = 0.5
 
