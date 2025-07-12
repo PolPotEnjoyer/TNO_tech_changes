@@ -344,7 +344,6 @@ equipments = {
 			fixed_ship_battery_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_light_battery
 					ship_medium_battery
 					ship_heavy_battery
 				}
@@ -450,7 +449,6 @@ equipments = {
 			fixed_ship_battery_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_light_battery
 					ship_medium_battery
 					ship_heavy_battery
 				}
