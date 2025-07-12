@@ -27,3 +27,5 @@ Reexamine assault concentration doctrine
 Bring back research backgrounds #Maybe some other time when I understand how lol
 Teach the AI how to make ships
 Further support company tweaks
+
+Conduct final testing
